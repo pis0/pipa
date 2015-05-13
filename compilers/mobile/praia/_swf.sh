@@ -70,6 +70,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"       
 
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"       
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer_without_GooglePlayServices.ane"   
  
 )
 
