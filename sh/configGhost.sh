@@ -13,3 +13,5 @@ export OUT_PATH="C:\workspace\#PIPA\bin"
 export FP_DEBUG="C:\workspace\_fpDebug\flashplayer_17_sa_debug.exe"
 
 export TARGET_PLAYER=17
+
+export PROCESS_MODE=1

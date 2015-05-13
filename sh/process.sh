@@ -1,11 +1,24 @@
 
 # process
 
+function invalid() {
+  clear
+  read -p "'$1' is invalid"
+  start
+}
 
 function classes(){ 
   array=("${@}");
   for (( i = 0; i < ${#array[@]}; i++ )); do
-      echo  "<class path=\"${array[$i]}\\src\" />"      
+    case $PROCESS_MODE in      
+      1) 
+        echo  "<class path=\"${array[$i]}\\src\" />"  
+      ;;
+      2) 
+        echo  "<class path=\"${array[$i]}\" />"  
+      ;;
+      *) invalid $n ;;
+    esac          
   done
 }
 
@@ -18,7 +31,7 @@ function libs(){
 
 
 function write(){
-  echo "<?xml version=\"1.0\" encoding=\"utf-8\"?>
+  local output="<?xml version=\"1.0\" encoding=\"utf-8\"?>
   <project version=\"2\">
     <!-- Output SWF options -->
     <output>
@@ -113,7 +126,21 @@ function write(){
     </options>
     <!-- Plugin storage -->
     <storage />
-  </project>" > _projects/$NAME".as3proj"
+  </project>"
+
+
+  case $PROCESS_MODE in      
+    1) 
+      echo $output > _projects/$NAME".as3proj" 
+    ;;
+    2) 
+      echo $output > $NAME".as3proj" 
+    ;;
+    *) invalid $n ;;
+  esac
+
+
+  
 }
 
 

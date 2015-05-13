@@ -9,7 +9,9 @@ cd $BASE
 
 
 
-
+# main projects
+. sh/main/PraiaBingo.sh
+. sh/main/Magic.sh
 
 
 # starling
