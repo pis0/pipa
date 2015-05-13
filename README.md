@@ -1,2 +1,0 @@
-# pipa
-FlashDevelop projects.
