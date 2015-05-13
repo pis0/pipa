@@ -9,7 +9,7 @@ len=$(( ${#ASSUKAR_PATH} - ${#toSubtr} ))
 export ASSUKAR_PATHH=${ASSUKAR_PATH:0:len}
 
 
-NAME="#PraiaBingo"
+NAME="PraiaBingo"
 CLASSES=(
 	"$PRAIA_PATHH"
 	"$ASSUKAR_PATHH"
