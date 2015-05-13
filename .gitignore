@@ -2,6 +2,5 @@ sh/config.sh
 bin/
 lib/
 obj/
-_projects/
 compilers/config.sh
 compilers/_MAIN.sh
