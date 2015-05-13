@@ -1,0 +1,6 @@
+sh/config.sh
+bin/
+lib/
+obj/
+_projects/
+_compilers/config.sh
