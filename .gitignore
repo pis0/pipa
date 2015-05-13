@@ -3,4 +3,4 @@ bin/
 lib/
 obj/
 _projects/
-_compilers/config.sh
+compilers/config.sh
