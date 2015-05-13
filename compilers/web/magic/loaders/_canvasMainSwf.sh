@@ -32,6 +32,7 @@ sourcePaths=(
 	"-source-path+=$MAGIC_IN_PATH/wildride/src" 
 	"-source-path+=$MAGIC_IN_PATH/muchafiesta/src"
 	"-source-path+=$MAGIC_IN_PATH/carnivaloffortune/src"
+	"-source-path+=$MAGIC_IN_PATH/diamonddazzle/src"
 
 	"-source-path+=$MAGIC_IN_PATH/main/common/src"	
 	"-source-path+=$MAGIC_IN_PATH/main/canvas/src"
