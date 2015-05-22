@@ -29,8 +29,10 @@ args=(
 
 packageContents=(
   "-C $MAGIC_MOBILE_PATH/android magic-android.swf"
-  # "-C $MAGIC_MOBILE_PATH commons"
-  # "-C $MAGIC_MOBILE_PATH sounds" 
+  "-C $MAGIC_MOBILE_PATH/android/notifications timeBonus.jpg"
+  "-C $MAGIC_MOBILE_PATH/sounds/notifications timeBonus.wav"
+  "-C $MAGIC_MOBILE_PATH commons" 
+  "-C $MAGIC_MOBILE_PATH sounds" 
 )
 
 icons=(

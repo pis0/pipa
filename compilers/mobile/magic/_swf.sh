@@ -7,6 +7,7 @@ echo "compiling swf ... [$PLATAFORM]"
 
 
 sourcePaths=(
+
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
@@ -30,6 +31,11 @@ sourcePaths=(
   "-source-path+=$MAGIC_IN_PATH/hud/src"
   "-source-path+=$MAGIC_IN_PATH/lobby/src"  
   "-source-path+=$MAGIC_IN_PATH/bossajazz/src"  
+  "-source-path+=$MAGIC_IN_PATH/shangslot/src"
+  "-source-path+=$MAGIC_IN_PATH/wildride/src" 
+  "-source-path+=$MAGIC_IN_PATH/muchafiesta/src"
+  "-source-path+=$MAGIC_IN_PATH/carnivaloffortune/src"
+  "-source-path+=$MAGIC_IN_PATH/diamonddazzle/src"
 
   "-source-path+=$MAGIC_IN_PATH/main/common/src"  
   "-source-path+=$MAGIC_IN_PATH/main/mobile/src" 
@@ -51,17 +57,14 @@ libraryPaths=(
 )
 
 externalLibraryPaths=(  
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.AndroidIAB.ane"  
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.StoreKit.ane"
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AndroidFullScreen.ane"  
-
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane"
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/NativeGATracker.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AirFlurry.ane"
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane"
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"       
+
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"       
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer_without_GooglePlayServices.ane"    
 )
 
 
@@ -72,17 +75,18 @@ case $PLATAFORM in
     inOut+=("$MAGIC_IN_PATH/main/mobile/src/com/assukar/magic/main/mobile/android/AndroidStartup.as")      
     inOut+=("$MAGIC_ANDROID_SWF_OUT") 
 
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.AndroidIAB.ane")
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/AndroidFullScreen.ane")
-    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ANDROID.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")
+
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
+    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
 
   ;;  
   "ios")            
     inOut+=("$MAGIC_IN_PATH/main/mobile/src/com/assukar/magic/main/mobile/ios/IosStartup.as")
     inOut+=("$MAGIC_IOS_SWF_OUT") 
 
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.StoreKit.ane")     
-    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.IOS.ane")
+     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
 
   ;; 
 esac
