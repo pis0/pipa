@@ -16,7 +16,6 @@ esac
 
 
 args=(
-  # "-hideAneLibSymbols yes"
 
   "-storetype pkcs12"
   "-keystore $MAGIC_ANDROID_APP_CERTIFICATE"
@@ -24,6 +23,7 @@ args=(
   "$MAGIC_ANDROID_APK_OUT"  
   "$ANDROID_APP_DESCRIPTOR"  
   "-extdir $MOBILE_APP_EXTERNAL_DIR"
+  "-extdir $ANDROID_MOBILE_APP_EXTERNAL_DIR"
 
 )
 
