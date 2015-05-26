@@ -7,7 +7,6 @@ echo "compiling swf ... [$PLATAFORM]"
 
 
 sourcePaths=(
-
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
@@ -72,6 +71,7 @@ externalLibraryPaths=(
 inOut=()
 case $PLATAFORM in    
   "android")      
+  
     inOut+=("$MAGIC_IN_PATH/main/mobile/src/com/assukar/magic/main/mobile/android/AndroidStartup.as")      
     inOut+=("$MAGIC_ANDROID_SWF_OUT") 
 
