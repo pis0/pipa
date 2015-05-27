@@ -39,7 +39,7 @@ icons=(
   "-e $MAGIC_MOBILE_PATH/android/icon/36.png AppIcons/36x36-36.png"
   "-e $MAGIC_MOBILE_PATH/android/icon/48.png AppIcons/48x48-48.png"
   "-e $MAGIC_MOBILE_PATH/android/icon/72.png AppIcons/72x72-72.png"
-  "-e $MAGIC_MOBILE_PATH/android/icon/96.png AppIcons/96x96-96.png"
+  "-e $MAGIC_MOBILE_PATH/android/icon/96.png AppIcons/96x96-96.png" 
   "-e $MAGIC_MOBILE_PATH/android/icon/144.png AppIcons/144x144-144.png"
 )
 
