@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/lobby/src/com/assukar/magic/lobby/assets/imports/LobbyAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/LobbyAsyncSoundsSwf.swf"
 	# LobbyAsyncSpritesSwf
-	"$MAGIC_IN_PATH/lobby/src/com/assukar/magic/lobby/assets/imports/LobbyAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/LobbyAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/lobby/src/com/assukar/magic/lobby/assets/imports/LobbyAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/LobbyAsyncSpritesSwf.swf"
 	# LobbySyncSpritesSwf
 	"$MAGIC_IN_PATH/lobby/src/com/assukar/magic/lobby/assets/imports/LobbySyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/LobbySyncSpritesSwf.swf"

@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/houseofluck/src/com/assukar/magic/house/assets/imports/HouseAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/HouseAsyncSoundsSwf.swf"
 	# # HouseAsyncSpritesSwf 
-	"$MAGIC_IN_PATH/houseofluck/src/com/assukar/magic/house/assets/imports/HouseAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/HouseAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/houseofluck/src/com/assukar/magic/house/assets/imports/HouseAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/HouseAsyncSpritesSwf.swf"
 	# # HouseSyncSpritesSwf
 	"$MAGIC_IN_PATH/houseofluck/src/com/assukar/magic/house/assets/imports/HouseSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/HouseSyncSpritesSwf.swf"

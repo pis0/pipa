@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/bossajazz/src/com/assukar/magic/bossa/assets/imports/BossaAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/BossaAsyncSoundsSwf.swf" 
 	# BossaAsyncSpritesSwf
-	"$MAGIC_IN_PATH/bossajazz/src/com/assukar/magic/bossa/assets/imports/BossaAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/BossaAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/bossajazz/src/com/assukar/magic/bossa/assets/imports/BossaAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/BossaAsyncSpritesSwf.swf"
 	# BossaSyncSpritesSwf
 	"$MAGIC_IN_PATH/bossajazz/src/com/assukar/magic/bossa/assets/imports/BossaSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/BossaSyncSpritesSwf.swf" 

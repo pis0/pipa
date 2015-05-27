@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/hud/src/com/assukar/magic/hud/assets/imports/HudAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/HudAsyncSoundsSwf.swf"
 	# HudAsyncSpritesSwf
-	"$MAGIC_IN_PATH/hud/src/com/assukar/magic/hud/assets/imports/HudAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/HudAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/hud/src/com/assukar/magic/hud/assets/imports/HudAsyncSpritesSwf.as" 
+	# "$MAGIC_OUT_PATH/HudAsyncSpritesSwf.swf"
 	# HudSyncSpritesSwf
 	"$MAGIC_IN_PATH/hud/src/com/assukar/magic/hud/assets/imports/HudSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/HudSyncSpritesSwf.swf"

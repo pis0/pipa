@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/diamonddazzle/src/com/assukar/magic/dazzle/assets/imports/DazzleAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/DazzleAsyncSoundsSwf.swf" 
 	# DazzleAsyncSpritesSwf
-	"$MAGIC_IN_PATH/diamonddazzle/src/com/assukar/magic/dazzle/assets/imports/DazzleAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/DazzleAsyncSpritesSwf.swf" 
+	# "$MAGIC_IN_PATH/diamonddazzle/src/com/assukar/magic/dazzle/assets/imports/DazzleAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/DazzleAsyncSpritesSwf.swf" 
 	# DazzleSyncSpritesSwf
 	"$MAGIC_IN_PATH/diamonddazzle/src/com/assukar/magic/dazzle/assets/imports/DazzleSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/DazzleSyncSpritesSwf.swf" 

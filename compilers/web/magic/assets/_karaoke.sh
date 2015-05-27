@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/karaokeboat/src/com/assukar/magic/karaoke/assets/imports/KaraokeAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/KaraokeAsyncSoundsSwf.swf" 
 	# KaraokeAsyncSpritesSwf
-	"$MAGIC_IN_PATH/karaokeboat/src/com/assukar/magic/karaoke/assets/imports/KaraokeAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/KaraokeAsyncSpritesSwf.swf" 
+	# "$MAGIC_IN_PATH/karaokeboat/src/com/assukar/magic/karaoke/assets/imports/KaraokeAsyncSpritesSwf.as" 
+	# "$MAGIC_OUT_PATH/KaraokeAsyncSpritesSwf.swf" 
 	# KaraokeSyncSpritesSwf
 	"$MAGIC_IN_PATH/karaokeboat/src/com/assukar/magic/karaoke/assets/imports/KaraokeSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/KaraokeSyncSpritesSwf.swf" 

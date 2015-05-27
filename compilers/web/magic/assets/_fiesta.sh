@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/muchafiesta/src/com/assukar/magic/fiesta/assets/imports/FiestaAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/FiestaAsyncSoundsSwf.swf" 
 	# FiestaAsyncSpritesSwf
-	"$MAGIC_IN_PATH/muchafiesta/src/com/assukar/magic/fiesta/assets/imports/FiestaAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/FiestaAsyncSpritesSwf.swf" 
+	# "$MAGIC_IN_PATH/muchafiesta/src/com/assukar/magic/fiesta/assets/imports/FiestaAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/FiestaAsyncSpritesSwf.swf" 
 	# FiestaSyncSpritesSwf
 	"$MAGIC_IN_PATH/muchafiesta/src/com/assukar/magic/fiesta/assets/imports/FiestaSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/FiestaSyncSpritesSwf.swf" 

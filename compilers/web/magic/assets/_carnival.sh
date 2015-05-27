@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/carnivaloffortune/src/com/assukar/magic/carnival/assets/imports/CarnivalAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/CarnivalAsyncSoundsSwf.swf" 
 	# CarnivalAsyncSpritesSwf
-	"$MAGIC_IN_PATH/carnivaloffortune/src/com/assukar/magic/carnival/assets/imports/CarnivalAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/CarnivalAsyncSpritesSwf.swf" 
+	# "$MAGIC_IN_PATH/carnivaloffortune/src/com/assukar/magic/carnival/assets/imports/CarnivalAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/CarnivalAsyncSpritesSwf.swf" 
 	# CarnivalSyncSpritesSwf
 	"$MAGIC_IN_PATH/carnivaloffortune/src/com/assukar/magic/carnival/assets/imports/CarnivalSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/CarnivalSyncSpritesSwf.swf" 

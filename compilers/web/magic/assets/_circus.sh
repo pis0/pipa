@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/suncircus/src/com/assukar/magic/circus/assets/imports/CircusAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/CircusAsyncSoundsSwf.swf"
 	# CircusAsyncSpritesSwf
-	"$MAGIC_IN_PATH/suncircus/src/com/assukar/magic/circus/assets/imports/CircusAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/CircusAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/suncircus/src/com/assukar/magic/circus/assets/imports/CircusAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/CircusAsyncSpritesSwf.swf"
 	# CircusSyncSpritesSwf  
 	"$MAGIC_IN_PATH/suncircus/src/com/assukar/magic/circus/assets/imports/CircusSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/CircusSyncSpritesSwf.swf"

@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/shangslot/src/com/assukar/magic/shang/assets/imports/ShangAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/ShangAsyncSoundsSwf.swf" 
 	# ShangAsyncSpritesSwf
-	"$MAGIC_IN_PATH/shangslot/src/com/assukar/magic/shang/assets/imports/ShangAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/ShangAsyncSpritesSwf.swf"
+	# "$MAGIC_IN_PATH/shangslot/src/com/assukar/magic/shang/assets/imports/ShangAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/ShangAsyncSpritesSwf.swf"
 	# ShangSyncSpritesSwf
 	"$MAGIC_IN_PATH/shangslot/src/com/assukar/magic/shang/assets/imports/ShangSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/ShangSyncSpritesSwf.swf"

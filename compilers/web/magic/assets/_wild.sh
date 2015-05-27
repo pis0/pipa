@@ -6,8 +6,8 @@ inOut=(
 	"$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildAsyncSoundsSwf.as"
 	"$MAGIC_OUT_PATH/WildAsyncSoundsSwf.swf" 
 	# WildAsyncSpritesSwf
-	"$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildAsyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/WildAsyncSpritesSwf.swf" 
+	# "$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildAsyncSpritesSwf.as"
+	# "$MAGIC_OUT_PATH/WildAsyncSpritesSwf.swf" 
 	# WildSyncSpritesSwf
 	"$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildSyncSpritesSwf.as"
 	"$MAGIC_OUT_PATH/WildSyncSpritesSwf.swf" 
