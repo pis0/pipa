@@ -4,28 +4,37 @@
 function invalid() {
   clear
   read -p "'$1' is invalid"
-  start
+  exit 
 }
 
 function classes(){ 
   array=("${@}");
-  for (( i = 0; i < ${#array[@]}; i++ )); do
-    case $PROCESS_MODE in      
-      1) 
-        echo  "<class path=\"${array[$i]}\\src\" />"  
+  for (( i = 0; i < ${#array[@]}; i+=2 )); do
+    case ${array[$i]} in        
+      0) 
+        echo  "<class path=\"${array[$i+1]}\\src\" />"          
       ;;
-      2) 
-        echo  "<class path=\"${array[$i]}\" />"  
+      1) 
+        echo  "<class path=\"${array[$i+1]}\" />"          
       ;;
       *) invalid $n ;;
     esac          
   done
 }
 
+
 function libs(){ 
   array=("${@}");
   for (( i = 0; i < ${#array[@]}; i++ )); do
-      echo  "<element path=\"${array[$i]}\" />"  
+
+	local LIB_PATHH=${array[$i]}
+	
+	for (( j = 0; j < $OUTPUT_MODE; j++ )); do
+	  LIB_PATHH="..\\"$LIB_PATHH
+	done
+
+	echo  "<element path=\"$LIB_PATHH\" />"  
+
   done
 }
 
@@ -129,15 +138,15 @@ function write(){
   </project>"
 
 
-  case $PROCESS_MODE in      
-    1) 
+  case $OUTPUT_MODE in      
+    2) 
       echo $output > _projects/$NAME".as3proj" 
     ;;
-    2) 
+    1) 
       echo $output > $NAME".as3proj" 
     ;;
     *) invalid $n ;;
-  esac
+  esac 
 
 
   

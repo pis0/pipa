@@ -4,9 +4,9 @@
 
 NAME="[ASSUKAR]-air"
 CLASSES=(
-	"$ASSUKAR_PATH\air"
- 	"$ASSUKAR_PATH\engine"
- 	"$ASSUKAR_PATH\airong"
+	0 "$ASSUKAR_PATH\air"
+ 	0 "$ASSUKAR_PATH\engine"
+ 	0 "$ASSUKAR_PATH\airong"
 )
 LIBS=(
 	"$LIB_PATH\as3-signals.swc"

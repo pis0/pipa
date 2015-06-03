@@ -4,8 +4,8 @@
 
 NAME="[STARLING]"
 CLASSES=(
-	"$STARLING_PATH\starling"
-	"$ASSUKAR_PATH\airong" 	
+	1 "$STARLING_PATH\starling"
+	0 "$ASSUKAR_PATH\airong" 	
 )
 LIBS=()
 

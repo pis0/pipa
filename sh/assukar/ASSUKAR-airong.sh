@@ -4,7 +4,7 @@
 
 NAME="[ASSUKAR]-airong"
 CLASSES=(
- 	"$ASSUKAR_PATH\airong"
+ 	0 "$ASSUKAR_PATH\airong"
 )
 LIBS=()
 

@@ -1,6 +1,6 @@
 
 # Magic
-PROCESS_MODE=2
+OUTPUT_MODE=1
 
 toSubtr="\dev\client"
 len=$(( ${#MAGIC_PATH} - ${#toSubtr} ))
@@ -11,37 +11,34 @@ export ASSUKAR_PATHH=${ASSUKAR_PATH:0:len}
 
 NAME="Magic"
 CLASSES=(
-	"$MAGIC_PATHH"
-	"$ASSUKAR_PATHH"
- 	"$STARLING_PATH\starling"
+	1 "$MAGIC_PATHH"
+	1 "$ASSUKAR_PATHH"
+ 	1 "$STARLING_PATH\starling"
 )
 LIBS=(	
 
-	"$LIB_PATH\_com.milkmangames.extensions.GoViral.ane"
-    "$LIB_PATH\AndroidFullScreen.ane"
-    "$LIB_PATH\as3-signals.swc" 
-    "$LIB_PATH\SystemProperties.ane" 
+	 # both
+    "$LIB_PATH\fzip.swc"  
     "$LIB_PATH\MinimalComps.swc" 
-    "$LIB_PATH\fzip.swc" 
-    "$LIB_PATHcom.milkmangames.extensions.StoreKit.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.AndroidIAB.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
-    "$LIB_PATH\GoViralAPI.swc" 
-    "$LIB_PATH\com.milkmangames.extensions.GoViral_IOS.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.GoViral_ANDROID.ane" 
-    "$LIB_PATH\android\AndroidFullScreen.ane" 
-    "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane" 
-    "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane" 
-    "$LIB_PATH\GoViral_IOS.ane" 
-    "$LIB_PATH\GoViral_ANDROID.ane" 
+    "$LIB_PATH\as3-signals.swc" 
+
     "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
-    "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane" 
-    "$LIB_PATH\ChartboostNoGPS.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
+
     "$LIB_PATH\appsflyer.ane" 
+
+    # android
+    "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"     
+    "$LIB_PATH\SystemProperties.ane"    
+
+    # iOS
+    "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"   
 
 )
 
 . sh/process.sh
-PROCESS_MODE=1
+OUTPUT_MODE=2
