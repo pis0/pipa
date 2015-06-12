@@ -2,9 +2,11 @@
 # config
 
 # base paths  
-export SDK="C:/workspace/_airSDKs/16.0.0.292"     
+# export SDK="C:/workspace/_airSDKs/16.0.0.292"       
 # export SDK="C:/workspace/_airSDKs/17.0.0.124"   
 # export SDK="C:/workspace/_airSDKs/17.0.0.144"
+# export SDK="C:/workspace/_airSDKs/17.0.0.172"
+export SDK="C:/workspace/_airSDKs/18.0.0.144"
 
 
 # assukar
@@ -18,10 +20,9 @@ export STARLING_PATH="C:/workspace/_starling/release"
 # export AWAY3D_PATH="C:/workspace/_away3d/4.1.6"
 
 # flash player debug
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_14_sa_debug.exe"
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_15_sa_debug.exe"
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_16_sa_debug.exe"
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_17_sa_debug.exe"
+# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_16_sa_debug.exe" 
+# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_17_sa_debug.exe"
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_18_sa_debug.exe"
 
 
 # DBs
