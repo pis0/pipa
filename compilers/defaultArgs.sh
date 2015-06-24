@@ -19,6 +19,8 @@ defaultArgs=(
 	 
 	"-define=CONFIG::DEBUG,$DEBUG"
 
+	"-advanced-telemetry=true"
+
 	# warnings
 	"-warnings=$SHOW_WARNINGS"	
 
