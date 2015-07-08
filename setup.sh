@@ -52,6 +52,7 @@ cd $BASE
 . sh/praia/PRAIA-view-paraty.sh
 . sh/praia/PRAIA-view-pipa.sh
 . sh/praia/PRAIA-view-rosa.sh
+. sh/praia/PRAIA-view-tulum.sh
 
 
 # magic
