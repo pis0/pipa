@@ -2,12 +2,12 @@
 # JERI
 
 inOut=(	
-	# JeriAsyncSoundsSwf
-	"$PRAIA_IN_PATH/jeri/view/src/com/assukar/praia/jeri/assets/imports/JeriAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/JeriAsyncSoundsSwf.swf"
-	# JeriAsyncSpritesSwf
-	"$PRAIA_IN_PATH/jeri/view/src/com/assukar/praia/jeri/assets/imports/JeriAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/JeriAsyncSpritesSwf.swf"
+	# # JeriAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/jeri/view/src/com/assukar/praia/jeri/assets/imports/JeriAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/JeriAsyncSoundsSwf.swf"
+	# # JeriAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/jeri/view/src/com/assukar/praia/jeri/assets/imports/JeriAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/JeriAsyncSpritesSwf.swf"
 	# JeriSyncSoundsSwf
 	"$PRAIA_IN_PATH/jeri/view/src/com/assukar/praia/jeri/assets/imports/JeriSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/JeriSyncSoundsSwf.swf"

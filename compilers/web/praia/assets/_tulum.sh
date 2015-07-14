@@ -2,12 +2,12 @@
 # TULUM
 
 inOut=(	
-	# TulumAsyncSoundsSwf
-	"$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/assets/imports/TulumAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/TulumAsyncSoundsSwf.swf"
-	# TulumAsyncSpritesSwf
-	"$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/assets/imports/TulumAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/TulumAsyncSpritesSwf.swf"
+	# # TulumAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/assets/imports/TulumAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/TulumAsyncSoundsSwf.swf"
+	# # TulumAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/assets/imports/TulumAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/TulumAsyncSpritesSwf.swf"
 	# TulumSyncSoundsSwf
 	"$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/assets/imports/TulumSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/TulumSyncSoundsSwf.swf"

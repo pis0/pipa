@@ -2,12 +2,12 @@
 # IPANEMA
 
 inOut=(	
-	# IpanemaAsyncSoundsSwf
-	"$PRAIA_IN_PATH/ipanema/view/src/com/assukar/praia/ipanema/assets/imports/IpanemaAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/IpanemaAsyncSoundsSwf.swf"
-	# IpanemaAsyncSpritesSwf
-	"$PRAIA_IN_PATH/ipanema/view/src/com/assukar/praia/ipanema/assets/imports/IpanemaAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/IpanemaAsyncSpritesSwf.swf"
+	# # IpanemaAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/ipanema/view/src/com/assukar/praia/ipanema/assets/imports/IpanemaAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/IpanemaAsyncSoundsSwf.swf"
+	# # IpanemaAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/ipanema/view/src/com/assukar/praia/ipanema/assets/imports/IpanemaAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/IpanemaAsyncSpritesSwf.swf"
 	# IpanemaSyncSoundsSwf
 	"$PRAIA_IN_PATH/ipanema/view/src/com/assukar/praia/ipanema/assets/imports/IpanemaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/IpanemaSyncSoundsSwf.swf"

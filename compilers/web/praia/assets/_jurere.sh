@@ -2,12 +2,12 @@
 # JURERE
 
 inOut=(	
-	# JurereAsyncSoundsSwf
-	"$PRAIA_IN_PATH/jurere/view/src/com/assukar/praia/jurere/assets/imports/JurereAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/JurereAsyncSoundsSwf.swf"
-	# JurereAsyncSpritesSwf
-	"$PRAIA_IN_PATH/jurere/view/src/com/assukar/praia/jurere/assets/imports/JurereAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/JurereAsyncSpritesSwf.swf"
+	# # JurereAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/jurere/view/src/com/assukar/praia/jurere/assets/imports/JurereAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/JurereAsyncSoundsSwf.swf"
+	# # JurereAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/jurere/view/src/com/assukar/praia/jurere/assets/imports/JurereAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/JurereAsyncSpritesSwf.swf"
 	# JurereSyncSoundsSwf
 	"$PRAIA_IN_PATH/jurere/view/src/com/assukar/praia/jurere/assets/imports/JurereSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/JurereSyncSoundsSwf.swf"

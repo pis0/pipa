@@ -2,12 +2,12 @@
 # ITACARE
 
 inOut=(	
-	# ItacareAsyncSoundsSwf
-	"$PRAIA_IN_PATH/itacare/view/src/com/assukar/praia/itacare/assets/imports/ItacareAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/ItacareAsyncSoundsSwf.swf"
-	# ItacareAsyncSpritesSwf
-	"$PRAIA_IN_PATH/itacare/view/src/com/assukar/praia/itacare/assets/imports/ItacareAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/ItacareAsyncSpritesSwf.swf"
+	# # ItacareAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/itacare/view/src/com/assukar/praia/itacare/assets/imports/ItacareAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/ItacareAsyncSoundsSwf.swf"
+	# # ItacareAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/itacare/view/src/com/assukar/praia/itacare/assets/imports/ItacareAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/ItacareAsyncSpritesSwf.swf"
 	# ItacareSyncSoundsSwf
 	"$PRAIA_IN_PATH/itacare/view/src/com/assukar/praia/itacare/assets/imports/ItacareSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/ItacareSyncSoundsSwf.swf"

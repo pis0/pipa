@@ -20,9 +20,9 @@ inOut=(
 	# NoronhaAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/NoronhaAsyncSoundsSwf_pt_BR.swf"
-	# NoronhaAsyncSpritesSwf 
-	"$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/NoronhaAsyncSpritesSwf.swf"
+	# # NoronhaAsyncSpritesSwf 
+	# "$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/NoronhaAsyncSpritesSwf.swf"
 	# NoronhaSyncSoundsSwf
 	"$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/NoronhaSyncSoundsSwf.swf"

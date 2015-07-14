@@ -2,12 +2,12 @@
 # LOBBY
 
 inOut=(	
-	# # LobbyAsyncSoundsSwf
-	"$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/assets/imports/LobbyAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/LobbyAsyncSoundsSwf.swf"
-	# # LobbyAsyncSpritesSwf
-	"$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/assets/imports/LobbyAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/LobbyAsyncSpritesSwf.swf"
+	# # # LobbyAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/assets/imports/LobbyAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/LobbyAsyncSoundsSwf.swf"
+	# # # LobbyAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/assets/imports/LobbyAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/LobbyAsyncSpritesSwf.swf"
 	# # LobbySyncSoundsSwf
 	"$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/assets/imports/LobbySyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/LobbySyncSoundsSwf.swf"
