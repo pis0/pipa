@@ -30,7 +30,7 @@ export IOS_APP_DESCRIPTOR
 export IOS_FIRST_DEVICE
 
 # commons
-export SHOW_WARNINGS=true
+export SHOW_WARNINGS=false
 export OPTIMIZE=false
 export DEFAULT_SIZE=760,1024 
 export PLAYER_GLOBAL=18.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0
@@ -81,8 +81,14 @@ export SWF_VERSION=29   #23  #18    #25  #26  #27  #28  #29
 # . defaultArgs.sh  
 
 # # PRAIA
+
+# # # jeri
 # # . ./web/praia/assets/_jeri.sh 
 # # . ./web/praia/startups/_jeriStartup.sh 
+
+# # tulum
+# . ./web/praia/assets/_tulum.sh 
+# . ./web/praia/startups/_tulumStartup.sh 
 
 
 # # MAGIC
@@ -90,7 +96,7 @@ export SWF_VERSION=29   #23  #18    #25  #26  #27  #28  #29
 # # . ./web/magic/startups/_fiestaStartup.sh    
 
 # # . ./web/magic/assets/_carnival.sh 
-# . ./web/magic/startups/_carnivalStartup.sh     
+# # . ./web/magic/startups/_carnivalStartup.sh     
 
 
  
@@ -101,10 +107,10 @@ export SWF_VERSION=29   #23  #18    #25  #26  #27  #28  #29
  
 PLATAFORM="web" 
 MOBILE=false
-DEBUG=true    
-# DEBUG=false        
+DEBUG=true      
+# DEBUG=false           
 
-. defaultArgs.sh  
+. defaultArgs.sh    
 
 
 # PRAIA 
@@ -122,37 +128,38 @@ DEBUG=true
 # . ./web/praia/assets/_maragogi.sh 
 # . ./web/praia/assets/_pipa.sh 
 # . ./web/praia/assets/_noronha.sh  
-# . ./web/praia/assets/_jeri.sh 
+# . ./web/praia/assets/_jeri.sh  
+# . ./web/praia/assets/_tulum.sh  
 
 # loaders
-# . ./web/praia/loaders/_canvasMainSwf.sh
-# . ./web/praia/loaders/_loaderSwf.sh 
+. ./web/praia/loaders/_canvasMainSwf.sh
+. ./web/praia/loaders/_loaderSwf.sh  
 
 # run
-# run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE   
-
+run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE    
  
-# MAGIC 
+ 
+# # MAGIC 
 
-# assets  
-# . ./web/magic/assets/_hud.sh 
-# . ./web/magic/assets/_bossa.sh 
-# . ./web/magic/assets/_house.sh  
-# . ./web/magic/assets/_circus.sh  
-# . ./web/magic/assets/_lobby.sh  
-# . ./web/magic/assets/_shang.sh   
-# . ./web/magic/assets/_wild.sh   
-# . ./web/magic/assets/_fiesta.sh  
-# . ./web/magic/assets/_carnival.sh 
-# . ./web/magic/assets/_dazzle.sh 
-# . ./web/magic/assets/_karaoke.sh 
+# # assets   
+# # . ./web/magic/assets/_hud.sh 
+# # . ./web/magic/assets/_bossa.sh 
+# # . ./web/magic/assets/_house.sh  
+# # . ./web/magic/assets/_circus.sh  
+# # . ./web/magic/assets/_lobby.sh  
+# # . ./web/magic/assets/_shang.sh   
+# # . ./web/magic/assets/_wild.sh   
+# # . ./web/magic/assets/_fiesta.sh  
+# # . ./web/magic/assets/_carnival.sh 
+# # . ./web/magic/assets/_dazzle.sh 
+# # . ./web/magic/assets/_karaoke.sh 
 
-# loaders
-. ./web/magic/loaders/_canvasMainSwf.sh 
-. ./web/magic/loaders/_loaderSwf.sh
+# # loaders
+# . ./web/magic/loaders/_canvasMainSwf.sh 
+# . ./web/magic/loaders/_loaderSwf.sh 
 
-# run
-run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE   
+# # run
+# run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE 
 
  
 
@@ -170,51 +177,46 @@ run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE
 # ANDROID_ARCH="armv7"
 # MOBILE=true 
  
-# DEBUG=true    
-# # DEBUG=false   
-# # DEBUG_MODE="network"
+# # DEBUG=true    
+# DEBUG=false    
+# # DEBUG_MODE="network" 
 # DEBUG_MODE="usb"
 
-# . defaultArgs.sh  
- 
- 
+# . defaultArgs.sh    
 
   
-# # # PRAIA
+# # # # PRAIA
 
-# # . ./mobile/praia/_swf.sh 
+# # # . ./mobile/praia/_swf.sh 
 
-# # # apk
-# # ANDROID_PROFILE_MODE="dev"    
-# # # ANDROID_PROFILE_MODE="release"     
-# # . ./mobile/praia/android/_apk.sh  
+# # # # apk
+# # # ANDROID_PROFILE_MODE="dev"    
+# # # # ANDROID_PROFILE_MODE="release"     
+# # # . ./mobile/praia/android/_apk.sh  
 
-# # # kill / force stop
-# # . ./mobile/praia/android/_kill.sh
+# # # # kill / force stop
+# # # . ./mobile/praia/android/_kill.sh
 
-# # # get devices
-# # . ./mobile/praia/android/_devices.sh 
+# # # # get devices
+# # # . ./mobile/praia/android/_devices.sh 
 
-# # # uninstall
-# # . ./mobile/praia/android/_uninstall.sh 
+# # # # uninstall
+# # # . ./mobile/praia/android/_uninstall.sh 
 
-# # # install 
-# # . ./mobile/praia/android/_install.sh  
+# # # # install 
+# # # . ./mobile/praia/android/_install.sh  
 
-# # # init debug ( DEBUG true && DEBUG_MODE "usb")  
-# # . ./mobile/praia/android/_debug.sh      
-
-
-
+# # # # init debug ( DEBUG true && DEBUG_MODE "usb")  
+# # # . ./mobile/praia/android/_debug.sh    
 
 
 # # MAGIC
 
-# . ./mobile/magic/_swf.sh 
+# . ./mobile/magic/_swf.sh  
 
 # # apk
-# ANDROID_PROFILE_MODE="dev"   
-# # ANDROID_PROFILE_MODE="release"    
+# # ANDROID_PROFILE_MODE="dev"   
+# ANDROID_PROFILE_MODE="release"    
 # . ./mobile/magic/android/_apk.sh  
 
 # # kill / force stop
@@ -230,12 +232,12 @@ run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE
 # . ./mobile/magic/android/_install.sh 
 
 # # init debug ( DEBUG true && DEBUG_MODE "usb") 
-# . ./mobile/magic/android/_debug.sh  
+# # . ./mobile/magic/android/_debug.sh   
  
 
 
-# run
-# . ./mobile/_run.sh
+# # run
+# # . ./mobile/_run.sh
 
 
 
