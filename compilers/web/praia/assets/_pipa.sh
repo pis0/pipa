@@ -2,12 +2,12 @@
 # PIPA
 
 inOut=(	
-	# PipaAsyncSoundsSwf
-	"$PRAIA_IN_PATH/pipa/view/src/com/assukar/praia/pipa/assets/imports/PipaAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/PipaAsyncSoundsSwf.swf"
-	# PipaAsyncSpritesSwf
-	"$PRAIA_IN_PATH/pipa/view/src/com/assukar/praia/pipa/assets/imports/PipaAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/PipaAsyncSpritesSwf.swf"
+	# # PipaAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/pipa/view/src/com/assukar/praia/pipa/assets/imports/PipaAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/PipaAsyncSoundsSwf.swf"
+	# # PipaAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/pipa/view/src/com/assukar/praia/pipa/assets/imports/PipaAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/PipaAsyncSpritesSwf.swf"
 	# PipaSyncSoundsSwf
 	"$PRAIA_IN_PATH/pipa/view/src/com/assukar/praia/pipa/assets/imports/PipaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/PipaSyncSoundsSwf.swf"

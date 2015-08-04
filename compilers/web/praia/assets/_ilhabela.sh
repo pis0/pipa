@@ -2,12 +2,12 @@
 # ILHABELA
 
 inOut=(	
-	# IlhabelaAsyncSoundsSwf
-	"$PRAIA_IN_PATH/ilhabela/view/src/com/assukar/praia/ilhabela/assets/imports/IlhabelaAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/IlhabelaAsyncSoundsSwf.swf"
-	# IlhabelaAsyncSpritesSwf
-	"$PRAIA_IN_PATH/ilhabela/view/src/com/assukar/praia/ilhabela/assets/imports/IlhabelaAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/IlhabelaAsyncSpritesSwf.swf"
+	# # IlhabelaAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/ilhabela/view/src/com/assukar/praia/ilhabela/assets/imports/IlhabelaAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/IlhabelaAsyncSoundsSwf.swf"
+	# # IlhabelaAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/ilhabela/view/src/com/assukar/praia/ilhabela/assets/imports/IlhabelaAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/IlhabelaAsyncSpritesSwf.swf"
 	# IlhabelaSyncSoundsSwf
 	"$PRAIA_IN_PATH/ilhabela/view/src/com/assukar/praia/ilhabela/assets/imports/IlhabelaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/IlhabelaSyncSoundsSwf.swf"

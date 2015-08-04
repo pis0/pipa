@@ -2,12 +2,12 @@
 # PARATY
 
 inOut=(	
-	# ParatyAsyncSoundsSwf
-	"$PRAIA_IN_PATH/paraty/view/src/com/assukar/praia/paraty/assets/imports/ParatyAsyncSoundsSwf.as"
-	"$PRAIA_OUT_PATH/ParatyAsyncSoundsSwf.swf"
-	# ParatyAsyncSpritesSwf
-	"$PRAIA_IN_PATH/paraty/view/src/com/assukar/praia/paraty/assets/imports/ParatyAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/ParatyAsyncSpritesSwf.swf"
+	# # ParatyAsyncSoundsSwf
+	# "$PRAIA_IN_PATH/paraty/view/src/com/assukar/praia/paraty/assets/imports/ParatyAsyncSoundsSwf.as"
+	# "$PRAIA_OUT_PATH/ParatyAsyncSoundsSwf.swf"
+	# # ParatyAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/paraty/view/src/com/assukar/praia/paraty/assets/imports/ParatyAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/ParatyAsyncSpritesSwf.swf"
 	# ParatySyncSoundsSwf
 	"$PRAIA_IN_PATH/paraty/view/src/com/assukar/praia/paraty/assets/imports/ParatySyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/ParatySyncSoundsSwf.swf"

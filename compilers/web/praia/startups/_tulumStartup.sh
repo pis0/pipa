@@ -4,7 +4,7 @@
 inOut=(	
 	# tulumStartup
 	"$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/main/TulumStartup.as"
-	"C:/Users/User/Desktop/pipa/praia2/dev/static/praia/game/swf/TulumStartup.swf" 
+	"$STARTUP_OUT_PATH/TulumStartup.swf" 
 )
 
 
@@ -23,7 +23,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/assets/src"  
   "-source-path+=$PRAIA_IN_PATH/domain/src"   
 
-  "-source-path+=$PRAIA_IN_PATH/tulum/view/src"
+  "-source-path+=$PRAIA_IN_PATH/tulum/view/src" 
 )
 
 libraryPaths=(  

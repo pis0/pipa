@@ -17,9 +17,9 @@ inOut=(
 	# MaragogiAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/MaragogiAsyncSoundsSwf_pt_BR.swf"
-	# MaragogiAsyncSpritesSwf
-	"$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiAsyncSpritesSwf.as"
-	"$PRAIA_OUT_PATH/MaragogiAsyncSpritesSwf.swf"
+	# # MaragogiAsyncSpritesSwf
+	# "$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiAsyncSpritesSwf.as"
+	# "$PRAIA_OUT_PATH/MaragogiAsyncSpritesSwf.swf"
 	# MaragogiSyncSoundsSwf
 	"$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/MaragogiSyncSoundsSwf.swf"

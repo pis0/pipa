@@ -28,6 +28,7 @@ CLASSES=(
 	0 "$PRAIA_PATH\noronha\view"
 	0 "$PRAIA_PATH\ipanema\view"
 	0 "$PRAIA_PATH\jeri\view"
+	0 "$PRAIA_PATH\tulum\view"
 
 	0 "$ASSUKAR_PATH\view"
 	0 "$ASSUKAR_PATH\domain"
