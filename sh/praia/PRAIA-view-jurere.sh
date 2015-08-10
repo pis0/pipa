@@ -12,6 +12,7 @@ CLASSES=(
 	0 "$ASSUKAR_PATH\domain"
  	0 "$ASSUKAR_PATH\engine"
  	0 "$ASSUKAR_PATH\airong" 	
+ 	0 "$ASSUKAR_PATH\extras"
 
  	0 "$STARLING_PATH\starling"
 )
