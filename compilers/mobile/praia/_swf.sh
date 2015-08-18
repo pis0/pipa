@@ -69,8 +69,8 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"       
 
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"       
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer_without_GooglePlayServices.ane"   
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"       
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"   
  
 )
 
