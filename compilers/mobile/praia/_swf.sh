@@ -40,6 +40,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/pipa/view/src" 
   "-source-path+=$PRAIA_IN_PATH/noronha/view/src"
   "-source-path+=$PRAIA_IN_PATH/jeri/view/src" 
+  "-source-path+=$PRAIA_IN_PATH/tulum/view/src"  
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 

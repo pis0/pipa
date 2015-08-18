@@ -1,10 +1,10 @@
 
-# LOBBY Composer
+# TULUM composer
 
 inOut=(	
-	# LobbyComposer
-	"$PRAIA_IN_PATH/lobby/view/src/com/assukar/praia/lobby/composer/LobbyComposer.as"
-	"$COMPOSER_OUT_PATH/LobbyComposer.swf" 
+	# JeriComposer
+	"$PRAIA_IN_PATH/tulum/view/src/com/assukar/praia/tulum/composer/TulumComposer.as"
+	"$COMPOSER_OUT_PATH/TulumComposer.swf" 
 )
 
 
@@ -16,8 +16,8 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/extras/src"
 	"-source-path+=$PRAIA_IN_PATH/domain/src"		
 	"-source-path+=$PRAIA_IN_PATH/assets/src"
-	"-source-path+=$PRAIA_IN_PATH/lobby/view/src"
-	"-source-path+=$STARLING_PATH/starling/src"
+	"-source-path+=$PRAIA_IN_PATH/tulum/view/src"
+	"-source-path+=$STARLING_PATH/starling/src" 
 )
 
 libraryPaths=(
@@ -25,7 +25,7 @@ libraryPaths=(
 	"-library-path+=$SDK/frameworks/locale/en_US"
 	"-library-path+=$SDK/frameworks/libs/core.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"  
 )
 
 
