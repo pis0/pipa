@@ -58,8 +58,8 @@ function process(){
 
         else
           # array+=("-target apk-emulator") 
-          array+=("-target apk-captive-runtime") 
-          # array+=("-target apk") 
+          array+=("-target apk-captive-runtime")  
+          # array+=("-target apk")  
         fi
 
       # array+=("-hideAneLibSymbols yes")
