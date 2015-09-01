@@ -7,3 +7,4 @@ obj/
 _projects/
 compilers/config.sh
 compilers/_MAIN.sh
+../praia/dev/backoffice/admin/src/com/assukar/praia/admin/engine/profiles/ProfileAdmin.as
