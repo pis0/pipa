@@ -10,7 +10,7 @@ inOut=(
 	# "$MAGIC_OUT_PATH/WildAsyncSpritesSwf.swf" 
 	# WildSyncSpritesSwf
 	"$MAGIC_IN_PATH/classicvegas/src/com/assukar/magic/vegas/assets/imports/VegasSyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/WildSyncSpritesSwf.swf" 
+	"$MAGIC_OUT_PATH/VegasSyncSpritesSwf.swf" 
 )
 
 
