@@ -1,4 +1,4 @@
-
+ 	
 # SETUP
 set +v  
 export BASE=${0%/*}      
@@ -75,3 +75,4 @@ cd $BASE
 . sh/magic/MAGIC-carnivaloffortune.sh
 . sh/magic/MAGIC-karaokeboat.sh
 . sh/magic/MAGIC-diamonddazzle.sh
+. sh/magic/MAGIC-classicvegas.sh
