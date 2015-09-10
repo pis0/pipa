@@ -4,8 +4,9 @@
 inOut=(	
 	# kauaiStartup
 	# "$PRAIA_IN_PATH/kauai/view/src/com/assukar/praia/kauai/main/KauaiStartupLoader.as"
-  "$PRAIA_IN_PATH/main/view-canvas/src/com/assukar/praia/main/canvas/validation/KauaiStartupLoader.as"
-	"$STARTUP_OUT_PATH/KauaiStartupLoader.swf" 
+  # "$PRAIA_IN_PATH/main/view-canvas/src/com/assukar/praia/main/canvas/validation/KauaiStartupLoader.as"
+  "$PRAIA_IN_PATH/main/view-canvas/src/com/assukar/praia/main/canvas/validation/BingoStartup.as"
+	"$STARTUP_OUT_PATH/BingoStartup.swf" 
 )
 
 
@@ -18,13 +19,18 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
+  "-source-path+=$PRAIA_IN_PATH/chat/src"
+
   "-source-path+=$STARLING_PATH/starling/src"
 
   "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
   "-source-path+=$PRAIA_IN_PATH/assets/src"  
   "-source-path+=$PRAIA_IN_PATH/domain/src"   
 
-  "-source-path+=$PRAIA_IN_PATH/kauai/view/src" 
+  "-source-path+=$PRAIA_IN_PATH/kauai/view/src"  
+
+  "-source-path+=$PRAIA_IN_PATH/main/view-canvas/src" 
+  
 )
 
 libraryPaths=(  
