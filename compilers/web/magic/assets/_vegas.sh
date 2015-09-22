@@ -4,7 +4,7 @@
 inOut=(
 	# WildAsyncSoundsSwf
 	"$MAGIC_IN_PATH/classicvegas/src/com/assukar/magic/vegas/assets/imports/VegasAsyncSoundsSwf.as"
-	"$MAGIC_OUT_PATH/WildAsyncSoundsSwf.swf" 
+	"$MAGIC_OUT_PATH/VegasAsyncSoundsSwf.swf" 
 	# WildAsyncSpritesSwf
 	# "$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildAsyncSpritesSwf.as"
 	# "$MAGIC_OUT_PATH/WildAsyncSpritesSwf.swf" 
