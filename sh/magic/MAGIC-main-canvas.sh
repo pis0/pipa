@@ -23,6 +23,8 @@ CLASSES=(
 	0 "$MAGIC_PATH\carnivaloffortune"
 	0 "$MAGIC_PATH\karaokeboat"
 	0 "$MAGIC_PATH\diamonddazzle"
+	0 "$MAGIC_PATH\classicvegas"
+	0 "$MAGIC_PATH\videopoker"
 	
 	0 "$ASSUKAR_PATH\domain"
  	0 "$ASSUKAR_PATH\engine"

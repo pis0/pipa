@@ -76,3 +76,4 @@ cd $BASE
 . sh/magic/MAGIC-karaokeboat.sh
 . sh/magic/MAGIC-diamonddazzle.sh
 . sh/magic/MAGIC-classicvegas.sh
+. sh/magic/MAGIC-videopoker.sh
