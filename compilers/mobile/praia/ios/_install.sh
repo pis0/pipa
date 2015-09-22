@@ -17,8 +17,8 @@ echo "installing app ... [$IOS_FIRST_DEVICE]"
 installArgs=(
 	"-installApp"
 	"-platform ios"
-	"-device $IOS_FIRST_DEVICE"
 	"-package $PRAIA_IOS_IPA_OUT"
+	"-device $IOS_FIRST_DEVICE"
 )
 
 if ($SDK/bin/adt.bat ${installArgs[@]}); then
