@@ -66,13 +66,15 @@ function process(){
 
       array+=("-arch $ANDROID_ARCH")      
 
-    echo "mode: ${array[@]}"
+    echo "mode: ${array[@]}" 
     
     array+=(${args[@]})  
     array+=(${packageContents[@]}) 
     array+=(${icons[@]}) 
 
-    $SDK/bin/adt.bat ${array[@]}
+    # echo "$SDK/bin/adt.bat ${array[@]}"
+
+   $SDK/bin/adt.bat ${array[@]}
 }
 
 prevChange=$(stat -c %z $PRAIA_ANDROID_APK_OUT)

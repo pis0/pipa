@@ -1,0 +1,258 @@
+
+
+{
+
+	"debug":{
+		"qualcomm":{
+			"sns":{
+				"daemon":"w",
+				"libsensor1":"w"
+			}
+		}
+	},
+
+	"drm":{
+		"service":{
+			"enabled":"true"
+		}
+	},
+
+	"wifi":{
+		"supplicant_scan_interval":"15",
+		"interface":"wlan0"
+	},
+
+	"ro":{
+
+		"input":{
+			"noresample":"1"
+		},
+
+		"error":{
+			"receiver":{
+				"system":{
+					"apps":"com.google.android.gms"
+				}
+			}
+		},
+
+		"setupwizard":{
+			"enterprise_mode":"1"
+		},
+
+		"board":{
+			"platform":"msm8974"
+		},
+
+		"config":{
+			"notification_sound":"Tethys.ogg",
+			"ringtone":"Titania.ogg",
+			"alarm_alert":"Oxygen.ogg"
+		},
+
+		"sf":{
+			"lcd_density":"480"
+		},
+
+		"url":{
+			"legal":"http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html"
+		},
+
+		"carrier":"unknown",
+
+		"telephony":{
+			"call_ring":{
+				"multiple":"0"
+			},
+			"default_network":"10"
+		},
+
+		"product":{
+			"device":"hammerhead",
+			"cpu":{
+				"abi2":"armeabi",
+				"abilist":"armeabi-v7a,armeabi",
+				"abi":"armeabi-v7a",
+				"abilist32":"armeabi-v7a,armeabi",
+				"abilist64":""
+			},
+			"board":"hammerhead",
+			"name":"hammerhead",
+			"manufacturer":"LGE",
+			"locale":{
+				"language":"en",
+				"region":"US"
+			},
+			"brand":"google",
+			"model":"Nexus 5"
+		},
+
+		"facelock":{
+			"lively_timeout":"2500",
+			"use_intro_anim":"false",
+			"det_timeout":"1500",
+			"black_timeout":"400",
+			"est_max_time":"600",
+			"rec_timeout":"2500"
+		},
+
+		"qti":{
+			"sensors":{
+				"game_rv":"true",
+				"max_linacc":"200",
+				"smgr_mag_cal_en":"true",
+				"max_gyro_rate":"200",
+				"max_grav":"200",
+				"smd":"true",
+				"max_geomag_rotv":"60",
+				"georv":"true",
+				"max_gamerv_rate":"200",
+				"step_detector":"true",
+				"max_orient":"200",
+				"step_counter":"true",
+				"max_accel_rate":"200",
+				"max_rotvec":"200"
+			}
+		},
+
+		"wifi":{
+			"channels":""
+		},
+
+		"hwui":{
+			"text_large_cache_height":"1024",
+			"gradient_cache_size":"1",
+			"text_small_cache_height":"1024",
+			"path_cache_size":"32",
+			"r_buffer_cache_size":"8",
+			"texture_cache_size":"72",
+			"text_large_cache_width":"2048",
+			"layer_cache_size":"48",
+			"text_small_cache_width":"1024",
+			"texture_cache_flushrate":"0.4",
+			"drop_shadow_cache_size":"6"
+		},
+
+		"opengles":{
+			"version":"196608"
+		},
+
+		"com":{
+			"google":{
+				"clientidbase":"android-google"
+			},
+			"android":{
+				"dateformat":"MM-dd-yyyy",
+				"dataroaming":"false",
+				"wifi-watchlist":"GoogleGuest"
+			}
+		},
+
+		"build":{
+			"description":"hammerhead-user 5.1.1 LMY48M 2167285 release-keys",
+			"type":"user",
+			"characteristics":"nosdcard",
+			"date":"Fri Aug 14 03:06:28 UTC 2015",
+			"tags":"release-keys",
+			"user":"android-build",
+			"flavor":"hammerhead-user",
+			"version":{
+				"codename":"REL",
+				"incremental":"2167285",
+				"sdk":"22",
+				"all_codenames":"REL",
+				"release":"5.1.1"
+			},
+			"host":"kpfi14.cbf.corp.google.com",
+			"product":"hammerhead",
+			"id":"LMY48M",
+			"fingerprint":"google/hammerhead/hammerhead:5.1.1/LMY48M/2167285:user/release-keys",
+			"display":{
+				"id":"LMY48M"
+			}
+		}
+	},
+
+
+	"dalvik":{
+		"vm":{
+			"heapgrowthlimit":"192m",
+			"heapmaxfree":"8m",
+			"heapminfree":"512k",
+			"heaptargetutilization":"0.75",
+			"heapsize":"512m",
+			"isa":{
+				"arm":{
+					"features":"div"
+				}
+			},
+			"heapstartsize":"8m",
+			"dexopt-flags":"m",
+			"stack-trace-file":"/data/anr/traces.txt"
+		}
+	},
+
+	"media":{
+		"aac_51_output_enabled":"true"
+	},
+
+	"keyguard":{
+		"no_require_sim":"true"
+	},
+
+	"persist":{
+		"audio":{
+			"dualmic":{
+				"config":"endfire"
+			},
+			"handset":{
+				"mic":{
+					"type":"digital"
+				}
+			},
+			"fluence":{
+				"voicerec":"false",
+				"voicecall":"true",
+				"speaker":"false",
+				"voicecomm":"true"
+			}
+		},
+		"debug":{
+			"sensors":{
+				"hal":"w"
+			}
+		},
+		"hwc":{
+			"mdpcomp":{
+				"enable":"true"
+			}
+		},
+		"radio":{
+			"custom_ecc":"1",
+			"mode_pref_nv10":"1",
+			"data_no_toggle":"1",
+			"always_send_plmn":"true",
+			"apm_sim_not_pwdn":"1"
+		},
+		"sys":{
+			"dalvik":{
+				"vm":{
+					"lib":{
+						"2":"libart.so"
+					}
+				}
+			}
+		}
+	},
+
+	"telephony":{
+		"lteOnCdmaDevice":"1"
+	},
+
+	"net":{
+		"bt":{
+			"name":"Android"
+		}
+	}
+	
+}

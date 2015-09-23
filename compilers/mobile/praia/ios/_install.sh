@@ -5,9 +5,8 @@ echo
 echo
 echo "installing app ... [$IOS_FIRST_DEVICE]"
 
-# doesn't work!
 # installArgs=(
-# 	"-install" 
+# 	"-install"
 # 	"$IOS_IPA_OUT"
 # 	"$IOS_FIRST_DEVICE"
 # )
