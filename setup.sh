@@ -53,7 +53,6 @@ cd $BASE
 . sh/praia/PRAIA-view-pipa.sh
 . sh/praia/PRAIA-view-rosa.sh
 . sh/praia/PRAIA-view-tulum.sh
-. sh/praia/PRAIA-view-kauai.sh
 
 
 # magic
@@ -77,3 +76,4 @@ cd $BASE
 . sh/magic/MAGIC-karaokeboat.sh
 . sh/magic/MAGIC-diamonddazzle.sh
 . sh/magic/MAGIC-classicvegas.sh
+. sh/magic/MAGIC-videopoker.sh

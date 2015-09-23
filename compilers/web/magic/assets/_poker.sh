@@ -1,16 +1,13 @@
 
-# classicvegas 
+# POKER
 
 inOut=(
-	# WildAsyncSoundsSwf
-	"$MAGIC_IN_PATH/classicvegas/src/com/assukar/magic/vegas/assets/imports/VegasAsyncSoundsSwf.as"
-	"$MAGIC_OUT_PATH/VegasAsyncSoundsSwf.swf" 
-	# WildAsyncSpritesSwf
-	# "$MAGIC_IN_PATH/wildride/src/com/assukar/magic/wild/assets/imports/WildAsyncSpritesSwf.as"
-	# "$MAGIC_OUT_PATH/WildAsyncSpritesSwf.swf" 
-	# WildSyncSpritesSwf
-	"$MAGIC_IN_PATH/classicvegas/src/com/assukar/magic/vegas/assets/imports/VegasSyncSpritesSwf.as"
-	"$MAGIC_OUT_PATH/VegasSyncSpritesSwf.swf" 
+	# PokerAsyncSoundsSwf
+	"$MAGIC_IN_PATH/videopoker/src/com/assukar/magic/poker/assets/imports/PokerAsyncSoundsSwf.as"
+	"$MAGIC_OUT_PATH/PokerAsyncSoundsSwf.swf" 
+	# PokerSyncSpritesSwf
+	"$MAGIC_IN_PATH/videopoker/src/com/assukar/magic/poker/assets/imports/PokerSyncSpritesSwf.as"
+	"$MAGIC_OUT_PATH/PokerSyncSpritesSwf.swf" 
 )
 
 
@@ -26,7 +23,7 @@ sourcePaths=(
 	"-source-path+=$MAGIC_IN_PATH/domain/src"		
 	"-source-path+=$MAGIC_IN_PATH/assets/src"	
 
-	"-source-path+=$MAGIC_IN_PATH/classicvegas/src"
+	"-source-path+=$MAGIC_IN_PATH/videopoker/src"
 	
 )
 
