@@ -27,8 +27,9 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"
 
-    "$LIB_PATH\appsflyer.ane" 
+    "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
     # android
     "$LIB_PATH\android\AndroidFullScreen.ane" 
