@@ -152,7 +152,9 @@ run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE
 # # . ./web/magic/assets/_fiesta.sh  
 # # . ./web/magic/assets/_carnival.sh 
 # # . ./web/magic/assets/_dazzle.sh 
-# # . ./web/magic/assets/_karaoke.sh 
+# # . ./web/magic/assets/_karaoke.sh
+# # . ./web/magic/assets/_poker.sh
+# # . ./web/magic/assets/_vegas.sh 
 
 # # loaders
 # . ./web/magic/loaders/_canvasMainSwf.sh 
