@@ -72,10 +72,7 @@ externalLibraryPaths=(
 
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"        
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"    
-
-
-  
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
  
 )
 
