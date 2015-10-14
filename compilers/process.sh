@@ -7,6 +7,9 @@ function optimize(){
 
 function toCompile(){	
 	if [[ "$MOBILE" == true ]]; then
+
+		# echo "$SDK/bin/amxmlc ${@}" 
+
 		$SDK/bin/amxmlc ${@}
 	else
 		$SDK/bin/mxmlc ${@}
