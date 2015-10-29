@@ -23,7 +23,7 @@ sourcePaths=(
 	"-source-path+=$MAGIC_IN_PATH/domain/src"		
 	"-source-path+=$MAGIC_IN_PATH/assets/src"	
 
-	"-source-path+=$MAGIC_IN_PATH/videopoker/src"
+	"-source-path+=$MAGIC_IN_PATH/videopoker/src" 
 	
 )
 
