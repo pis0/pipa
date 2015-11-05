@@ -6,7 +6,7 @@ echo "installing app ..."
 
 installArgs=(
 	"install"
-	"-r"
+	"-r" 
 	"$MAGIC_ANDROID_APK_OUT"
 )
 
