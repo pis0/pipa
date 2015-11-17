@@ -8,8 +8,9 @@ echo "installing app ... [$IOS_FIRST_DEVICE]"
 # doesn't work!
 # installArgs=(
 # 	"-install" 
-# 	"$IOS_IPA_OUT"
+# 	"$MAGIC_IOS_IPA_OUT"
 # 	"$IOS_FIRST_DEVICE"
+# 	"1"
 # )
 
 
@@ -17,12 +18,16 @@ echo "installing app ... [$IOS_FIRST_DEVICE]"
 installArgs=(
 	"-installApp"
 	"-platform ios"
-	"-device $IOS_FIRST_DEVICE"
-	"-package $IOS_IPA_OUT"
+	"-package $MAGIC_IOS_IPA_OUT"
+	"-device $IOS_FIRST_DEVICE"	
 )
 
-if ($SDK/bin/adt.bat ${installArgs[@]}); then
+
+# $SDK/lib/aot/bin/iOSBin/iIPA.exe ${installArgs[@]}
+
+# if ($SDK/lib/aot/bin/iOSBin/iIPA.bat ${installArgs[@]}); then
 # if ($IOS_IDB ${installArgs[@]}); then
+if ($SDK/bin/adt.bat ${installArgs[@]}); then  
   echo "success!"
 else 
   exit
