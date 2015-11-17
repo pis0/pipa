@@ -10,5 +10,5 @@ uninstallArgs=(
 	"$IOS_FIRST_DEVICE"
 )
 
-$IOS_IDB ${uninstallArgs[@]}
+$IOS_IDB ${uninstallArgs[@]} 
 
