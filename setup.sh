@@ -55,6 +55,7 @@ cd $BASE
 . sh/praia/PRAIA-view-tulum.sh
 . sh/praia/PRAIA-view-kauai.sh
 . sh/praia/PRAIA-view-ubatuba.sh
+. sh/praia/PRAIA-view-menton.sh
 
 
 # magic
