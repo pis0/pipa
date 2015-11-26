@@ -2,19 +2,19 @@
 # config
 
 # base paths  
-# export SDK="C:/workspace/_airSDKs/16.0.0.292"       
-# export SDK="C:/workspace/_airSDKs/17.0.0.124"   
-# export SDK="C:/workspace/_airSDKs/17.0.0.144"
-# export SDK="C:/workspace/_airSDKs/17.0.0.172"
-export SDK="C:/workspace/_airSDKs/18.0.0.144"
+# export SDK="C:/workspace/_airSDKs/18.0.0.199"
+# export SDK="C:/workspace/_airSDKs/19.0.0.190"
+# export SDK="C:/workspace/_airSDKs/19.0.0.213"  
+export SDK="C:/workspace/_airSDKs/19.0.0.241"  
+# export SDK="C:/workspace/_airSDKs/20.beta" 
 
 
 # assukar
 export ASSUKAR_IN_PATH="C:/workspace/Assukar/dev/client" 
 
 # starling
-export STARLING_PATH="C:/workspace/_starling/release"
-# export STARLING_PATH="C:/workspace/_starling/beta"
+export STARLING_PATH="C:/workspace/_starling/release" 
+# export STARLING_PATH="C:/workspace/_starling/beta" 
 
 # away3d
 # export AWAY3D_PATH="C:/workspace/_away3d/4.1.6"
@@ -22,12 +22,14 @@ export STARLING_PATH="C:/workspace/_starling/release"
 # flash player debug
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_16_sa_debug.exe" 
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_17_sa_debug.exe"
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_18_sa_debug.exe"
+# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_18_sa_debug.exe"
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_19_sa_debug.exe" 
 
 
 # DBs
-# export ANDROID_ADB="$SDK/lib/android/bin/adb.exe" 
-export ANDROID_ADB="C:/workspace/_androidSDK/adt-bundle-windows-x86_64-20140702/sdk/platform-tools/adb.exe"
+# export ANDROID_ADB=C:/Program\ Files\ (x86)/Android/android-sdk/platform-tools/adb.exe
+# export ANDROID_ADB="C:/workspace/_androidSDK/adt-bundle-windows-x86_64-20140702/sdk/platform-tools/adb.exe"
+export ANDROID_ADB="$SDK/lib/android/bin/adb.exe" 
 export IOS_IDB="$SDK/lib/aot/bin/iOSBin/idb.exe"
 
 
@@ -128,7 +130,7 @@ export MAGIC_IOS_APP_MOBILEPROVISION_RELEASE="$MAGIC_MOBILE_PATH/ios/assukar-ios
 export MAGIC_IOS_APP_DESCRIPTOR_DEV="$MAGIC_MOBILE_PATH/ios/dev.xml"
 export MAGIC_IOS_APP_DESCRIPTOR_RELEASE="$MAGIC_MOBILE_PATH/ios/release.xml"
 
-export MAGIC_IOS_IPA_OUT="C:/Users/user/Desktop/MagicBingo.ipa"   
+export MAGIC_IOS_IPA_OUT="C:/Users/user/Desktop/CasinoMagic.ipa"   
 
 
 

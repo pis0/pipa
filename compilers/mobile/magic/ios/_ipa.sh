@@ -7,67 +7,67 @@ echo "packing ipa ..."
 
 case $IOS_PROFILE_MODE in   
   "dev") 
-    IOS_APP_CERTIFICATE=$IOS_APP_CERTIFICATE_DEV
-    IOS_APP_CERTIFICATE_PASSWORD=$IOS_APP_CERTIFICATE_DEV_PASSWORD
-    IOS_APP_MOBILEPROVISION=$IOS_APP_MOBILEPROVISION_DEV
-    IOS_APP_DESCRIPTOR=$IOS_APP_DESCRIPTOR_DEV
+    IOS_APP_CERTIFICATE=$MAGIC_IOS_APP_CERTIFICATE_DEV
+    IOS_APP_CERTIFICATE_PASSWORD=$MAGIC_IOS_APP_CERTIFICATE_DEV_PASSWORD
+    IOS_APP_MOBILEPROVISION=$MAGIC_IOS_APP_MOBILEPROVISION_DEV
+    IOS_APP_DESCRIPTOR=$MAGIC_IOS_APP_DESCRIPTOR_DEV
   ;;  
   "limited"|"final") 
-    IOS_APP_CERTIFICATE=$IOS_APP_CERTIFICATE_RELEASE
-    IOS_APP_CERTIFICATE_PASSWORD=$IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
-    IOS_APP_MOBILEPROVISION=$IOS_APP_MOBILEPROVISION_RELEASE
-    IOS_APP_DESCRIPTOR=$IOS_APP_DESCRIPTOR_RELEASE
+    IOS_APP_CERTIFICATE=$MAGIC_IOS_APP_CERTIFICATE_RELEASE
+    IOS_APP_CERTIFICATE_PASSWORD=$MAGIC_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
+    IOS_APP_MOBILEPROVISION=$MAGIC_IOS_APP_MOBILEPROVISION_RELEASE
+    IOS_APP_DESCRIPTOR=$MAGIC_IOS_APP_DESCRIPTOR_RELEASE
   ;;  
 esac
 
 
 
 args=( 
-  # "-hideAneLibSymbols yes"
-
   "-storetype pkcs12"
   "-keystore $IOS_APP_CERTIFICATE"
   "-storepass $IOS_APP_CERTIFICATE_PASSWORD"
   "-provisioning-profile $IOS_APP_MOBILEPROVISION"
-  "$IOS_IPA_OUT"
+  "$MAGIC_IOS_IPA_OUT"
   "$IOS_APP_DESCRIPTOR"  
   "-extdir $MOBILE_APP_EXTERNAL_DIR"
+  "-extdir $IOS_MOBILE_APP_EXTERNAL_DIR"
 )
 
 packageContents=(
-  "-C $MOBILE_PATH/ios praia-ios.swf"
-  "-C $MOBILE_PATH commons"
-  "-C $MOBILE_PATH sounds"  
+  "-C $MAGIC_MOBILE_PATH/ios magic-ios.swf"
+  "-C $MAGIC_MOBILE_PATH/sounds/notifications timeBonus.wav"
+  "-C $MAGIC_MOBILE_PATH commons"
+  "-C $MAGIC_MOBILE_PATH sounds"   
 )
 
 icons=(
-  "-e $MOBILE_PATH/ios/icon/29.png AppIcons/29x29-29.png"
-  "-e $MOBILE_PATH/ios/icon/40.png AppIcons/40x40-40.png"
-  "-e $MOBILE_PATH/ios/icon/48.png AppIcons/48x48-48.png"
-  "-e $MOBILE_PATH/ios/icon/50.png AppIcons/50x50-50.png"
-  "-e $MOBILE_PATH/ios/icon/57.png AppIcons/57x57-57.png"
-  "-e $MOBILE_PATH/ios/icon/58.png AppIcons/58x58-58.png"
-  # "-e $MOBILE_PATH/ios/icon/60.png AppIcons/60x60-60.png"
-  "-e $MOBILE_PATH/ios/icon/72.png AppIcons/72x72-72.png"
-  "-e $MOBILE_PATH/ios/icon/76.png AppIcons/76x76-76.png"
-  "-e $MOBILE_PATH/ios/icon/80.png AppIcons/80x80-80.png"
-  "-e $MOBILE_PATH/ios/icon/100.png AppIcons/100x100-100.png"
-  "-e $MOBILE_PATH/ios/icon/114.png AppIcons/114x114-114.png"
-  "-e $MOBILE_PATH/ios/icon/120.png AppIcons/120x120-120.png"
-  "-e $MOBILE_PATH/ios/icon/144.png AppIcons/144x144-144.png"
-  "-e $MOBILE_PATH/ios/icon/152.png AppIcons/152x152-152.png"
-  "-e $MOBILE_PATH/ios/icon/512.png AppIcons/512x512-512.png"
-  "-e $MOBILE_PATH/ios/icon/1024.png AppIcons/1024x1024-1024.png" 
+  "-e $MAGIC_MOBILE_PATH/ios/icon/29.png AppIcons/29x29-29.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/40.png AppIcons/40x40-40.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/48.png AppIcons/48x48-48.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/50.png AppIcons/50x50-50.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/57.png AppIcons/57x57-57.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/58.png AppIcons/58x58-58.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/60.png AppIcons/60x60-60.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/72.png AppIcons/72x72-72.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/76.png AppIcons/76x76-76.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/80.png AppIcons/80x80-80.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/100.png AppIcons/100x100-100.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/114.png AppIcons/114x114-114.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/120.png AppIcons/120x120-120.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/144.png AppIcons/144x144-144.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/152.png AppIcons/152x152-152.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/512.png AppIcons/512x512-512.png"
+  "-e $MAGIC_MOBILE_PATH/ios/icon/1024.png AppIcons/1024x1024-1024.png" 
 )
   
 splashes=(  
-  "-e $MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png"
-  "-e $MOBILE_PATH/ios/splash/Default~ipad.png Default~ipad.png"
-  "-e $MOBILE_PATH/ios/splash/Default@2x~iphone.png Default@2x~iphone.png"   
-  "-e $MOBILE_PATH/ios/splash/Default@2x~ipad.png Default@2x~ipad.png"  
-  "-e $MOBILE_PATH/ios/splash/Default-568h@2x.png Default-568h@2x.png"
-  "-e $MOBILE_PATH/ios/splash/Default-375w-667h@2x.png Default-375w-667h@2x.png"
-  "-e $MOBILE_PATH/ios/splash/Default-414w-736h@3x.png Default-414w-736h@3x.png" 
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png"
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default~ipad.png Default~ipad.png"
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default@2x~iphone.png Default@2x~iphone.png"   
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default@2x~ipad.png Default@2x~ipad.png"  
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default-568h@2x.png Default-568h@2x.png"
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default-375w-667h@2x.png Default-375w-667h@2x.png"
+  "-e $MAGIC_MOBILE_PATH/ios/splash/Default-414w-736h@3x.png Default-414w-736h@3x.png" 
 )
 
 
@@ -80,7 +80,6 @@ function process(){
 
     if [[ "$IOS_COMPILE_MODE" == "standard" ]]; then 
       array+=("-target ipa-debug")
-      # array+=("-useLegacyAOT no")  
     fi
 
     if [[ "$IOS_COMPILE_MODE" == "fast" ]]; then array+=("-target ipa-debug-interpreter"); fi
@@ -116,13 +115,13 @@ function process(){
 
 }
 
-prevChange=$(stat -c %z $IOS_IPA_OUT)
+prevChange=$(stat -c %z $MAGIC_IOS_IPA_OUT)
 process
-currentChange=$(stat -c %z $IOS_IPA_OUT)
+currentChange=$(stat -c %z $MAGIC_IOS_IPA_OUT)
 
 if [ "$prevChange" == "$currentChange" ]; then   
   echo 
-  echo "Could not create file '$IOS_IPA_OUT'"
+  echo "Could not create file '$MAGIC_IOS_IPA_OUT'"
   echo "Package failed"
   exit  
 else
