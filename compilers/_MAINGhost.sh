@@ -73,42 +73,46 @@ export SWF_VERSION=30   #23  #18    #25  #26  #27  #28  #29  #30  #31
  
 
 
-# # STARTUPS  
+# STARTUPS  
 
-# PLATAFORM="web"
-# MOBILE=false
-# DEBUG=true 
-# # DEBUG=false  
+PLATAFORM="web"
+MOBILE=false
+DEBUG=true 
+# DEBUG=false  
 
-# . defaultArgs.sh  
+. defaultArgs.sh  
 
-# # PRAIA
+# PRAIA
 
-# # # jeri
-# # . ./web/praia/assets/_jeri.sh 
-# # . ./web/praia/startups/_jeriStartup.sh 
+# # jeri
+# . ./web/praia/assets/_jeri.sh 
+# . ./web/praia/startups/_jeriStartup.sh 
 
-# # # tulum
-# # . ./web/praia/assets/_tulum.sh 
-# # . ./web/praia/startups/_tulumStartup.sh 
+# # tulum
+# . ./web/praia/assets/_tulum.sh 
+# . ./web/praia/startups/_tulumStartup.sh 
 
 # # kauai
-# # . ./web/praia/assets/_kauai.sh  
-# # . ./web/praia/startups/_kauaiStartup.sh  
+# . ./web/praia/assets/_kauai.sh  
+# . ./web/praia/startups/_kauaiStartup.sh  
+
+# kauai
+# . ./web/praia/assets/_menton.sh  
+. ./web/praia/startups/_mentonStartup.sh  
 
 
-# # MAGIC
-# # . ./web/magic/assets/_fiesta.sh 
-# # . ./web/magic/startups/_fiestaStartup.sh    
+# MAGIC
+# . ./web/magic/assets/_fiesta.sh 
+# . ./web/magic/startups/_fiestaStartup.sh    
 
-# # . ./web/magic/assets/_carnival.sh 
-# # . ./web/magic/startups/_carnivalStartup.sh     
+# . ./web/magic/assets/_carnival.sh 
+# . ./web/magic/startups/_carnivalStartup.sh     
 
 # . ./web/magic/assets/_poker.sh 
 # . ./web/magic/startups/_pokerStartup.sh 
 
-# # . ./web/magic/assets/_vegas.sh 
-# # . ./web/magic/startups/_vegasStartup.sh 
+# . ./web/magic/assets/_vegas.sh 
+# . ./web/magic/startups/_vegasStartup.sh 
 
 
 
@@ -120,7 +124,7 @@ export SWF_VERSION=30   #23  #18    #25  #26  #27  #28  #29  #30  #31
  
 # PLATAFORM="web" 
 # MOBILE=false
-# DEBUG=true           
+# # DEBUG=true           
 # # DEBUG=false   
  
 # . defaultArgs.sh    
@@ -143,6 +147,8 @@ export SWF_VERSION=30   #23  #18    #25  #26  #27  #28  #29  #30  #31
 # # # . ./web/praia/assets/_jeri.sh  
 # # # . ./web/praia/assets/_tulum.sh   
 # # # . ./web/praia/assets/_kauai.sh  
+# # # . ./web/praia/assets/_ubatuba.sh  
+# # # . ./web/praia/assets/_menton.sh  
 
 # # # # loaders
 # # . ./web/praia/loaders/_canvasMainSwf.sh
@@ -184,75 +190,75 @@ export SWF_VERSION=30   #23  #18    #25  #26  #27  #28  #29  #30  #31
 
 
  
-# ANDROID     
+# # ANDROID     
   
-# swf  
-PLATAFORM="android" 
-# ANDROID_ARCH="x86" 
-ANDROID_ARCH="armv7"
-MOBILE=true 
+# # swf  
+# PLATAFORM="android" 
+# # ANDROID_ARCH="x86" 
+# ANDROID_ARCH="armv7"
+# MOBILE=true 
  
-DEBUG=true     
-# DEBUG=false    
-DEBUG_MODE="network" 
-# DEBUG_MODE="usb" 
+# DEBUG=true     
+# # DEBUG=false    
+# DEBUG_MODE="network" 
+# # DEBUG_MODE="usb" 
 
-. defaultArgs.sh    
+# . defaultArgs.sh    
 
   
-# # PRAIA
+# # # PRAIA
 
-# . ./mobile/praia/_swf.sh 
+# # . ./mobile/praia/_swf.sh 
+
+# # # apk
+# # ANDROID_PROFILE_MODE="dev"    
+# # # ANDROID_PROFILE_MODE="release"      
+# # . ./mobile/praia/android/_apk.sh  
+
+# # # kill / force stop
+# # . ./mobile/praia/android/_kill.sh
+
+# # # get devices
+# # . ./mobile/praia/android/_devices.sh 
+
+# # # uninstall
+# # . ./mobile/praia/android/_uninstall.sh 
+
+# # # install 
+# # . ./mobile/praia/android/_install.sh  
+
+# # # init debug ( DEBUG true && DEBUG_MODE "usb")  
+# # . ./mobile/praia/android/_debug.sh         
+
+
+# # MAGIC
+
+# . ./mobile/magic/_swf.sh   
 
 # # apk
-# ANDROID_PROFILE_MODE="dev"    
-# # ANDROID_PROFILE_MODE="release"      
-# . ./mobile/praia/android/_apk.sh  
+# ANDROID_PROFILE_MODE="dev"   
+# # ANDROID_PROFILE_MODE="release"    
+# . ./mobile/magic/android/_apk.sh  
 
 # # kill / force stop
-# . ./mobile/praia/android/_kill.sh
+# . ./mobile/magic/android/_kill.sh
 
 # # get devices
-# . ./mobile/praia/android/_devices.sh 
+# . ./mobile/magic/android/_devices.sh
 
 # # uninstall
-# . ./mobile/praia/android/_uninstall.sh 
+# . ./mobile/magic/android/_uninstall.sh 
 
 # # install 
-# . ./mobile/praia/android/_install.sh  
+# . ./mobile/magic/android/_install.sh 
 
-# # init debug ( DEBUG true && DEBUG_MODE "usb")  
-# . ./mobile/praia/android/_debug.sh         
-
-
-# MAGIC
-
-. ./mobile/magic/_swf.sh   
-
-# apk
-ANDROID_PROFILE_MODE="dev"   
-# ANDROID_PROFILE_MODE="release"    
-. ./mobile/magic/android/_apk.sh  
-
-# kill / force stop
-. ./mobile/magic/android/_kill.sh
-
-# get devices
-. ./mobile/magic/android/_devices.sh
-
-# uninstall
-. ./mobile/magic/android/_uninstall.sh 
-
-# install 
-. ./mobile/magic/android/_install.sh 
-
-# init debug ( DEBUG true && DEBUG_MODE "usb") 
-. ./mobile/magic/android/_debug.sh     
+# # init debug ( DEBUG true && DEBUG_MODE "usb") 
+# . ./mobile/magic/android/_debug.sh     
  
 
 
-# run
-# . ./mobile/magic/_run.sh
+# # run
+# # . ./mobile/magic/_run.sh
 
 
 
