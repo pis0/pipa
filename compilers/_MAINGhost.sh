@@ -73,46 +73,50 @@ export SWF_VERSION=30   #23  #18    #25  #26  #27  #28  #29  #30  #31
  
 
 
-# STARTUPS  
+# # STARTUPS  
 
-PLATAFORM="web"
-MOBILE=false
-DEBUG=true 
-# DEBUG=false  
+# PLATAFORM="web"
+# MOBILE=false
+# DEBUG=true 
+# # DEBUG=false  
 
-. defaultArgs.sh  
+# . defaultArgs.sh  
 
-# PRAIA
+# # PRAIA
 
 # # jeri
-# . ./web/praia/assets/_jeri.sh 
-# . ./web/praia/startups/_jeriStartup.sh 
+# # . ./web/praia/assets/_jeri.sh 
+# # . ./web/praia/startups/_jeriStartup.sh 
 
-# # tulum
-# . ./web/praia/assets/_tulum.sh 
-# . ./web/praia/startups/_tulumStartup.sh 
+# # Tulum
+# # . ./web/praia/assets/_tulum.sh 
+# # . ./web/praia/startups/_tulumStartup.sh 
 
-# # kauai
-# . ./web/praia/assets/_kauai.sh  
-# . ./web/praia/startups/_kauaiStartup.sh  
+# # Kauai
+# # . ./web/praia/assets/_kauai.sh 
+# # . ./web/praia/startups/_kauaiStartup.sh 
 
-# kauai
-# . ./web/praia/assets/_menton.sh  
-. ./web/praia/startups/_mentonStartup.sh  
+# # Ubatuba
+# # . ./web/praia/assets/_ubatuba.sh
+# # . ./web/praia/startups/_ubatubaStartup.sh
+
+# # Formentera
+# # . ./web/praia/assets/_formentera.sh
+# # . ./web/praia/startups/_formenteraStartup.sh
 
 
-# MAGIC
-# . ./web/magic/assets/_fiesta.sh 
-# . ./web/magic/startups/_fiestaStartup.sh    
+# # MAGIC
+# # . ./web/magic/assets/_fiesta.sh 
+# # . ./web/magic/startups/_fiestaStartup.sh    
 
-# . ./web/magic/assets/_carnival.sh 
-# . ./web/magic/startups/_carnivalStartup.sh     
+# # . ./web/magic/assets/_carnival.sh 
+# # . ./web/magic/startups/_carnivalStartup.sh     
 
-# . ./web/magic/assets/_poker.sh 
-# . ./web/magic/startups/_pokerStartup.sh 
+# # . ./web/magic/assets/_poker.sh 
+# # . ./web/magic/startups/_pokerStartup.sh 
 
-# . ./web/magic/assets/_vegas.sh 
-# . ./web/magic/startups/_vegasStartup.sh 
+# # . ./web/magic/assets/_vegas.sh 
+# # . ./web/magic/startups/_vegasStartup.sh 
 
 
 
@@ -149,6 +153,7 @@ DEBUG=true
 # # # . ./web/praia/assets/_kauai.sh  
 # # # . ./web/praia/assets/_ubatuba.sh  
 # # # . ./web/praia/assets/_menton.sh  
+# . ./web/praia/assets/_formentera.sh
 
 # # # # loaders
 # # . ./web/praia/loaders/_canvasMainSwf.sh
