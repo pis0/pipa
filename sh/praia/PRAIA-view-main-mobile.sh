@@ -32,6 +32,7 @@ CLASSES=(
 	0 "$PRAIA_PATH\kauai\view" 
 	0 "$PRAIA_PATH\menton\view"
 	0 "$PRAIA_PATH\ubatuba\view"
+	0 "$PRAIA_PATH\formentera\view"
 
 	0 "$ASSUKAR_PATH\view"
 	0 "$ASSUKAR_PATH\domain"
