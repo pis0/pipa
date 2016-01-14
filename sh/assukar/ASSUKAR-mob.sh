@@ -26,7 +26,8 @@ LIBS=(
 	"$LIB_PATH\android\AndroidFullScreen.ane"	
 	"$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"	
 
-	"$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"	
+	"$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"
+	"$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane"	
 
 	"$LIB_PATH\SystemProperties.ane"	
 	"$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
