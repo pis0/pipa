@@ -34,7 +34,7 @@ args=(
 )
 
 packageContents=(
-  "-C $PRAIA_MOBILE_PATH/ios magic-ios.swf"
+  "-C $PRAIA_MOBILE_PATH/ios praia-ios.swf" 
   "-C $PRAIA_MOBILE_PATH/sounds/notifications timeBonus.wav"
   "-C $PRAIA_MOBILE_PATH commons"
   "-C $PRAIA_MOBILE_PATH sounds"   
