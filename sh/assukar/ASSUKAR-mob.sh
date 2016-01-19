@@ -33,6 +33,7 @@ LIBS=(
 	"$LIB_PATH\com.milkmangames.extensions.RateBox.ane"
 	"$LIB_PATH\com.milkmangames.extensions.EasyPush.ane"
 	"$LIB_PATH\com.milkmangames.extensions.GoViral.ane"
+	"$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
 
 	
 )

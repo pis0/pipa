@@ -40,7 +40,11 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/pipa/view/src" 
   "-source-path+=$PRAIA_IN_PATH/noronha/view/src"
   "-source-path+=$PRAIA_IN_PATH/jeri/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/tulum/view/src"  
+  "-source-path+=$PRAIA_IN_PATH/tulum/view/src"
+  "-source-path+=$PRAIA_IN_PATH/formentera/view/src"
+  "-source-path+=$PRAIA_IN_PATH/kauai/view/src"
+  "-source-path+=$PRAIA_IN_PATH/menton/view/src"
+  "-source-path+=$PRAIA_IN_PATH/ubatuba/view/src"  
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
@@ -67,7 +71,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"     
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"   
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"    
 
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"        
@@ -86,7 +90,7 @@ case $PLATAFORM in
 
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane") 
-
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleGames.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
     # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
 
