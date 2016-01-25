@@ -25,6 +25,8 @@ function config(){
 	array+=(${libraryPaths[@]})	
 	array+=(${sourcePaths[@]})
 
+	# echo ${array[@]}
+
 	toCompile ${array[@]}	
 }	
 
