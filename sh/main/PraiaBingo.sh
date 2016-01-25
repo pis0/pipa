@@ -28,6 +28,7 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
     "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
 
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
@@ -38,6 +39,7 @@ LIBS=(
 
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
+    "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
 )
 
