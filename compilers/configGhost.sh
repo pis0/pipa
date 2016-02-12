@@ -5,8 +5,11 @@
 # export SDK="C:/workspace/_airSDKs/18.0.0.199"
 # export SDK="C:/workspace/_airSDKs/19.0.0.190"
 # export SDK="C:/workspace/_airSDKs/19.0.0.213"  
-export SDK="C:/workspace/_airSDKs/19.0.0.241"  
-# export SDK="C:/workspace/_airSDKs/20.beta" 
+# export SDK="C:/workspace/_airSDKs/19.0.0.241"  
+export SDK="C:/workspace/_airSDKs/20.0.0.204"     
+# export SDK="C:/workspace/_airSDKs/20.0.0.233"      
+# export SDK="C:/workspace/_airSDKs/20.0.0.260"     
+
 
 
 # assukar
@@ -23,7 +26,7 @@ export STARLING_PATH="C:/workspace/_starling/release"
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_16_sa_debug.exe" 
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_17_sa_debug.exe"
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_18_sa_debug.exe"
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_19_sa_debug.exe" 
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_19_sa_debug.exe"  
 
 
 # DBs
@@ -38,7 +41,7 @@ export MOBILE_DEBUG_LOCAL_PORT=7937
 export MOBILE_DEBUG_REMOTE_PORT=16000
 
 export MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs" 
-export NETWORK_IP="192.168.0.203"
+export NETWORK_IP="192.168.100.26" 
 
 
 
@@ -80,6 +83,7 @@ export PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
 
 export PRAIA_IOS_APP_MOBILEPROVISION_DEV="$PRAIA_MOBILE_PATH/ios/assukar-ios-dev.mobileprovision"
 export PRAIA_IOS_APP_MOBILEPROVISION_RELEASE="$PRAIA_MOBILE_PATH/ios/assukar-ios-release.mobileprovision"
+export PRAIA_IOS_APP_MOBILEPROVISION_DISTRIBUTION="$PRAIA_MOBILE_PATH/ios/assukar-ios-distribution-adhoc.mobileprovision"
 
 export PRAIA_IOS_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/ios/dev.xml"
 export PRAIA_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/ios/release.xml"
@@ -126,6 +130,7 @@ export MAGIC_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
 
 export MAGIC_IOS_APP_MOBILEPROVISION_DEV="$MAGIC_MOBILE_PATH/ios/assukar-ios-dev.mobileprovision"
 export MAGIC_IOS_APP_MOBILEPROVISION_RELEASE="$MAGIC_MOBILE_PATH/ios/assukar-ios-release.mobileprovision"
+export MAGIC_IOS_APP_MOBILEPROVISION_DISTRIBUTION="$MAGIC_MOBILE_PATH/ios/assukar-ios-distribution-adhoc.mobileprovision"
 
 export MAGIC_IOS_APP_DESCRIPTOR_DEV="$MAGIC_MOBILE_PATH/ios/dev.xml"
 export MAGIC_IOS_APP_DESCRIPTOR_RELEASE="$MAGIC_MOBILE_PATH/ios/release.xml"
