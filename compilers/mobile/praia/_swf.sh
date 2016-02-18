@@ -94,6 +94,7 @@ case $PLATAFORM in
     
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
     # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
 
   ;;  
   "ios")            
@@ -103,7 +104,7 @@ case $PLATAFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")    
 
-  ;; 
+  ;;
 esac
 
 . process.sh

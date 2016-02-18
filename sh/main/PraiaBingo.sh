@@ -41,6 +41,8 @@ LIBS=(
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
     "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
+    #amazon
+    "$LIB_PATH\android\AmazonIapV2Extension.ane" 
 )
 
 . sh/process.sh
