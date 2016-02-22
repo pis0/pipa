@@ -67,7 +67,7 @@ icons=(
 )
   
 splashes=(  
-  "-e $PRAIA_MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png"
+  "-e $PRAIA_MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png" 
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default~ipad.png Default~ipad.png"
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default@2x~iphone.png Default@2x~iphone.png"   
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default@2x~ipad.png Default@2x~ipad.png"  

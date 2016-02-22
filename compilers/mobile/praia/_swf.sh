@@ -52,6 +52,7 @@ sourcePaths=(
 
 
 libraryPaths=(  
+
   "-library-path+=$SDK/frameworks/libs/air/airglobal.swc"  
   "-library-path+=$SDK/frameworks/libs/air/servicemonitor.swc"    
   "-library-path+=$SDK/frameworks/libs/core.swc"  
