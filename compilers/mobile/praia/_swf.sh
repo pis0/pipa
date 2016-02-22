@@ -52,7 +52,6 @@ sourcePaths=(
 
 
 libraryPaths=(  
-
   "-library-path+=$SDK/frameworks/libs/air/airglobal.swc"  
   "-library-path+=$SDK/frameworks/libs/air/servicemonitor.swc"    
   "-library-path+=$SDK/frameworks/libs/core.swc"  
@@ -95,7 +94,7 @@ case $PLATAFORM in
     
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
     # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
-
+    
   ;;  
   "ios")            
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/ios/IosStartup.as") 
@@ -104,7 +103,18 @@ case $PLATAFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")    
 
-  ;; 
+  ;;
+  "amazon")            
+    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/amazon/AmazonStartup.as")      
+    inOut+=("$PRAIA_ANDROID_SWF_OUT") 
+
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane") 
+    
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
+    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
+
+  ;;
 esac
 
 . process.sh
