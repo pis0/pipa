@@ -33,7 +33,8 @@ LIBS=(
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
     # android
-    "$LIB_PATH\android\AndroidFullScreen.ane" 
+    # "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\ImmersiveMode.ane" 
     "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"     
     "$LIB_PATH\SystemProperties.ane"    
 
