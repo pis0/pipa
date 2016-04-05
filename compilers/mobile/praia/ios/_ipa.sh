@@ -12,7 +12,13 @@ case $IOS_PROFILE_MODE in
     IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_DEV
     IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_DEV
   ;;  
-  "limited"|"final") 
+  "beta") 
+    IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
+    IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
+    IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_DISTRIBUTION 
+    IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_RELEASE
+  ;;
+  "final") 
     IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
     IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
     IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_RELEASE
@@ -61,7 +67,7 @@ icons=(
 )
   
 splashes=(  
-  "-e $PRAIA_MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png"
+  "-e $PRAIA_MOBILE_PATH/ios/splash/Default~iphone.png Default~iphone.png" 
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default~ipad.png Default~ipad.png"
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default@2x~iphone.png Default@2x~iphone.png"   
   "-e $PRAIA_MOBILE_PATH/ios/splash/Default@2x~ipad.png Default@2x~ipad.png"  
@@ -90,7 +96,7 @@ function process(){
   else
 
     if [ "$IOS_PROFILE_MODE" == "final" ]; then array+=("-target ipa-app-store"); fi
-    if [ "$IOS_PROFILE_MODE" == "limited" ]; then array+=("-target ipa-ad-hoc"); fi
+    if [ "$IOS_PROFILE_MODE" == "beta" ]; then array+=("-target ipa-ad-hoc"); fi 
 
     if [ "$IOS_PROFILE_MODE" == "dev" ]; then 
       if [[ "$IOS_COMPILE_MODE" == "standard" ]]; then array+=("-target ipa-test"); fi

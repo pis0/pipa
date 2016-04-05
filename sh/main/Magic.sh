@@ -17,7 +17,7 @@ CLASSES=(
 )
 LIBS=(	
 
-	 # both
+	# both
     "$LIB_PATH\fzip.swc"  
     "$LIB_PATH\MinimalComps.swc" 
     "$LIB_PATH\as3-signals.swc" 
@@ -27,8 +27,10 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
 
-    "$LIB_PATH\appsflyer.ane" 
+    "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
     # android
     "$LIB_PATH\android\AndroidFullScreen.ane" 
@@ -36,7 +38,8 @@ LIBS=(
     "$LIB_PATH\SystemProperties.ane"    
 
     # iOS
-    "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"   
+    "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
+    "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
 )
 

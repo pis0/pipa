@@ -19,11 +19,13 @@ function toCompile(){
 function config(){
 	local array=()		
 	array+=("$1")
-	array+=("-output $2")	
+	array+=("-output $2")
 	array+=(${defaultArgs[@]})	
 	array+=(${externalLibraryPaths[@]})	
 	array+=(${libraryPaths[@]})	
 	array+=(${sourcePaths[@]})
+
+	# echo ${array[@]}
 
 	toCompile ${array[@]}	
 }	

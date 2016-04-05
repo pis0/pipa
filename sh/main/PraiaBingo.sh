@@ -28,17 +28,22 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
     "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
 
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
     # android
-    "$LIB_PATH\android\AndroidFullScreen.ane" 
+    # "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\ImmersiveMode.ane" 
     "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"     
     "$LIB_PATH\SystemProperties.ane"    
 
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
+    "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
+    #amazon
+    "$LIB_PATH\android\AmazonIapV2Extension.ane" 
 )
 
 . sh/process.sh

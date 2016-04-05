@@ -16,24 +16,33 @@ CLASSES=(
 )
 LIBS=(
 
-	"$LIB_PATH\as3-signals.swc"
-	"$LIB_PATH\MinimalComps.swc"
-	"$LIB_PATH\fzip.swc"
+	# both
+    "$LIB_PATH\fzip.swc"  
+    "$LIB_PATH\MinimalComps.swc" 
+    "$LIB_PATH\as3-signals.swc" 
 
-	"$LIB_PATH\appsflyer.ane"
-	"$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
+    "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"
+    "$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
 
-	"$LIB_PATH\android\AndroidFullScreen.ane"	
-	"$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"	
+    "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
-	"$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"	
+    # android
+    "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"     
+    "$LIB_PATH\SystemProperties.ane"  
 
-	"$LIB_PATH\SystemProperties.ane"	
-	"$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
-	"$LIB_PATH\com.milkmangames.extensions.RateBox.ane"
-	"$LIB_PATH\com.milkmangames.extensions.EasyPush.ane"
-	"$LIB_PATH\com.milkmangames.extensions.GoViral.ane"
-	"$LIB_PATH\com.milkmangames.extensions.GoogleGames.ane"
+
+    # iOS
+    "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
+    "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
+
+    # Amazon
+    "$LIB_PATH\android\AmazonIapV2Extension.ane"  
 
 	
 )
