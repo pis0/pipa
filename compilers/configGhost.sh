@@ -2,13 +2,10 @@
 # config
 
 # base paths  
-# export SDK="C:/workspace/_airSDKs/18.0.0.199"
-# export SDK="C:/workspace/_airSDKs/19.0.0.190"
-# export SDK="C:/workspace/_airSDKs/19.0.0.213"  
-# export SDK="C:/workspace/_airSDKs/19.0.0.241"  
-export SDK="C:/workspace/_airSDKs/20.0.0.204"     
+export SDK="C:/workspace/_airSDKs/20.0.0.204"      
 # export SDK="C:/workspace/_airSDKs/20.0.0.233"      
 # export SDK="C:/workspace/_airSDKs/20.0.0.260"     
+# export SDK="C:/workspace/_airSDKs/21.0.0.176"   
 
 
 
@@ -23,10 +20,7 @@ export STARLING_PATH="C:/workspace/_starling/release"
 # export AWAY3D_PATH="C:/workspace/_away3d/4.1.6"
 
 # flash player debug
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_16_sa_debug.exe" 
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_17_sa_debug.exe"
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_18_sa_debug.exe"
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_19_sa_debug.exe"  
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
 
 
 # DBs
@@ -86,7 +80,7 @@ export PRAIA_IOS_APP_MOBILEPROVISION_RELEASE="$PRAIA_MOBILE_PATH/ios/assukar-ios
 export PRAIA_IOS_APP_MOBILEPROVISION_DISTRIBUTION="$PRAIA_MOBILE_PATH/ios/assukar-ios-distribution-adhoc.mobileprovision"
 
 export PRAIA_IOS_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/ios/dev.xml"
-export PRAIA_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/ios/release.xml"
+export PRAIA_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/ios/release.xml" 
 
 export PRAIA_IOS_IPA_OUT="C:/Users/user/Desktop/PraiaBingo.ipa"
 
