@@ -96,9 +96,17 @@ export SWF_VERSION=31   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./web/praia/assets/_kauai.sh  
 # # . ./web/praia/startups/_kauaiStartup.sh  
 
-# # kauai  
+# # menton  
 # . ./web/praia/assets/_menton.sh  
 # . ./web/praia/startups/_mentonStartup.sh   
+
+# # cabos  
+# . ./web/praia/assets/_cabos.sh  
+# . ./web/praia/startups/_cabosStartup.sh   
+
+# # malibu  
+# . ./web/praia/assets/_malibu.sh  
+# . ./web/praia/startups/_malibuStartup.sh   
 
 
 # # MAGIC
@@ -150,6 +158,8 @@ export SWF_VERSION=31   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./web/praia/assets/_ubatuba.sh   
 # # . ./web/praia/assets/_menton.sh   
 # # . ./web/praia/assets/_formentera.sh   
+# # . ./web/praia/assets/_cabos.sh
+# # . ./web/praia/assets/_malibu.sh
 
 # # loaders
 # . ./web/praia/loaders/_canvasMainSwf.sh  
