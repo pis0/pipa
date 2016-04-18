@@ -100,6 +100,10 @@ export SWF_VERSION=31   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # . ./web/praia/assets/_menton.sh  
 # . ./web/praia/startups/_mentonStartup.sh   
 
+# # cabos  
+# . ./web/praia/assets/_cabos.sh  
+# . ./web/praia/startups/_cabosStartup.sh   
+
 
 # # MAGIC
 # # . ./web/magic/assets/_fiesta.sh 
