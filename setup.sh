@@ -58,6 +58,7 @@ cd $BASE
 . sh/praia/PRAIA-view-menton.sh
 . sh/praia/PRAIA-view-formentera.sh
 . sh/praia/PRAIA-view-cabos.sh
+. sh/praia/PRAIA-view-malibu.sh
 
 
 # magic
