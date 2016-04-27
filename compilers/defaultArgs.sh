@@ -10,11 +10,11 @@ defaultArgs=(
 	"-mobile=$MOBILE"
 	"-use-direct-blit=true"
 	"-optimize=true" #true
-	"-compress=true" #true 
+	"-compress=true" #true  
 	"-omit-trace-statements=false"
 	"-as3=true"	
 	"-strict=true"	
-	"-verbose-stacktraces=true"		 
+	"-verbose-stacktraces=true"		  
 	"-static-link-runtime-shared-libraries=true"	
 	 
 	"-define=CONFIG::DEBUG,$DEBUG"
