@@ -64,10 +64,9 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"     
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"   
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"    
-
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/appsflyer.ane"        
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"     
+   
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
  
@@ -81,17 +80,17 @@ case $PLATAFORM in
     inOut+=("$MAGIC_ANDROID_SWF_OUT") 
 
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane") 
-
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.GoogleGames.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/ImmersiveMode.ane")        
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAIDFAAccess.ane") 
 
   ;;  
   "ios")            
     inOut+=("$MAGIC_IN_PATH/main/mobile/src/com/assukar/magic/main/mobile/ios/IosStartup.as")
     inOut+=("$MAGIC_IOS_SWF_OUT") 
    
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")     
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")   
 
   ;; 
 esac

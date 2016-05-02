@@ -104,6 +104,10 @@ export SWF_VERSION=31   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # . ./web/praia/assets/_cabos.sh  
 # . ./web/praia/startups/_cabosStartup.sh   
 
+# # malibu  
+# . ./web/praia/assets/_malibu.sh  
+# . ./web/praia/startups/_malibuStartup.sh   
+
 
 # # MAGIC
 # # . ./web/magic/assets/_fiesta.sh 
@@ -155,6 +159,7 @@ export SWF_VERSION=31   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./web/praia/assets/_menton.sh   
 # # . ./web/praia/assets/_formentera.sh   
 # # . ./web/praia/assets/_cabos.sh
+# # . ./web/praia/assets/_malibu.sh
 
 # # loaders
 # . ./web/praia/loaders/_canvasMainSwf.sh  

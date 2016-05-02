@@ -118,7 +118,7 @@ function process(){
   array+=(${splashes[@]}) 
   array+=(${icons[@]}) 
 
-  # echo ${array[@]}
+  # echo ${array[@]} 
 
   $SDK/bin/adt.bat ${array[@]}
   # echo "$SDK/bin/adt.bat ${array[@]}"
