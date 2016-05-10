@@ -26,7 +26,7 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
-    "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"    
+    # "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"    
 
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
@@ -43,6 +43,10 @@ LIBS=(
 
     # Amazon
     "$LIB_PATH\android\AmazonIapV2Extension.ane"  
+
+    # vungle    
+    "$LIB_PATH\com.vungle.extensions.Vungle.ane"
+    "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane" 
 
 	
 )
