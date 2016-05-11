@@ -28,7 +28,7 @@ LIBS=(
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
     "$LIB_PATH\com.milkmangames.extensions.CoreMobile.ane"
-    # "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"    
+    "$LIB_PATH\com.milkmangames.extensions.GoogleServices.ane"    
 
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
@@ -47,7 +47,8 @@ LIBS=(
     
     # vungle    
     "$LIB_PATH\com.vungle.extensions.Vungle.ane"
-    "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
       
 
 )

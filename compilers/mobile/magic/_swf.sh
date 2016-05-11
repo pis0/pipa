@@ -65,9 +65,8 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"     
    
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
 
   # vungle
@@ -89,7 +88,9 @@ case $PLATAFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
 
      # vungle
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.GooglePlayServices.ane")
+    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.GooglePlayServices.ane")  
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.AndroidSupportLib.ane")   
+   
 
 
   ;;  
