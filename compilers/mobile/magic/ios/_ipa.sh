@@ -53,7 +53,7 @@ icons=(
   "-e $MAGIC_MOBILE_PATH/ios/icon/50.png AppIcons/50x50-50.png"
   "-e $MAGIC_MOBILE_PATH/ios/icon/57.png AppIcons/57x57-57.png"
   "-e $MAGIC_MOBILE_PATH/ios/icon/58.png AppIcons/58x58-58.png"
-  "-e $MAGIC_MOBILE_PATH/ios/icon/60.png AppIcons/60x60-60.png"
+  # "-e $MAGIC_MOBILE_PATH/ios/icon/60.png AppIcons/60x60-60.png"
   "-e $MAGIC_MOBILE_PATH/ios/icon/72.png AppIcons/72x72-72.png"
   "-e $MAGIC_MOBILE_PATH/ios/icon/76.png AppIcons/76x76-76.png"
   "-e $MAGIC_MOBILE_PATH/ios/icon/80.png AppIcons/80x80-80.png"
@@ -117,6 +117,8 @@ function process(){
   array+=(${splashes[@]}) 
   array+=(${icons[@]}) 
 
+  # echo ${array[@]} 
+  
   $SDK/bin/adt.bat ${array[@]}
   # echo "$SDK/bin/adt.bat ${array[@]}"
 

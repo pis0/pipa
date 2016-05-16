@@ -40,11 +40,13 @@ CLASSES=(
  	0 "$STARLING_PATH\starling" 	
 )
 LIBS=(
-	"$LIB_PATH\as3-signals.swc"
-	"$LIB_PATH\MinimalComps.swc"
-	"$LIB_PATH\fzip.swc"
+	# both
+    "$LIB_PATH\fzip.swc"  
+    "$LIB_PATH\MinimalComps.swc" 
+    "$LIB_PATH\as3-signals.swc" 
 
-	"$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
+
+    "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
     "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
@@ -59,13 +61,17 @@ LIBS=(
     "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane"  
     "$LIB_PATH\SystemProperties.ane"  
 
-
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
     "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
     # Amazon
     "$LIB_PATH\android\AmazonIapV2Extension.ane"  
+    
+    # vungle    
+    "$LIB_PATH\com.vungle.extensions.Vungle.ane"
+    # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
 )
 
 . sh/process.sh
