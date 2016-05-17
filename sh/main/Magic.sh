@@ -38,13 +38,18 @@ LIBS=(
     "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane"  
     "$LIB_PATH\SystemProperties.ane"  
 
-
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
     "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
 
     # Amazon
     "$LIB_PATH\android\AmazonIapV2Extension.ane"  
+    
+    # vungle    
+    "$LIB_PATH\com.vungle.extensions.Vungle.ane"
+    # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
+      
 
 )
 
