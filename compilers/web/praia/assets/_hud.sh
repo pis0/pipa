@@ -6,8 +6,8 @@ inOut=(
 	"$PRAIA_IN_PATH/hud/view/src/com/assukar/praia/hud/assets/imports/HudSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/HudSyncSoundsSwf.swf"
 	# # HudAsyncSoundsSwf
-	# "$PRAIA_IN_PATH/hud/view/src/com/assukar/praia/hud/assets/imports/HudAsyncSoundsSwf.as"
-	# "$PRAIA_OUT_PATH/HudAsyncSoundsSwf.swf"
+	"$PRAIA_IN_PATH/hud/view/src/com/assukar/praia/hud/assets/imports/HudAsyncSoundsSwf.as"
+	"$PRAIA_OUT_PATH/HudAsyncSoundsSwf.swf"
 	# HudAsyncSpritesSwf
 	"$PRAIA_IN_PATH/hud/view/src/com/assukar/praia/hud/assets/imports/HudAsyncSpritesSwf.as"
 	"$PRAIA_OUT_PATH/HudAsyncSpritesSwf.swf"
