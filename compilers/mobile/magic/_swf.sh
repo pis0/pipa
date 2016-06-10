@@ -89,8 +89,7 @@ case $PLATAFORM in
 
      # vungle
     # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.GooglePlayServices.ane")  
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.AndroidSupportLib.ane")   
-   
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.AndroidSupportLib.ane")      
 
 
   ;;  
