@@ -353,4 +353,47 @@ IOS_PROFILE_MODE="dev"
 
 
 
+# AMAZON     
+  
+# # swf  
+# PLATAFORM="amazon" 
+# # # # # ANDROID_ARCH="x86" 
+# ANDROID_ARCH="armv7"
+# MOBILE=true 
+ 
+# DEBUG=true   
+# # DEBUG=false  
+# DEBUG_MODE="network"
+# # # DEBUG_MODE="usb"
+
+# . defaultArgs.sh  
+ 
+ 
+
+  
+# # # # # # # # # # # # # # # # # PRAIA
+
+# . ./mobile/praia/_swf.sh 
+
+# # # # # # # # # # apk
+# # ANDROID_PROFILE_MODE="dev"    
+# ANDROID_PROFILE_MODE="release"     
+# . ./mobile/praia/android/_apk.sh  
+
+# # # # # # # kill / force stop
+# . ./mobile/praia/android/_kill.sh
+
+# # # # # # get devices
+# . ./mobile/praia/android/_devices.sh 
+
+# # # # # # uninstall
+# . ./mobile/praia/android/_uninstall.sh 
+
+# # # # # # install 
+# . ./mobile/praia/android/_install.sh  
+
+# # # # init debug ( DEBUG true && DEBUG_MODE "usb")  
+# . ./mobile/praia/android/_debug.sh      
+
+
 
