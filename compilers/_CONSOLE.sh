@@ -15,7 +15,7 @@ function start() {
 	echo
 	echo "1. [FDB] Web / Mobile (NETWORK)'"
 	echo "2. [FDB] Mobile (USB)" 
-	echo "3. [ADB] Android Log (USB)"
+	echo "3. [ADB] Android Log (USB)"	
 	echo
 	echo "0. Quit"
 	echo
@@ -28,6 +28,7 @@ function start() {
 		1) $SDK/bin/fdb ;;	 
 		2) $SDK/bin/fdb -p $MOBILE_DEBUG_LOCAL_PORT ;;	  	
 		3) $ANDROID_ADB logcat ;;	
+		4) $IOS_IDB logcat ;;	
   		0) exit ;;
 	    *) 
 			echo "invalid option '$n'"
