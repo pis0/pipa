@@ -1,5 +1,5 @@
 
-# kauaiStartup
+# noronhaStartup
 
 inOut=(	
 	# kauaiStartup
@@ -30,7 +30,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/support/src" 
   "-source-path+=$PRAIA_IN_PATH/hud/view/src"  
 
-  "-source-path+=$PRAIA_IN_PATH/kauai/view/src"  
+  "-source-path+=$PRAIA_IN_PATH/noronha/view/src"  
 
   "-source-path+=$PRAIA_IN_PATH/main/view-canvas/src" 
   

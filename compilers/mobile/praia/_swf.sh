@@ -46,7 +46,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/menton/view/src"
   "-source-path+=$PRAIA_IN_PATH/ubatuba/view/src"  
   "-source-path+=$PRAIA_IN_PATH/cabos/view/src"   
-  # "-source-path+=$PRAIA_IN_PATH/malibu/view/src"  
+  "-source-path+=$PRAIA_IN_PATH/malibu/view/src"  
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
@@ -77,7 +77,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"     
    
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"       
  
 )
 
