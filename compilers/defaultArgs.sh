@@ -19,6 +19,8 @@ defaultArgs=(
 	 
 	"-define=CONFIG::DEBUG,$DEBUG"
 
+	"-define=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
+
 	"-advanced-telemetry=true"
 
 	# warnings
