@@ -110,7 +110,7 @@ case $PLATAFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")  
     
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/amazon/AmazonIapV2Extension.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/amazon/AmazonIapV2Extension.ane")    
 
   ;;
 esac
