@@ -66,7 +66,7 @@ export PRAIA_ANDROID_APK_OUT="C:/Users/User/Desktop/PraiaBingo.apk"
 
 
 #amazon 
-# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/amazon"
+# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/android"
 
 # export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/amazon/praia-android.swf"
 
