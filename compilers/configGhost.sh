@@ -64,6 +64,21 @@ export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/android/release.
 
 export PRAIA_ANDROID_APK_OUT="C:/Users/User/Desktop/PraiaBingo.apk" 
 
+
+#amazon 
+# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/amazon"
+
+# export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/amazon/praia-android.swf"
+
+# export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/amazon/assukar-android.p12"
+# export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
+
+# export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/amazon/dev.xml"
+# export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/amazon/release.xml"
+# export PRAIA_ANDROID_APK_OUT="$PRAIA_MOBILE_PATH/amazon/PraiaBingo.apk" 
+
+
+
 # ios
 export IOS_MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs/ios" 
 
