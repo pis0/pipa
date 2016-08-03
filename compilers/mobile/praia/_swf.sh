@@ -108,8 +108,7 @@ case $PLATAFORM in
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/amazon/AmazonStartup.as")      
     inOut+=("$PRAIA_ANDROID_SWF_OUT") 
 
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")  
-    
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")    
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/amazon/AmazonIapV2Extension.ane")    
 
