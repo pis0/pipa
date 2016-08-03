@@ -52,30 +52,29 @@ export PRAIA_WEB_MAIN_FILE="C:/workspace/Praia/dev/static/praia/game/swf/LoaderS
 export PRAIA_MOBILE_PATH="C:/workspace/Praia/dev/client/main/view-mobile/build"
 
 # android
-export ANDROID_MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs/android" 
+# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
+
+# export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/android/praia-android.swf"
+
+# export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/android/assukar-android.p12"
+# export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
+
+# export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/android/dev.xml"
+# export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/android/release.xml"
+
+# export PRAIA_ANDROID_APK_OUT="C:/Users/Igor/Desktop/PraiaBingo.apk" 
+
+#amazon 
+export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/android"
 
 export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/android/praia-android.swf"
 
-export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/android/assukar-android.p12"
+export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/amazon/assukar-android.p12"
 export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
 
-export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/android/dev.xml"
-export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/android/release.xml"
-
-export PRAIA_ANDROID_APK_OUT="C:/Users/User/Desktop/PraiaBingo.apk" 
-
-
-#amazon 
-# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/amazon"
-
-# export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/amazon/praia-android.swf"
-
-# export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/amazon/assukar-android.p12"
-# export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
-
-# export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/amazon/dev.xml"
-# export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/amazon/release.xml"
-# export PRAIA_ANDROID_APK_OUT="$PRAIA_MOBILE_PATH/amazon/PraiaBingo.apk" 
+export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/amazon/dev.xml"
+export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/amazon/release.xml"
+export PRAIA_ANDROID_APK_OUT="C:/Users/Igor/Desktop/PraiaBingo.apk" 
 
 
 
