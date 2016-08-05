@@ -2,14 +2,19 @@
 # config
 
 # base paths  
-export SDK="C:/workspace/_airSDKs/20.0.0.204"      
+# export SDK="C:/workspace/_airSDKs/20.0.0.204"        
 # export SDK="C:/workspace/_airSDKs/20.0.0.233"      
-# export SDK="C:/workspace/_airSDKs/20.0.0.260"     
+# export SDK="C:/workspace/_airSDKs/20.0.0.260"      
 # export SDK="C:/workspace/_airSDKs/21.0.0.176"   
+export SDK="C:/workspace/_airSDKs/21.0.0.198"           
+# export SDK="C:/workspace/_airSDKs/21.0.0.215"          
+# export SDK="C:/workspace/_airSDKs/22.0.0.153"       
+# export SDK="C:/workspace/_airSDKs/23_beta"     
 
 
 
-# assukar
+# ASSUKAR ##########################################################################################
+
 export ASSUKAR_IN_PATH="C:/workspace/Assukar/dev/client" 
 
 # starling
@@ -20,7 +25,8 @@ export STARLING_PATH="C:/workspace/_starling/release"
 # export AWAY3D_PATH="C:/workspace/_away3d/4.1.6"
 
 # flash player debug
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
+# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_22_sa_debug.exe"  
 
 
 # DBs
@@ -41,45 +47,53 @@ export NETWORK_IP="192.168.100.26"
 
 
 
-# PRAIA
+# PRAIA ############################################################################################
+
 export PRAIA_IN_PATH="C:/workspace/Praia/dev/client" 
 export PRAIA_OUT_PATH="C:/workspace/Praia/dev/static/praia/game/swf"
 
 # web main files
-export PRAIA_WEB_MAIN_FILE="C:/workspace/Praia/dev/static/praia/game/swf/LoaderSwf.swf"
+export PRAIA_WEB_MAIN_FILE="$PRAIA_OUT_PATH/LoaderSwf.swf"
 
 # mobile base path
-export PRAIA_MOBILE_PATH="C:/workspace/Praia/dev/client/main/view-mobile/build"
+export PRAIA_MOBILE_PATH="$PRAIA_IN_PATH/main/view-mobile/build"
 
-# android
-# export ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
 
-# export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/android/praia-android.swf"
 
-# export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/android/assukar-android.p12"
-# export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
+# AMAZON
+export AMAZON_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
 
-# export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/android/dev.xml"
-# export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/android/release.xml"
+export PRAIA_AMAZON_SWF_OUT="$PRAIA_MOBILE_PATH/amazon/praia-amazon.swf"
 
-# export PRAIA_ANDROID_APK_OUT="C:/Users/Igor/Desktop/PraiaBingo.apk" 
+export PRAIA_AMAZON_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/amazon/assukar-amazon.p12"
+export PRAIA_AMAZON_APP_CERTIFICATE_PASSWORD="assukar2013"
 
-#amazon 
-export ANDROID_MOBILE_APP_EXTERNAL_DIR="$MOBILE_APP_EXTERNAL_DIR/android"
+export PRAIA_AMAZON_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/amazon/dev.xml"
+export PRAIA_AMAZON_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/amazon/release.xml"
+
+export PRAIA_AMAZON_APK_OUT="C:/Users/User/Desktop/PraiaBingoAmazon.apk" 
+
+
+
+
+# ANDROID
+export ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
 
 export PRAIA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/android/praia-android.swf"
 
-export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/amazon/assukar-android.p12"
+export PRAIA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/android/assukar-android.p12"
 export PRAIA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
 
-export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/amazon/dev.xml"
-export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/amazon/release.xml"
-export PRAIA_ANDROID_APK_OUT="C:/Users/Igor/Desktop/PraiaBingo.apk" 
+export PRAIA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/android/dev.xml"
+export PRAIA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/android/release.xml"
+
+export PRAIA_ANDROID_APK_OUT="C:/Users/User/Desktop/PraiaBingo.apk" 
 
 
 
-# ios
-export IOS_MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs/ios" 
+
+# iOS
+export IOS_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/ios" 
 
 export PRAIA_IOS_SWF_OUT="$PRAIA_MOBILE_PATH/ios/praia-ios.swf"
 
@@ -104,18 +118,21 @@ export PRAIA_IOS_IPA_OUT="C:/Users/user/Desktop/PraiaBingo.ipa"
 
 
 
-# MAGIC
+# MAGIC ###########################################################################################
 export MAGIC_IN_PATH="C:/workspace/Magic/dev/client" 
 export MAGIC_OUT_PATH="C:/workspace/Magic/dev/static/magic/game/swf" 
 
 # web main files
-export MAGIC_WEB_MAIN_FILE="C:/workspace/Magic/dev/static/magic/game/swf/LoaderSwf.swf" 
+export MAGIC_WEB_MAIN_FILE="$MAGIC_OUT_PATH/LoaderSwf.swf" 
 
 # mobile base path
-export MAGIC_MOBILE_PATH="C:/workspace/Magic/dev/client/main/mobile/build"
+export MAGIC_MOBILE_PATH="$MAGIC_IN_PATH/main/mobile/build"
 
 
-# android
+
+
+
+# ANDROID
 export MAGIC_ANDROID_SWF_OUT="$MAGIC_MOBILE_PATH/android/magic-android.swf"
 
 export MAGIC_ANDROID_APP_CERTIFICATE="$MAGIC_MOBILE_PATH/android/assukar-android.p12"
@@ -127,7 +144,9 @@ export MAGIC_ANDROID_APP_DESCRIPTOR_RELEASE="$MAGIC_MOBILE_PATH/android/release.
 export MAGIC_ANDROID_APK_OUT="C:/Users/User/Desktop/CasinoMagic.apk" 
 
 
-# ios
+
+
+# iOS
 export MAGIC_IOS_SWF_OUT="$MAGIC_MOBILE_PATH/ios/magic-ios.swf"
 
 export MAGIC_IOS_APP_CERTIFICATE_DEV="$MAGIC_MOBILE_PATH/ios/assukar_ios_dev_2016_11_16.p12"

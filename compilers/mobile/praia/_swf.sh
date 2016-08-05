@@ -3,7 +3,7 @@
 
 
 echo
-echo "compiling swf ... [$PLATFORM::amazon=$AMAZON]"   
+echo "compiling swf ... [$PLATFORM]"   
 
 
 sourcePaths=(
@@ -90,15 +90,9 @@ case $PLATFORM in
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/android/AndroidStartup.as")     
     inOut+=("$PRAIA_ANDROID_SWF_OUT")  
 
-    # if [[ "$AMAZON" == true ]]; then 
-      externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
-    # else
-      externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")  
-    # fi
-
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")  
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.GoogleGames.ane")           
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")  
     
   ;;  
   "ios")            
@@ -109,16 +103,14 @@ case $PLATFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")    
 
   ;;
-  # "amazon")            
-  #   inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/amazon/AmazonStartup.as")      
-  #   inOut+=("$PRAIA_ANDROID_SWF_OUT") 
+  "amazon")            
+    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/amazon/AmazonStartup.as")      
+    inOut+=("$PRAIA_AMAZON_SWF_OUT") 
+        
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
 
-  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AndroidFullScreen.ane")  
-    
-  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
-
-  # ;;
+  ;;
 esac
 
 . process.sh

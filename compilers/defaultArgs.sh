@@ -19,7 +19,6 @@ defaultArgs=(
 	 
 	"-define+=CONFIG::DEBUG,$DEBUG"
 	"-define+=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
-	"-define+=CONFIG::AMAZON,$AMAZON"     
 
 	"-advanced-telemetry=true"
 
