@@ -41,6 +41,8 @@ icons=(
   "-e $PRAIA_MOBILE_PATH/amazon/icon/72.png AppIcons/72x72-72.png"
   "-e $PRAIA_MOBILE_PATH/amazon/icon/96.png AppIcons/96x96-96.png"
   "-e $PRAIA_MOBILE_PATH/amazon/icon/144.png AppIcons/144x144-144.png"
+  "-e $PRAIA_MOBILE_PATH/amazon/icon/512.png AppIcons/512x512-512.png"
+  "-e $PRAIA_MOBILE_PATH/amazon/icon/1024.png AppIcons/1024x1024-1024.png"
 )
 
 
