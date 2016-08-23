@@ -17,9 +17,8 @@ defaultArgs=(
 	"-verbose-stacktraces=true"		  
 	"-static-link-runtime-shared-libraries=true"	
 	 
-	"-define=CONFIG::DEBUG,$DEBUG"
-
-	"-define=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
+	"-define+=CONFIG::DEBUG,$DEBUG"
+	"-define+=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
 
 	"-advanced-telemetry=true"
 
