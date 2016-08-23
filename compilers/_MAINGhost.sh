@@ -43,9 +43,9 @@ export IOS_FIRST_DEVICE
 export SHOW_WARNINGS=true
 export OPTIMIZE=false
 export DEFAULT_SIZE=760,1024 
-export PLAYER_GLOBAL=22.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
-export TARGET_PLAYER=22 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
-export SWF_VERSION=33   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32      
+export PLAYER_GLOBAL=21.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
+export TARGET_PLAYER=21 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
+export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32      
 
 
 
@@ -136,6 +136,19 @@ export SWF_VERSION=33   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # # . ./web/magic/assets/_vegas.sh 
 # # # . ./web/magic/startups/_vegasStartup.sh 
 
+
+
+# SINGLES
+
+PLATAFORM="web" 
+DEBUG=true          
+# FORCE_MOBILE=true    
+ 
+. defaultArgs.sh     
+
+# PRAIA 
+
+. ./web/praia/singles/_singlesStartup.sh 
 
 
  
@@ -336,70 +349,70 @@ export SWF_VERSION=33   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 # iOS     
  
-# swf  
-PLATFORM="ios"
-MOBILE=true
+# # swf  
+# PLATFORM="ios"
+# MOBILE=true
 
-DEBUG=true    
-DEBUG_MODE="network"      
-# DEBUG_MODE="usb"
+# DEBUG=true    
+# DEBUG_MODE="network"      
+# # DEBUG_MODE="usb"
 
-. defaultArgs.sh
-
-
-# PRAIA
-
-. ./mobile/praia/_swf.sh       
-
-# ipa
-# IOS_COMPILE_MODE="fast"   
-IOS_COMPILE_MODE="standard"        
-# IOS_PROFILE_MODE="dev"     
-IOS_PROFILE_MODE="beta" 
-# IOS_PROFILE_MODE="final"  
-. ./mobile/praia/ios/_ipa.sh   
-
-# get device 
-. ./mobile/praia/ios/_devices.sh
-
-# uninstall
-. ./mobile/praia/ios/_uninstall.sh 
-
-# install
-. ./mobile/praia/ios/_install.sh  
-
-# init debug ( DEBUG true && DEBUG_MODE "usb") 
-. ./mobile/praia/ios/_debug.sh           
+# . defaultArgs.sh
 
 
-# # MAGIC
+# # PRAIA
 
-# . ./mobile/magic/_swf.sh   
+# . ./mobile/praia/_swf.sh       
 
-# # ipa 
-# # IOS_COMPILE_MODE="fast"  
-# IOS_COMPILE_MODE="standard"   
-# # IOS_PROFILE_MODE="dev"  
+# # ipa
+# # IOS_COMPILE_MODE="fast"   
+# IOS_COMPILE_MODE="standard"        
+# # IOS_PROFILE_MODE="dev"     
 # IOS_PROFILE_MODE="beta" 
-# # IOS_PROFILE_MODE="final"
-# . ./mobile/magic/ios/_ipa.sh   
+# # IOS_PROFILE_MODE="final"  
+# . ./mobile/praia/ios/_ipa.sh   
 
 # # get device 
-# . ./mobile/magic/ios/_devices.sh
+# . ./mobile/praia/ios/_devices.sh
 
 # # uninstall
-# . ./mobile/magic/ios/_uninstall.sh  
+# . ./mobile/praia/ios/_uninstall.sh 
 
 # # install
-# . ./mobile/magic/ios/_install.sh
+# . ./mobile/praia/ios/_install.sh  
 
-# # init debug ( DEBUG true && DEBUG_MODE "usb")
-# . ./mobile/magic/ios/_debug.sh      
+# # init debug ( DEBUG true && DEBUG_MODE "usb") 
+# . ./mobile/praia/ios/_debug.sh           
+
+
+# # # MAGIC
+
+# # . ./mobile/magic/_swf.sh   
+
+# # # ipa 
+# # # IOS_COMPILE_MODE="fast"  
+# # IOS_COMPILE_MODE="standard"   
+# # # IOS_PROFILE_MODE="dev"  
+# # IOS_PROFILE_MODE="beta" 
+# # # IOS_PROFILE_MODE="final"
+# # . ./mobile/magic/ios/_ipa.sh   
+
+# # # get device 
+# # . ./mobile/magic/ios/_devices.sh
+
+# # # uninstall
+# # . ./mobile/magic/ios/_uninstall.sh  
+
+# # # install
+# # . ./mobile/magic/ios/_install.sh
+
+# # # init debug ( DEBUG true && DEBUG_MODE "usb")
+# # . ./mobile/magic/ios/_debug.sh      
 
 
 
-# # run ( doesn't work on ios ) 
-# # . ./mobile/_run.sh 
+# # # run ( doesn't work on ios ) 
+# # # . ./mobile/_run.sh 
 
 
 
