@@ -69,12 +69,15 @@ libraryPaths=(
 
 externalLibraryPaths=(  
 
+  # TODO to remove in singles mode
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane" 
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"       
+  #
+
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"      
    
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"       
@@ -94,7 +97,16 @@ case $PLATFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.GoogleGames.ane")           
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
     
-  ;;  
+  ;;    
+  "singles-android") 
+    
+    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesAndroidStartup.as")     
+    inOut+=("$PRAIA_SINGLES_ANDROID_SWF_OUT")  
+
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")                
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")  
+    
+  ;;
   "ios")            
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/ios/IosStartup.as") 
     inOut+=("$PRAIA_IOS_SWF_OUT") 
