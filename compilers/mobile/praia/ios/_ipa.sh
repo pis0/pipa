@@ -108,7 +108,7 @@ function process(){
 
   
   # array+=("-hideAneLibSymbols yes") 
-  array+=("-useLegacyAOT no")   
+  # array+=("-useLegacyAOT no")   
   
   echo "mode: ${array[@]}"
 
