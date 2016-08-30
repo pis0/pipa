@@ -4,7 +4,7 @@
 inOut=(	
 	# cabosStartup
 	"$PRAIA_IN_PATH/cabos/view/src/com/assukar/praia/cabos/main/CabosStartup.as"
-	"$STARTUP_OUT_PATH/CabosStartup.swf" 
+	"$STARTUP_OUT_PATH/CabosStartup.swf"  
 )
 
 
@@ -31,7 +31,7 @@ libraryPaths=(
   "-library-path+=$SDK/frameworks/locale/en_US" 
   "-library-path+=$SDK/frameworks/libs/core.swc"
   "-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-  "-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
+  "-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc" 
 
 )
 
