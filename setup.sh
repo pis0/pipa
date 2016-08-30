@@ -60,6 +60,7 @@ cd $BASE
 . sh/praia/PRAIA-view-cabos.sh
 . sh/praia/PRAIA-view-malibu.sh
 . sh/praia/PRAIA-view-keys.sh
+. sh/praia/PRAIA-view-tenerife.sh
 
 
 # magic
