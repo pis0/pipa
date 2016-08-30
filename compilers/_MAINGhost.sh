@@ -114,9 +114,13 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./web/praia/assets/_keys.sh  
 # . ./web/praia/startups/_keysStartup.sh   
 
-# # # menton  
+# # menton  
 # # . ./web/praia/assets/_menton.sh  
 # # . ./web/praia/startups/_mentonStartup.sh   
+
+# # Tenerife
+# # . ./web/praia/assets/_tenerife.sh
+# # . ./web/praia/startups/_tenerifeStartup.sh
 
 
 # # # MAGIC
@@ -186,6 +190,7 @@ DEBUG=true
 # # # . ./web/praia/assets/_formentera.sh   
 # # # . ./web/praia/assets/_cabos.sh   
 # # # . ./web/praia/assets/_malibu.sh      
+# # # . ./web/praia/assets/_tenerife.sh
 
 # # # loaders
 # # . ./web/praia/loaders/_canvasMainSwf.sh    
