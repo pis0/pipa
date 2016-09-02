@@ -15,6 +15,13 @@ export DEVICE
 export PLATFORM
 
 
+# singles-android
+export SINGLES_ANDROID_ARCH
+export SINGLES_ANDROID_PROFILE_MODE
+export SINGLES_ANDROID_APP_CERTIFICATE
+export SINGLES_ANDROID_APP_CERTIFICATE_PASSWORD 
+
+
 # amazon
 export AMAZON_ARCH
 export AMAZON_PROFILE_MODE
@@ -63,7 +70,7 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # . _CHECKER.sh
 
 
-
+####################################################################################################
 
 # # COMPOSER
 
@@ -81,6 +88,8 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./composers/praia/_tulumComposer.sh  
 
  
+####################################################################################################
+
 
 
 # # STARTUPS  
@@ -138,18 +147,25 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 
 
-# SINGLES
+####################################################################################################
 
-PLATAFORM="web" 
-DEBUG=true          
-# FORCE_MOBILE=true    
+
+
+
+# # SINGLES WEB
+
+# PLATAFORM="web" 
+# DEBUG=true          
+# # FORCE_MOBILE=true    
  
-. defaultArgs.sh     
+# . defaultArgs.sh     
 
-# PRAIA 
+# # PRAIA 
 
-. ./web/praia/singles/_singlesStartup.sh 
+# . ./web/praia/singles/_singlesStartup.sh  
 
+
+####################################################################################################
 
  
  
@@ -188,11 +204,11 @@ DEBUG=true
 # # # . ./web/praia/assets/_malibu.sh      
 
 # # # loaders
-# # . ./web/praia/loaders/_canvasMainSwf.sh    
-# # . ./web/praia/loaders/_loaderSwf.sh  
+# . ./web/praia/loaders/_canvasMainSwf.sh    
+# . ./web/praia/loaders/_loaderSwf.sh  
 
 # # # run
-# # run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE            
+# run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE            
  
  
 # # MAGIC 
@@ -223,8 +239,103 @@ DEBUG=true
 
 
 
+####################################################################################################
 
 
+
+# MALIBU-ANDROID         
+  
+# swf  
+PLATFORM="android" 
+# MALIBU_ANDROID_ARCH="x86"
+MALIBU_ANDROID_ARCH="armv7" 
+MOBILE=true 
+ 
+DEBUG=true                
+DEBUG_MODE="network"     
+# DEBUG_MODE="usb"   
+
+. defaultArgs.sh    
+
+
+# PRAIA
+
+. ./mobile/praia/singles/malibu/_swf.sh         
+
+# apk
+MALIBU_ANDROID_PROFILE_MODE="dev"        
+# MALIBU_ANDROID_PROFILE_MODE="release"        
+. ./mobile/praia/singles/malibu/android/_apk.sh        
+
+# kill / force stop	
+. ./mobile/praia/singles/malibu/android/_kill.sh 
+
+# get devices
+. ./mobile/praia/singles/malibu/android/_devices.sh  
+
+# uninstall
+. ./mobile/praia/singles/malibu/android/_uninstall.sh       
+
+# install 
+. ./mobile/praia/singles/malibu/android/_install.sh    
+
+# init debug ( DEBUG true && DEBUG_MODE "usb")     
+. ./mobile/praia/singles/malibu/android/_debug.sh    
+
+# run
+. ./mobile/praia/singles/malibu/_run.sh
+
+
+####################################################################################################
+
+
+# # IPANEMA-ANDROID         
+  
+# # swf  
+# PLATFORM="android" 
+# # IPANEMA_ANDROID_ARCH="x86"
+# IPANEMA_ANDROID_ARCH="armv7" 
+# MOBILE=true 
+ 
+# DEBUG=true                
+# DEBUG_MODE="network"     
+# # DEBUG_MODE="usb"   
+
+# . defaultArgs.sh    
+
+
+# # PRAIA
+
+# . ./mobile/praia/singles/ipanema/_swf.sh         
+
+# # apk
+# IPANEMA_ANDROID_PROFILE_MODE="dev"        
+# # IPANEMA_ANDROID_PROFILE_MODE="release"        
+# . ./mobile/praia/singles/ipanema/android/_apk.sh        
+
+# # kill / force stop	
+# . ./mobile/praia/singles/ipanema/android/_kill.sh 
+
+# # get devices
+# . ./mobile/praia/singles/ipanema/android/_devices.sh  
+
+# # uninstall
+# . ./mobile/praia/singles/ipanema/android/_uninstall.sh       
+
+# # install 
+# . ./mobile/praia/singles/ipanema/android/_install.sh    
+
+# # init debug ( DEBUG true && DEBUG_MODE "usb")     
+# . ./mobile/praia/singles/ipanema/android/_debug.sh   
+
+# # run
+# . ./mobile/praia/singles/ipanema/_run.sh
+
+
+
+
+
+####################################################################################################
 
 
 
@@ -270,6 +381,10 @@ DEBUG=true
 
  
  
+
+
+####################################################################################################
+
  
 # # ANDROID         
   
@@ -342,7 +457,7 @@ DEBUG=true
 
 
 
-
+####################################################################################################
 
 
  

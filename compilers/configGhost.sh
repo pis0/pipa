@@ -6,9 +6,9 @@
 # export SDK="C:/workspace/_airSDKs/20.0.0.233"      
 # export SDK="C:/workspace/_airSDKs/20.0.0.260"      
 # export SDK="C:/workspace/_airSDKs/21.0.0.176"   
-# export SDK="C:/workspace/_airSDKs/21.0.0.198"           
+export SDK="C:/workspace/_airSDKs/21.0.0.198"           
 # export SDK="C:/workspace/_airSDKs/21.0.0.215"          
-export SDK="C:/workspace/_airSDKs/22.0.0.153"        
+# export SDK="C:/workspace/_airSDKs/22.0.0.153"        
 # export SDK="C:/workspace/_airSDKs/23_beta"     
 
 
@@ -41,9 +41,9 @@ export MOBILE_DEBUG_LOCAL_PORT=7937
 export MOBILE_DEBUG_REMOTE_PORT=16000
 
 export MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs" 
-# export NETWORK_IP="192.168.100.26" 
+export NETWORK_IP="192.168.100.26" 
 # export NETWORK_IP="169.254.81.192" 
-export NETWORK_IP="2001:2:0:aab1:6115:7bec:a766:51c0"
+# export NETWORK_IP="2001:2:0:aab1:6115:7bec:a766:51c0"
 
 
 
@@ -92,7 +92,6 @@ export PRAIA_ANDROID_APK_OUT="C:/Users/User/Desktop/PraiaBingo.apk"
 
 
 
-
 # iOS
 export IOS_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/ios" 
 
@@ -112,6 +111,45 @@ export PRAIA_IOS_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/ios/dev.xml"
 export PRAIA_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/ios/release.xml" 
 
 export PRAIA_IOS_IPA_OUT="C:/Users/user/Desktop/PraiaBingo.ipa"
+
+
+
+
+# SINGLES MALIBU #########################################################################################
+
+
+# ANDROID
+export MALIBU_ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
+
+export MALIBU_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-android.swf"
+
+export MALIBU_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-android.p12"
+export MALIBU_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
+
+export MALIBU_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-dev.xml"
+export MALIBU_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-release.xml"
+
+export MALIBU_ANDROID_APK_OUT="C:/Users/User/Desktop/MalibuAndroid.apk"   
+
+
+
+# SINGLES IPANEMA #########################################################################################
+
+# ANDROID
+export IPANEMA_ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 
+
+export IPANEMA_ANDROID_SWF_OUT="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-android.swf"
+
+export IPANEMA_ANDROID_APP_CERTIFICATE="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-android.p12"
+export IPANEMA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
+
+export IPANEMA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-dev.xml"
+export IPANEMA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-release.xml"
+
+export IPANEMA_ANDROID_APK_OUT="C:/Users/User/Desktop/IpanemaAndroid.apk"   
+
+
+
 
 
 
