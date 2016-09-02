@@ -15,11 +15,17 @@ export DEVICE
 export PLATFORM
 
 
-# singles-android
-export SINGLES_ANDROID_ARCH
-export SINGLES_ANDROID_PROFILE_MODE
-export SINGLES_ANDROID_APP_CERTIFICATE
-export SINGLES_ANDROID_APP_CERTIFICATE_PASSWORD 
+# malibu-android
+export MALIBU_ANDROID_ARCH
+export MALIBU_ANDROID_PROFILE_MODE
+export MALIBU_ANDROID_APP_CERTIFICATE
+export MALIBU_ANDROID_APP_CERTIFICATE_PASSWORD 
+
+# ipanema-android
+export IPANEMA_ANDROID_ARCH
+export IPANEMA_ANDROID_PROFILE_MODE
+export IPANEMA_ANDROID_APP_CERTIFICATE
+export IPANEMA_ANDROID_APP_CERTIFICATE_PASSWORD 
 
 
 # amazon
@@ -260,7 +266,7 @@ DEBUG_MODE="network"
 
 # PRAIA
 
-. ./mobile/praia/singles/malibu/_swf.sh         
+. ./mobile/praia/singles/malibu/_swf.sh          
 
 # apk
 MALIBU_ANDROID_PROFILE_MODE="dev"        
@@ -283,7 +289,7 @@ MALIBU_ANDROID_PROFILE_MODE="dev"
 . ./mobile/praia/singles/malibu/android/_debug.sh    
 
 # run
-. ./mobile/praia/singles/malibu/_run.sh
+# . ./mobile/praia/singles/malibu/_run.sh
 
 
 ####################################################################################################
