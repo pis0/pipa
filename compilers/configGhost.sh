@@ -129,11 +129,35 @@ export MALIBU_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
 export MALIBU_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-dev.xml"
 export MALIBU_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/malibu/android/malibu-release.xml"
 
-export MALIBU_ANDROID_APK_OUT="C:/Users/User/Desktop/MalibuAndroid.apk"   
+export MALIBU_ANDROID_APK_OUT="C:/Users/User/Desktop/Malibu.apk"   
+
+
+
+# IOS
+export MALIBU_IOS_SWF_OUT="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-ios.swf"
+
+export MALIBU_IOS_APP_CERTIFICATE_DEV="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-dev.p12"
+export MALIBU_IOS_APP_CERTIFICATE_DEV_PASSWORD="pipastudios"
+
+export MALIBU_IOS_APP_CERTIFICATE_RELEASE="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-release.p12" 
+export MALIBU_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
+
+export MALIBU_IOS_APP_MOBILEPROVISION_DEV="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-dev.mobileprovision"
+export MALIBU_IOS_APP_MOBILEPROVISION_RELEASE="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-release.mobileprovision"
+# export MALIBU_IOS_APP_MOBILEPROVISION_DISTRIBUTION="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-adhoc.mobileprovision"
+
+export MALIBU_IOS_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-dev.xml"
+export MALIBU_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/malibu/ios/malibu-release.xml" 
+
+export MALIBU_IOS_IPA_OUT="C:/Users/user/Desktop/Malibu.ipa"
+
+
+
 
 
 
 # SINGLES IPANEMA #########################################################################################
+
 
 # ANDROID
 export IPANEMA_ANDROID_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/android" 

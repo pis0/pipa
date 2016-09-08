@@ -48,7 +48,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/cabos/view/src"   
   "-source-path+=$PRAIA_IN_PATH/malibu/view/src"  
   # "-source-path+=$PRAIA_IN_PATH/keys/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
+  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src"
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
@@ -82,7 +82,11 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"      
    
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"       
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
+
+  # TODO to delete (get idfv)
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AirDeviceId.ane"   
+
  
 )
 
@@ -99,6 +103,15 @@ case $PLATFORM in
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")  
     
   ;;    
+  "ios")            
+    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesIosStartup.as")  
+    inOut+=("$MALIBU_IOS_SWF_OUT") 
+   
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")     
+
+  ;;
+
 esac
 
 . process.sh
