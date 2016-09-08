@@ -1,13 +1,13 @@
 
-# install
+# install ipanema
 
 echo
-echo "installing app ..."
+echo "installing ipanema app ..."
 
 installArgs=(
 	"install"
 	"-r"
-	"$PRAIA_SINGLES_ANDROID_APK_OUT"
+	"$IPANEMA_ANDROID_APK_OUT"
 )
 
 

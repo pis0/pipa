@@ -1,8 +1,8 @@
 
-# kill
+# kill malibu
 
 echo
-echo "kill server and force stop ..."
+echo "kill malibu server and force stop ..."
 
 # kill server
 killServerArgs=(
@@ -16,7 +16,7 @@ forceStopArgs=(
 	"shell"
 	"am"
 	"force-stop"
-	"air.com.pipastudios.release.praiabingo"
+	"air.com.pipastudios.release.videobingomalibu"
 )
 if ($ANDROID_ADB ${forceStopArgs[@]}); then
   echo "success!"

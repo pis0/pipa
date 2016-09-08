@@ -1,7 +1,7 @@
 
-# debug
+# debug ipanema
 
 echo
-echo "init debug [FDB]..."
+echo "init ipanema debug [FDB]..."
 
 $ANDROID_ADB forward tcp:$MOBILE_DEBUG_LOCAL_PORT tcp:$MOBILE_DEBUG_LOCAL_PORT	

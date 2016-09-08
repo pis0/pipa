@@ -15,6 +15,27 @@ export DEVICE
 export PLATFORM
 
 
+# malibu-android
+export MALIBU_ANDROID_ARCH
+export MALIBU_ANDROID_PROFILE_MODE
+export MALIBU_ANDROID_APP_CERTIFICATE
+export MALIBU_ANDROID_APP_CERTIFICATE_PASSWORD 
+
+# malibu-ios
+export MALIBU_IOS_ARCH
+export MALIBU_IOS_PROFILE_MODE
+export MALIBU_IOS_APP_CERTIFICATE
+export MALIBU_IOS_APP_CERTIFICATE_PASSWORD 
+
+
+
+# ipanema-android
+export IPANEMA_ANDROID_ARCH
+export IPANEMA_ANDROID_PROFILE_MODE
+export IPANEMA_ANDROID_APP_CERTIFICATE
+export IPANEMA_ANDROID_APP_CERTIFICATE_PASSWORD 
+
+
 # amazon
 export AMAZON_ARCH
 export AMAZON_PROFILE_MODE
@@ -41,7 +62,7 @@ export IOS_FIRST_DEVICE
 
 # commons
 export SHOW_WARNINGS=true
-export OPTIMIZE=false
+export OPTIMIZE=false 
 export DEFAULT_SIZE=760,1024 
 export PLAYER_GLOBAL=21.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
 export TARGET_PLAYER=21 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
@@ -63,7 +84,7 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # . _CHECKER.sh
 
 
-
+####################################################################################################
 
 # # COMPOSER
 
@@ -81,6 +102,8 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./composers/praia/_tulumComposer.sh  
 
  
+####################################################################################################
+
 
 
 # # STARTUPS  
@@ -114,13 +137,9 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # . ./web/praia/assets/_keys.sh  
 # . ./web/praia/startups/_keysStartup.sh   
 
-# # menton  
+# # # menton  
 # # . ./web/praia/assets/_menton.sh  
 # # . ./web/praia/startups/_mentonStartup.sh   
-
-# # Tenerife
-# # . ./web/praia/assets/_tenerife.sh
-# # . ./web/praia/startups/_tenerifeStartup.sh
 
 
 # # # MAGIC
@@ -142,18 +161,25 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 
 
-# SINGLES
+####################################################################################################
 
-PLATAFORM="web" 
-DEBUG=true          
-# FORCE_MOBILE=true    
+
+
+
+# # SINGLES WEB
+
+# PLATAFORM="web" 
+# DEBUG=true          
+# # FORCE_MOBILE=true    
  
-. defaultArgs.sh     
+# . defaultArgs.sh     
 
-# PRAIA 
+# # PRAIA 
 
-. ./web/praia/singles/_singlesStartup.sh 
+# . ./web/praia/singles/_singlesStartup.sh  
 
+
+####################################################################################################
 
  
  
@@ -162,7 +188,7 @@ DEBUG=true
 # # WEB   
  
 # PLATAFORM="web" 
-# DEBUG=true          
+# # DEBUG=true          
 # # FORCE_MOBILE=true    
  
 # . defaultArgs.sh     
@@ -190,46 +216,193 @@ DEBUG=true
 # # # . ./web/praia/assets/_formentera.sh   
 # # # . ./web/praia/assets/_cabos.sh   
 # # # . ./web/praia/assets/_malibu.sh      
-# # # . ./web/praia/assets/_tenerife.sh
 
 # # # loaders
-# # . ./web/praia/loaders/_canvasMainSwf.sh    
-# # . ./web/praia/loaders/_loaderSwf.sh  
+# . ./web/praia/loaders/_canvasMainSwf.sh    
+# . ./web/praia/loaders/_loaderSwf.sh  
 
 # # # run
-# # run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE            
+# run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE            
  
  
-# # MAGIC 
+# # # MAGIC 
 
-# # assets   
-# # . ./web/magic/assets/_hud.sh 
-# # . ./web/magic/assets/_bossa.sh 
-# # . ./web/magic/assets/_house.sh  
-# # . ./web/magic/assets/_circus.sh  
-# # . ./web/magic/assets/_lobby.sh  
-# # . ./web/magic/assets/_shang.sh   
-# # . ./web/magic/assets/_wild.sh    
-# # . ./web/magic/assets/_fiesta.sh  
-# # . ./web/magic/assets/_carnival.sh 
-# # . ./web/magic/assets/_dazzle.sh 
-# # . ./web/magic/assets/_karaoke.sh 
-# # . ./web/magic/assets/_poker.sh
-# # . ./web/magic/assets/_vegas.sh 
+# # # assets   
+# # # . ./web/magic/assets/_hud.sh 
+# # # . ./web/magic/assets/_bossa.sh 
+# # # . ./web/magic/assets/_house.sh  
+# # # . ./web/magic/assets/_circus.sh  
+# # # . ./web/magic/assets/_lobby.sh  
+# # # . ./web/magic/assets/_shang.sh   
+# # # . ./web/magic/assets/_wild.sh    
+# # # . ./web/magic/assets/_fiesta.sh  
+# # # . ./web/magic/assets/_carnival.sh 
+# # # . ./web/magic/assets/_dazzle.sh 
+# # # . ./web/magic/assets/_karaoke.sh 
+# # # . ./web/magic/assets/_poker.sh
+# # # . ./web/magic/assets/_vegas.sh 
 
-# # # loaders
-# . ./web/magic/loaders/_canvasMainSwf.sh  
-# . ./web/magic/loaders/_loaderSwf.sh 
+# # # # loaders
+# # . ./web/magic/loaders/_canvasMainSwf.sh  
+# # . ./web/magic/loaders/_loaderSwf.sh 
 
-# # # run
-# run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE    
-
-
+# # # # run
+# # run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE    
 
 
 
 
 
+
+####################################################################################################
+
+
+ 
+# MALIBU-ANDROID         
+  
+# swf  
+PLATFORM="android" 
+# MALIBU_ANDROID_ARCH="x86"
+MALIBU_ANDROID_ARCH="armv7" 
+MOBILE=true 
+ 
+DEBUG=true                
+DEBUG_MODE="network"     
+# DEBUG_MODE="usb"   
+
+. defaultArgs.sh    
+
+
+# PRAIA
+
+. ./mobile/praia/singles/malibu/_swf.sh          
+
+# apk
+# MALIBU_ANDROID_PROFILE_MODE="dev"        
+MALIBU_ANDROID_PROFILE_MODE="release"        
+. ./mobile/praia/singles/malibu/android/_apk.sh        
+
+# kill / force stop	
+. ./mobile/praia/singles/malibu/android/_kill.sh 
+
+# get devices
+. ./mobile/praia/singles/malibu/android/_devices.sh  
+
+# uninstall
+. ./mobile/praia/singles/malibu/android/_uninstall.sh       
+
+# install 
+. ./mobile/praia/singles/malibu/android/_install.sh    
+
+# init debug ( DEBUG true && DEBUG_MODE "usb")     
+. ./mobile/praia/singles/malibu/android/_debug.sh     
+
+# run
+# . ./mobile/praia/singles/malibu/_run.sh
+
+
+
+
+####################################################################################################
+
+
+
+# # MALIBU-IOS         
+  
+# # swf  
+# PLATFORM="ios" 
+# # MALIBU_IOS_ARCH="x86"
+# MALIBU_IOS_ARCH="armv7" 
+# MOBILE=true 
+ 
+# DEBUG=true                
+# DEBUG_MODE="network"     
+# # DEBUG_MODE="usb"   
+
+# . defaultArgs.sh    
+
+
+# # PRAIA
+
+# . ./mobile/praia/singles/malibu/_swf.sh            
+
+# # ipa
+# IOS_COMPILE_MODE="fast"   
+# # IOS_COMPILE_MODE="standard"        
+# IOS_PROFILE_MODE="dev"     
+# # IOS_PROFILE_MODE="beta"  
+# # IOS_PROFILE_MODE="final"  
+# . ./mobile/praia/singles/malibu/ios/_ipa.sh    
+
+# # get device 
+# . ./mobile/praia/singles/malibu/ios/_devices.sh
+
+# # uninstall
+# . ./mobile/praia/singles/malibu/ios/_uninstall.sh 
+
+# # install
+# . ./mobile/praia/singles/malibu/ios/_install.sh  
+
+# # init debug ( DEBUG true && DEBUG_MODE "usb") 
+# . ./mobile/praia/singles/malibu/ios/_debug.sh  
+
+
+
+
+
+
+
+
+####################################################################################################
+
+
+# # IPANEMA-ANDROID         
+  
+# # swf  
+# PLATFORM="android" 
+# # IPANEMA_ANDROID_ARCH="x86"
+# IPANEMA_ANDROID_ARCH="armv7" 
+# MOBILE=true 
+ 
+# # DEBUG=true                
+# DEBUG_MODE="network"     
+# # DEBUG_MODE="usb"   
+
+# . defaultArgs.sh    
+
+
+# # PRAIA
+
+# . ./mobile/praia/singles/ipanema/_swf.sh         
+
+# # apk
+# IPANEMA_ANDROID_PROFILE_MODE="dev"        
+# # IPANEMA_ANDROID_PROFILE_MODE="release"        
+# . ./mobile/praia/singles/ipanema/android/_apk.sh        
+
+# # kill / force stop	
+# . ./mobile/praia/singles/ipanema/android/_kill.sh 
+
+# # get devices
+# . ./mobile/praia/singles/ipanema/android/_devices.sh  
+
+# # uninstall
+# . ./mobile/praia/singles/ipanema/android/_uninstall.sh       
+
+# # install 
+# . ./mobile/praia/singles/ipanema/android/_install.sh    
+
+# # init debug ( DEBUG true && DEBUG_MODE "usb")     
+# . ./mobile/praia/singles/ipanema/android/_debug.sh   
+
+# # run
+# # . ./mobile/praia/singles/ipanema/_run.sh
+
+
+
+
+
+####################################################################################################
 
 
 
@@ -275,6 +448,10 @@ DEBUG=true
 
  
  
+
+
+####################################################################################################
+
  
 # # ANDROID         
   
@@ -347,7 +524,7 @@ DEBUG=true
 
 
 
-
+####################################################################################################
 
 
  
@@ -418,8 +595,6 @@ DEBUG=true
 
 # # # run ( doesn't work on ios ) 
 # # # . ./mobile/_run.sh 
-
-
 
 
 
