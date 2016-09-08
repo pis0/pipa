@@ -47,7 +47,8 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/ubatuba/view/src"  
   "-source-path+=$PRAIA_IN_PATH/cabos/view/src"   
   "-source-path+=$PRAIA_IN_PATH/malibu/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/keys/view/src" 
+  # "-source-path+=$PRAIA_IN_PATH/keys/view/src" 
+  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
