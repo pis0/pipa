@@ -34,6 +34,7 @@ CLASSES=(
 	0 "$PRAIA_PATH\cabos\view"
 	0 "$PRAIA_PATH\malibu\view"
 	0 "$PRAIA_PATH\keys\view"
+	0 "$PRAIA_PATH\tenerife\view"
 
 	0 "$ASSUKAR_PATH\view"
 	0 "$ASSUKAR_PATH\domain"
@@ -50,11 +51,14 @@ CLASSES=(
 
 )
 LIBS=(
-	"$LIB_PATH\as3-signals.swc"
-	"$LIB_PATH\MinimalComps.swc"
-	"$LIB_PATH\fzip.swc"
+	
+	# both
+    "$LIB_PATH\fzip.swc"  
+    "$LIB_PATH\MinimalComps.swc" 
+    "$LIB_PATH\as3-signals.swc" 
 
-	 "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
+
+    "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
     "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
@@ -63,19 +67,24 @@ LIBS=(
 
     "$LIB_PATH\AppsFlyerAIRExtension-witout-gp.ane" 
 
-    # android    
-    # "$LIB_PATH\android\ImmersiveMode.ane" 
-    "$LIB_PATH\android\AndroidFullScreen.ane" 
-    "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"     
-    "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane" 
-    "$LIB_PATH\SystemProperties.ane"    
+    # android
+    # "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"   
+    "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane"  
+    "$LIB_PATH\SystemProperties.ane"  
 
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    
     "$LIB_PATH\ios\com.milkmangames.extensions.GameCenter.ane" 
+    "$LIB_PATH\AirDeviceId.ane" 
 
-    #amazon
-    "$LIB_PATH\android\AmazonIapV2Extension.ane" 
+    # Amazon
+    "$LIB_PATH\android\AmazonIapV2Extension.ane"   
+    
+    # vungle    
+    "$LIB_PATH\com.vungle.extensions.Vungle.ane"
+    # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
 )
 
 . sh/process.sh

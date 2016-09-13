@@ -30,6 +30,7 @@ CLASSES=(
 	0 "$PRAIA_PATH\cabos\view"
 	0 "$PRAIA_PATH\malibu\view"
 	0 "$PRAIA_PATH\keys\view"
+	0 "$PRAIA_PATH\tenerife\view"
 
 	0 "$ASSUKAR_PATH\view"
 	0 "$ASSUKAR_PATH\domain"
