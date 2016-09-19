@@ -15,6 +15,17 @@ export DEVICE
 export PLATFORM
 
 
+
+# embeds
+# export COMMONS=false
+# export HUD=true
+# export CHAT=true
+# #
+# export BELA=true
+# export NORONHA=true
+# export ITACARE=true  
+
+
 # malibu-android
 export MALIBU_ANDROID_ARCH
 export MALIBU_ANDROID_PROFILE_MODE
@@ -34,6 +45,14 @@ export IPANEMA_ANDROID_ARCH
 export IPANEMA_ANDROID_PROFILE_MODE
 export IPANEMA_ANDROID_APP_CERTIFICATE
 export IPANEMA_ANDROID_APP_CERTIFICATE_PASSWORD 
+
+# malibu-ios
+export IPANEMA_IOS_ARCH
+export IPANEMA_IOS_PROFILE_MODE
+export IPANEMA_IOS_APP_CERTIFICATE
+export IPANEMA_IOS_APP_CERTIFICATE_PASSWORD 
+
+
 
 
 # amazon
@@ -66,7 +85,10 @@ export OPTIMIZE=false
 export DEFAULT_SIZE=760,1024 
 export PLAYER_GLOBAL=21.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
 export TARGET_PLAYER=21 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
-export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32      
+export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32         
+
+
+
 
 
 
@@ -163,9 +185,6 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 ####################################################################################################
 
-
-
-
 # # SINGLES WEB
 
 # PLATAFORM="web" 
@@ -176,7 +195,7 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 # # PRAIA 
 
-# . ./web/praia/singles/_singlesStartup.sh  
+# . ./web/praia/singles/_singlesStartup.sh   
 
 
 ####################################################################################################
@@ -196,7 +215,7 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # # PRAIA 
 
 # # # assets   
-# # # . ./web/praia/assets/_hud.sh 
+# . ./web/praia/assets/_hud.sh 
 # # # . ./web/praia/assets/_lobby.sh
 # # # . ./web/praia/assets/_bela.sh 
 # # # . ./web/praia/assets/_ilhabela.sh
@@ -258,54 +277,64 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 
  
-# MALIBU-ANDROID         
+# # MALIBU-ANDROID          
   
-# swf  
-PLATFORM="android" 
-# MALIBU_ANDROID_ARCH="x86"
-MALIBU_ANDROID_ARCH="armv7" 
-MOBILE=true 
+# # swf  
+# PLATFORM="android" 
+# # MALIBU_ANDROID_ARCH="x86"
+# MALIBU_ANDROID_ARCH="armv7" 
+# MOBILE=true 
  
-DEBUG=true                
-DEBUG_MODE="network"     
-# DEBUG_MODE="usb"   
+# DEBUG=true                   
+# DEBUG_MODE="network"     
+# # DEBUG_MODE="usb"   
 
-. defaultArgs.sh    
+# # # embeds
+# # COMMONS=false
+# # HUD=true
+# # CHAT=true
+# # #
+# # BELA=true
+# # NORONHA=false
+# # ITACARE=true  
 
 
-# PRAIA
+# . defaultArgs.sh    
 
-. ./mobile/praia/singles/malibu/_swf.sh          
 
-# apk
-# MALIBU_ANDROID_PROFILE_MODE="dev"        
-MALIBU_ANDROID_PROFILE_MODE="release"        
-. ./mobile/praia/singles/malibu/android/_apk.sh        
+# # PRAIA
 
-# kill / force stop	
-. ./mobile/praia/singles/malibu/android/_kill.sh 
+# . ./mobile/praia/singles/malibu/_swf.sh          
 
-# get devices
-. ./mobile/praia/singles/malibu/android/_devices.sh  
+# # apk
+# # MALIBU_ANDROID_PROFILE_MODE="dev"        
+# MALIBU_ANDROID_PROFILE_MODE="release"        
+# . ./mobile/praia/singles/malibu/android/_apk.sh         
 
-# uninstall
-. ./mobile/praia/singles/malibu/android/_uninstall.sh       
+# # kill / force stop	
+# . ./mobile/praia/singles/malibu/android/_kill.sh 
 
-# install 
-. ./mobile/praia/singles/malibu/android/_install.sh    
+# # get devices
+# . ./mobile/praia/singles/malibu/android/_devices.sh  
 
-# init debug ( DEBUG true && DEBUG_MODE "usb")     
-. ./mobile/praia/singles/malibu/android/_debug.sh     
+# # uninstall
+# . ./mobile/praia/singles/malibu/android/_uninstall.sh        
 
-# run
-# . ./mobile/praia/singles/malibu/_run.sh
+# # install 
+# . ./mobile/praia/singles/malibu/android/_install.sh    
+
+# # init debug ( DEBUG true && DEBUG_MODE "usb")     
+# . ./mobile/praia/singles/malibu/android/_debug.sh              
+
+# # run
+# # . ./mobile/praia/singles/malibu/_run.sh
 
 
 
 
 ####################################################################################################
 
-
+ 
 
 # # MALIBU-IOS         
   
@@ -327,10 +356,10 @@ MALIBU_ANDROID_PROFILE_MODE="release"
 # . ./mobile/praia/singles/malibu/_swf.sh            
 
 # # ipa
-# IOS_COMPILE_MODE="fast"   
-# # IOS_COMPILE_MODE="standard"        
-# IOS_PROFILE_MODE="dev"     
-# # IOS_PROFILE_MODE="beta"  
+# # IOS_COMPILE_MODE="fast"   
+# IOS_COMPILE_MODE="standard"        
+# # IOS_PROFILE_MODE="dev"     
+# IOS_PROFILE_MODE="beta"  
 # # IOS_PROFILE_MODE="final"  
 # . ./mobile/praia/singles/malibu/ios/_ipa.sh    
 
@@ -356,15 +385,75 @@ MALIBU_ANDROID_PROFILE_MODE="release"
 ####################################################################################################
 
 
-# # IPANEMA-ANDROID         
+ 
+# IPANEMA-ANDROID          
+  
+# swf  
+PLATFORM="android" 
+# IPANEMA_ANDROID_ARCH="x86"
+IPANEMA_ANDROID_ARCH="armv7" 
+MOBILE=true 
+ 
+DEBUG=true                   
+DEBUG_MODE="network"     
+# DEBUG_MODE="usb"   
+
+# # embeds
+# COMMONS=false
+# HUD=true
+# CHAT=true
+# #
+# BELA=true
+# NORONHA=false
+# ITACARE=true  
+
+
+. defaultArgs.sh    
+
+
+# PRAIA
+
+. ./mobile/praia/singles/ipanema/_swf.sh          
+
+# apk
+# IPANEMA_ANDROID_PROFILE_MODE="dev"        
+IPANEMA_ANDROID_PROFILE_MODE="release"        
+. ./mobile/praia/singles/ipanema/android/_apk.sh         
+
+# kill / force stop	
+. ./mobile/praia/singles/ipanema/android/_kill.sh 
+
+# get devices
+. ./mobile/praia/singles/ipanema/android/_devices.sh  
+
+# uninstall
+. ./mobile/praia/singles/ipanema/android/_uninstall.sh        
+
+# install 
+. ./mobile/praia/singles/ipanema/android/_install.sh    
+
+# init debug ( DEBUG true && DEBUG_MODE "usb")     
+. ./mobile/praia/singles/ipanema/android/_debug.sh              
+
+# run
+# . ./mobile/praia/singles/ipanema/_run.sh
+
+
+
+
+####################################################################################################
+
+ 
+
+# # MALIBU-IOS         
   
 # # swf  
-# PLATFORM="android" 
-# # IPANEMA_ANDROID_ARCH="x86"
-# IPANEMA_ANDROID_ARCH="armv7" 
+# PLATFORM="ios" 
+# # IPANEMA_IOS_ARCH="x86"
+# IPANEMA_IOS_ARCH="armv7" 
 # MOBILE=true 
  
-# # DEBUG=true                
+# DEBUG=true                
 # DEBUG_MODE="network"     
 # # DEBUG_MODE="usb"   
 
@@ -373,30 +462,31 @@ MALIBU_ANDROID_PROFILE_MODE="release"
 
 # # PRAIA
 
-# . ./mobile/praia/singles/ipanema/_swf.sh         
+# . ./mobile/praia/singles/ipanema/_swf.sh            
 
-# # apk
-# IPANEMA_ANDROID_PROFILE_MODE="dev"        
-# # IPANEMA_ANDROID_PROFILE_MODE="release"        
-# . ./mobile/praia/singles/ipanema/android/_apk.sh        
+# # ipa
+# # IOS_COMPILE_MODE="fast"   
+# IOS_COMPILE_MODE="standard"        
+# # IOS_PROFILE_MODE="dev"     
+# IOS_PROFILE_MODE="beta"  
+# # IOS_PROFILE_MODE="final"  
+# . ./mobile/praia/singles/ipanema/ios/_ipa.sh    
 
-# # kill / force stop	
-# . ./mobile/praia/singles/ipanema/android/_kill.sh 
-
-# # get devices
-# . ./mobile/praia/singles/ipanema/android/_devices.sh  
+# # get device 
+# . ./mobile/praia/singles/ipanema/ios/_devices.sh
 
 # # uninstall
-# . ./mobile/praia/singles/ipanema/android/_uninstall.sh       
+# . ./mobile/praia/singles/ipanema/ios/_uninstall.sh 
 
-# # install 
-# . ./mobile/praia/singles/ipanema/android/_install.sh    
+# # install
+# . ./mobile/praia/singles/ipanema/ios/_install.sh  
 
-# # init debug ( DEBUG true && DEBUG_MODE "usb")     
-# . ./mobile/praia/singles/ipanema/android/_debug.sh   
+# # init debug ( DEBUG true && DEBUG_MODE "usb") 
+# . ./mobile/praia/singles/ipanema/ios/_debug.sh  
 
-# # run
-# # . ./mobile/praia/singles/ipanema/_run.sh
+
+
+
 
 
 
@@ -529,7 +619,7 @@ MALIBU_ANDROID_PROFILE_MODE="release"
 
  
 
-# iOS     
+# # iOS     
  
 # # swf  
 # PLATFORM="ios"
@@ -547,10 +637,10 @@ MALIBU_ANDROID_PROFILE_MODE="release"
 # . ./mobile/praia/_swf.sh       
 
 # # ipa
-# # IOS_COMPILE_MODE="fast"   
-# IOS_COMPILE_MODE="standard"        
-# # IOS_PROFILE_MODE="dev"     
-# IOS_PROFILE_MODE="beta" 
+# IOS_COMPILE_MODE="fast"   
+# # IOS_COMPILE_MODE="standard"        
+# IOS_PROFILE_MODE="dev"     
+# # IOS_PROFILE_MODE="beta" 
 # # IOS_PROFILE_MODE="final"  
 # . ./mobile/praia/ios/_ipa.sh   
 

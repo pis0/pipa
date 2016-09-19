@@ -8,7 +8,7 @@
 # export SDK="C:/workspace/_airSDKs/21.0.0.176"   
 export SDK="C:/workspace/_airSDKs/21.0.0.198"           
 # export SDK="C:/workspace/_airSDKs/21.0.0.215"          
-# export SDK="C:/workspace/_airSDKs/22.0.0.153"        
+# export SDK="C:/workspace/_airSDKs/22.0.0.153"         
 # export SDK="C:/workspace/_airSDKs/23_beta"     
 
 
@@ -170,9 +170,27 @@ export IPANEMA_ANDROID_APP_CERTIFICATE_PASSWORD="assukar2013"
 export IPANEMA_ANDROID_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-dev.xml"
 export IPANEMA_ANDROID_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/ipanema/android/ipanema-release.xml"
 
-export IPANEMA_ANDROID_APK_OUT="C:/Users/User/Desktop/IpanemaAndroid.apk"   
+export IPANEMA_ANDROID_APK_OUT="C:/Users/User/Desktop/Ipanema.apk"   
 
 
+
+# IOS
+export IPANEMA_IOS_SWF_OUT="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-ios.swf"
+
+export IPANEMA_IOS_APP_CERTIFICATE_DEV="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-dev.p12"
+export IPANEMA_IOS_APP_CERTIFICATE_DEV_PASSWORD="pipastudios"
+
+export IPANEMA_IOS_APP_CERTIFICATE_RELEASE="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-release.p12" 
+export IPANEMA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
+
+export IPANEMA_IOS_APP_MOBILEPROVISION_DEV="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-dev.mobileprovision"
+export IPANEMA_IOS_APP_MOBILEPROVISION_RELEASE="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-release.mobileprovision"
+# export IPANEMA_IOS_APP_MOBILEPROVISION_DISTRIBUTION="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-adhoc.mobileprovision"
+
+export IPANEMA_IOS_APP_DESCRIPTOR_DEV="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-dev.xml"
+export IPANEMA_IOS_APP_DESCRIPTOR_RELEASE="$PRAIA_MOBILE_PATH/singles/ipanema/ios/ipanema-release.xml" 
+
+export IPANEMA_IOS_IPA_OUT="C:/Users/user/Desktop/Ipanema.ipa"
 
 
 
