@@ -20,6 +20,15 @@ defaultArgs=(
 	"-define+=CONFIG::DEBUG,$DEBUG"
 	"-define+=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
 
+	# embeds
+	# "-define+=CONFIG::COMMONS,$COMMONS" 
+	# "-define+=CONFIG::CHAT,$CHAT"
+	# "-define+=CONFIG::HUD,$HUD"
+	# "-define+=CONFIG::BELA,$BELA"
+	# "-define+=CONFIG::NORONHA,$NORONHA" 
+	# "-define+=CONFIG::ITACARE,$ITACARE"
+	
+
 	"-advanced-telemetry=true"
 
 	# warnings
