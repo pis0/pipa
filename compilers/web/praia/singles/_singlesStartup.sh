@@ -50,6 +50,8 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/formentera/view/src"
   "-source-path+=$PRAIA_IN_PATH/cabos/view/src"
   "-source-path+=$PRAIA_IN_PATH/malibu/view/src"
+  "-source-path+=$PRAIA_IN_PATH/keys/view/src"
+  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
 
   # main  
   "-source-path+=$PRAIA_IN_PATH/main/view/src"   
