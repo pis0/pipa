@@ -31,6 +31,7 @@ packageContents=(
   "-C $PRAIA_MOBILE_PATH/android praia-android.swf"  
   "-C $PRAIA_MOBILE_PATH/android/notifications timeBonus.jpg"
   "-C $PRAIA_MOBILE_PATH/sounds/notifications timeBonus.wav"
+  "-C $PRAIA_MOBILE_PATH/sounds/notifications pushAcoes.wav"
   "-C $PRAIA_MOBILE_PATH commons"
   "-C $PRAIA_MOBILE_PATH sounds" 
 )
