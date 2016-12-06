@@ -6,9 +6,10 @@
 # export SDK="C:/workspace/_airSDKs/20.0.0.233"      
 # export SDK="C:/workspace/_airSDKs/20.0.0.260"      
 # export SDK="C:/workspace/_airSDKs/21.0.0.176"   
-export SDK="C:/workspace/_airSDKs/21.0.0.198"           
+# export SDK="C:/workspace/_airSDKs/21.0.0.198"           
 # export SDK="C:/workspace/_airSDKs/21.0.0.215"          
 # export SDK="C:/workspace/_airSDKs/22.0.0.153"         
+export SDK="C:/workspace/_airSDKs/23.0.0.257"
 # export SDK="C:/workspace/_airSDKs/23_beta"     
 
 
@@ -26,7 +27,8 @@ export STARLING_PATH="C:/workspace/_starling/release"
 
 # flash player debug
 # export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_22_sa_debug.exe"  
+# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_22_sa_debug.exe"  
+export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_23_sa_debug.exe"  
 
 
 # DBs
@@ -97,10 +99,10 @@ export IOS_MOBILE_APP_EXTERNAL_DIR="$ASSUKAR_IN_PATH/libs/ios"
 
 export PRAIA_IOS_SWF_OUT="$PRAIA_MOBILE_PATH/ios/praia-ios.swf"
 
-export PRAIA_IOS_APP_CERTIFICATE_DEV="$PRAIA_MOBILE_PATH/ios/assukar_ios_dev_2016_11_23.p12"
+export PRAIA_IOS_APP_CERTIFICATE_DEV="$PRAIA_MOBILE_PATH/ios/assukar_ios_dev_2017_11_23.p12"
 export PRAIA_IOS_APP_CERTIFICATE_DEV_PASSWORD="pipastudios"
 
-export PRAIA_IOS_APP_CERTIFICATE_RELEASE="$PRAIA_MOBILE_PATH/ios/assukar_ios_release_2016_11_23.p12" 
+export PRAIA_IOS_APP_CERTIFICATE_RELEASE="$PRAIA_MOBILE_PATH/ios/assukar_ios_release_2017_12_06.p12" 
 export PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
 
 export PRAIA_IOS_APP_MOBILEPROVISION_DEV="$PRAIA_MOBILE_PATH/ios/assukar-ios-dev.mobileprovision"
@@ -230,10 +232,10 @@ export MAGIC_ANDROID_APK_OUT="C:/Users/User/Desktop/CasinoMagic.apk"
 # iOS
 export MAGIC_IOS_SWF_OUT="$MAGIC_MOBILE_PATH/ios/magic-ios.swf"
 
-export MAGIC_IOS_APP_CERTIFICATE_DEV="$MAGIC_MOBILE_PATH/ios/assukar_ios_dev_2016_11_16.p12"
+export MAGIC_IOS_APP_CERTIFICATE_DEV="$MAGIC_MOBILE_PATH/ios/assukar_ios_dev_2017_11_23.p12"
 export MAGIC_IOS_APP_CERTIFICATE_DEV_PASSWORD="pipastudios"
 
-export MAGIC_IOS_APP_CERTIFICATE_RELEASE="$MAGIC_MOBILE_PATH/ios/assukar_ios_release_2016_11_23.p12" 
+export MAGIC_IOS_APP_CERTIFICATE_RELEASE="$MAGIC_MOBILE_PATH/ios/assukar_ios_release_2017_12_06.p12" 
 export MAGIC_IOS_APP_CERTIFICATE_RELEASE_PASSWORD="PraiaBingo7834PipaStudios"
 
 export MAGIC_IOS_APP_MOBILEPROVISION_DEV="$MAGIC_MOBILE_PATH/ios/assukar-ios-dev.mobileprovision"
