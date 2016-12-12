@@ -2,28 +2,28 @@
 # IPA
 
 echo
-echo "packing ipa ..."
+echo "packing ipa ..." 
 
-case $IOS_PROFILE_MODE in   
-  "dev") 
+# case $IOS_PROFILE_MODE in   
+#   "dev") 
     IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_DEV
     IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_DEV_PASSWORD 
     IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_DEV
-    IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_DEV
-  ;;  
-  "beta") 
-    IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
-    IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
-    IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_RELEASE 
+#     IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_DEV
+#   ;;  
+#   "beta") 
+#     IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
+#     IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
+#     IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_RELEASE 
     IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_RELEASE 
-  ;;
-  "final") 
-    IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
-    IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
-    IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_RELEASE
-    IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_RELEASE
-  ;;  
-esac
+#   ;;
+#   "final") 
+#     IOS_APP_CERTIFICATE=$PRAIA_IOS_APP_CERTIFICATE_RELEASE
+#     IOS_APP_CERTIFICATE_PASSWORD=$PRAIA_IOS_APP_CERTIFICATE_RELEASE_PASSWORD  
+#     IOS_APP_MOBILEPROVISION=$PRAIA_IOS_APP_MOBILEPROVISION_RELEASE
+#     IOS_APP_DESCRIPTOR=$PRAIA_IOS_APP_DESCRIPTOR_RELEASE
+#   ;;  
+# esac
 
 
 
@@ -95,14 +95,14 @@ function process(){
    
   else
 
-    if [ "$IOS_PROFILE_MODE" == "final" ]; then array+=("-target ipa-app-store"); fi
-    # if [ "$IOS_PROFILE_MODE" == "beta" ]; then array+=("-target ipa-ad-hoc"); fi 
-    if [ "$IOS_PROFILE_MODE" == "beta" ]; then array+=("-target ipa-app-store"); fi  
+    # if [ "$IOS_PROFILE_MODE" == "final" ]; then array+=("-target ipa-app-store"); fi
+    # # if [ "$IOS_PROFILE_MODE" == "beta" ]; then array+=("-target ipa-ad-hoc"); fi 
+    # if [ "$IOS_PROFILE_MODE" == "beta" ]; then array+=("-target ipa-app-store"); fi  
     
-    if [ "$IOS_PROFILE_MODE" == "dev" ]; then 
+    # if [ "$IOS_PROFILE_MODE" == "dev" ]; then 
       if [[ "$IOS_COMPILE_MODE" == "standard" ]]; then array+=("-target ipa-test"); fi
-      if [[ "$IOS_COMPILE_MODE" == "fast" ]]; then array+=("-target ipa-test-interpreter"); fi 
-    fi
+    #   if [[ "$IOS_COMPILE_MODE" == "fast" ]]; then array+=("-target ipa-test-interpreter"); fi 
+    # fi
     
   fi
 
