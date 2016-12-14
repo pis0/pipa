@@ -83,9 +83,9 @@ export IOS_FIRST_DEVICE
 export SHOW_WARNINGS=true
 export OPTIMIZE=false 
 export DEFAULT_SIZE=760,1024 
-export PLAYER_GLOBAL=21.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
-export TARGET_PLAYER=21 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
-export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32         
+export PLAYER_GLOBAL=23.0  # 11.1[assets]  #14.0	#15.0   #16.0   #17.0  #18.0  #19.0  #20.0  #21.0 
+export TARGET_PLAYER=23 #12  #11.5  #14  #15  #16  #17  #18  #19  #20  #21
+export SWF_VERSION=34   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32         
 
 
 
@@ -207,40 +207,41 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # WEB   
  
 # PLATAFORM="web" 
-# # DEBUG=true          
+# DEBUG=true          
 # # FORCE_MOBILE=true    
  
 # . defaultArgs.sh     
 
-# # # PRAIA 
+# # PRAIA 
 
-# # # assets   
-# . ./web/praia/assets/_hud.sh 
-# # # . ./web/praia/assets/_lobby.sh
-# # # . ./web/praia/assets/_bela.sh 
-# # # . ./web/praia/assets/_ilhabela.sh
-# # # . ./web/praia/assets/_ipanema.sh
-# # # . ./web/praia/assets/_jurere.sh
-# # # . ./web/praia/assets/_paraty.sh
-# # # . ./web/praia/assets/_itacare.sh
-# # # . ./web/praia/assets/_rosa.sh
-# # # . ./web/praia/assets/_maragogi.sh 
-# # # . ./web/praia/assets/_pipa.sh 
-# # # . ./web/praia/assets/_noronha.sh  
-# # # . ./web/praia/assets/_jeri.sh  
-# # # . ./web/praia/assets/_tulum.sh   
-# # # . ./web/praia/assets/_kauai.sh  
-# # # . ./web/praia/assets/_ubatuba.sh   
-# # # . ./web/praia/assets/_menton.sh   
-# # # . ./web/praia/assets/_formentera.sh   
-# # # . ./web/praia/assets/_cabos.sh   
-# # # . ./web/praia/assets/_malibu.sh      
+# # assets   
+# # . ./web/praia/assets/_hud.sh 
+# # . ./web/praia/assets/_lobby.sh
+# # . ./web/praia/assets/_bela.sh 
+# # . ./web/praia/assets/_ilhabela.sh
+# # . ./web/praia/assets/_ipanema.sh
+# # . ./web/praia/assets/_jurere.sh
+# # . ./web/praia/assets/_paraty.sh
+# # . ./web/praia/assets/_itacare.sh
+# # . ./web/praia/assets/_rosa.sh
+# # . ./web/praia/assets/_maragogi.sh 
+# # . ./web/praia/assets/_pipa.sh 
+# # . ./web/praia/assets/_noronha.sh  
+# # . ./web/praia/assets/_jeri.sh  
+# # . ./web/praia/assets/_tulum.sh   
+# # . ./web/praia/assets/_kauai.sh  
+# # . ./web/praia/assets/_ubatuba.sh   
+# # . ./web/praia/assets/_menton.sh   
+# # . ./web/praia/assets/_formentera.sh   
+# # . ./web/praia/assets/_cabos.sh    
+# # . ./web/praia/assets/_malibu.sh      
+# # . ./web/praia/assets/_tenerife.sh  
 
-# # # loaders
+# # loaders
 # . ./web/praia/loaders/_canvasMainSwf.sh    
 # . ./web/praia/loaders/_loaderSwf.sh  
 
-# # # run
+# # run
 # run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE            
  
  
@@ -386,57 +387,57 @@ export SWF_VERSION=32   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 
 
  
-# IPANEMA-ANDROID          
+# # IPANEMA-ANDROID          
   
-# swf  
-PLATFORM="android" 
-# IPANEMA_ANDROID_ARCH="x86"
-IPANEMA_ANDROID_ARCH="armv7" 
-MOBILE=true 
+# # swf  
+# PLATFORM="android" 
+# # IPANEMA_ANDROID_ARCH="x86"
+# IPANEMA_ANDROID_ARCH="armv7" 
+# MOBILE=true 
  
-DEBUG=true                   
-DEBUG_MODE="network"     
-# DEBUG_MODE="usb"   
+# DEBUG=true                   
+# DEBUG_MODE="network"     
+# # DEBUG_MODE="usb"   
 
-# # embeds
-# COMMONS=false
-# HUD=true
-# CHAT=true
-# #
-# BELA=true
-# NORONHA=false
-# ITACARE=true  
-
-
-. defaultArgs.sh    
+# # # embeds
+# # COMMONS=false
+# # HUD=true
+# # CHAT=true
+# # #
+# # BELA=true
+# # NORONHA=false
+# # ITACARE=true  
 
 
-# PRAIA
+# . defaultArgs.sh    
 
-. ./mobile/praia/singles/ipanema/_swf.sh          
 
-# apk
-# IPANEMA_ANDROID_PROFILE_MODE="dev"        
-IPANEMA_ANDROID_PROFILE_MODE="release"        
-. ./mobile/praia/singles/ipanema/android/_apk.sh         
+# # PRAIA
 
-# kill / force stop	
-. ./mobile/praia/singles/ipanema/android/_kill.sh 
+# . ./mobile/praia/singles/ipanema/_swf.sh          
 
-# get devices
-. ./mobile/praia/singles/ipanema/android/_devices.sh  
+# # apk
+# # IPANEMA_ANDROID_PROFILE_MODE="dev"        
+# IPANEMA_ANDROID_PROFILE_MODE="release"        
+# . ./mobile/praia/singles/ipanema/android/_apk.sh         
 
-# uninstall
-. ./mobile/praia/singles/ipanema/android/_uninstall.sh        
+# # kill / force stop	
+# . ./mobile/praia/singles/ipanema/android/_kill.sh 
 
-# install 
-. ./mobile/praia/singles/ipanema/android/_install.sh    
+# # get devices
+# . ./mobile/praia/singles/ipanema/android/_devices.sh  
 
-# init debug ( DEBUG true && DEBUG_MODE "usb")     
-. ./mobile/praia/singles/ipanema/android/_debug.sh              
+# # uninstall
+# . ./mobile/praia/singles/ipanema/android/_uninstall.sh        
 
-# run
-# . ./mobile/praia/singles/ipanema/_run.sh
+# # install 
+# . ./mobile/praia/singles/ipanema/android/_install.sh    
+
+# # init debug ( DEBUG true && DEBUG_MODE "usb")     
+# . ./mobile/praia/singles/ipanema/android/_debug.sh              
+
+# # run
+# # . ./mobile/praia/singles/ipanema/_run.sh
 
 
 
@@ -505,7 +506,7 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 # AMAZON_ARCH="armv7" 
 # MOBILE=true 
  
-# DEBUG=true                
+# # DEBUG=true                
 # DEBUG_MODE="network"     
 # # DEBUG_MODE="usb"   
 
@@ -514,12 +515,12 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 
 # # PRAIA
 
-# . ./mobile/praia/_swf.sh        
+# . ./mobile/praia/_swf.sh         
 
 # # apk
 # # AMAZON_PROFILE_MODE="dev"      
 # AMAZON_PROFILE_MODE="release"        
-# . ./mobile/praia/amazon/_apk.sh        
+# . ./mobile/praia/amazon/_apk.sh             
 
 # # kill / force stop	
 # . ./mobile/praia/amazon/_kill.sh
@@ -543,72 +544,72 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 ####################################################################################################
 
  
-# # ANDROID         
+# ANDROID         
   
-# # swf  
-# PLATFORM="android" 
-# # ANDROID_ARCH="x86"
-# ANDROID_ARCH="armv7" 
-# MOBILE=true 
+# swf  
+PLATFORM="android" 
+# ANDROID_ARCH="x86"
+ANDROID_ARCH="armv7" 
+MOBILE=true 
  
-# DEBUG=true                
-# DEBUG_MODE="network"     
-# # DEBUG_MODE="usb"   
+DEBUG=true                  
+DEBUG_MODE="network"           
+# DEBUG_MODE="usb"   
 
-# . defaultArgs.sh    
+. defaultArgs.sh    
 
 
-# # PRAIA
+# PRAIA
 
-# . ./mobile/praia/_swf.sh        
+. ./mobile/praia/_swf.sh         
+
+# apk
+# ANDROID_PROFILE_MODE="dev"       
+ANDROID_PROFILE_MODE="release"        
+. ./mobile/praia/android/_apk.sh          
+
+# kill / force stop	
+. ./mobile/praia/android/_kill.sh 
+
+# get devices
+. ./mobile/praia/android/_devices.sh  
+
+# uninstall
+. ./mobile/praia/android/_uninstall.sh                 
+
+# install  
+. ./mobile/praia/android/_install.sh   
+
+# init debug ( DEBUG true && DEBUG_MODE "usb")     
+. ./mobile/praia/android/_debug.sh                     
+# 
+
+# # MAGIC
+
+# . ./mobile/magic/_swf.sh          
 
 # # apk
-# # ANDROID_PROFILE_MODE="dev"      
-# ANDROID_PROFILE_MODE="release"        
-# . ./mobile/praia/android/_apk.sh         
+# # ANDROID_PROFILE_MODE="dev"    
+# ANDROID_PROFILE_MODE="release"       
+# . ./mobile/magic/android/_apk.sh     
 
-# # kill / force stop	
-# . ./mobile/praia/android/_kill.sh
+# # kill / force stop
+# . ./mobile/magic/android/_kill.sh   
 
 # # get devices
-# . ./mobile/praia/android/_devices.sh  
+# . ./mobile/magic/android/_devices.sh 
 
 # # uninstall
-# . ./mobile/praia/android/_uninstall.sh       
+# . ./mobile/magic/android/_uninstall.sh      
 
 # # install 
-# . ./mobile/praia/android/_install.sh   
+# . ./mobile/magic/android/_install.sh 
 
-# # init debug ( DEBUG true && DEBUG_MODE "usb")     
-# . ./mobile/praia/android/_debug.sh               
+# # init debug ( DEBUG true && DEBUG_MODE "usb") 
+# . ./mobile/magic/android/_debug.sh           
 
-
-# # # MAGIC
-
-# # . ./mobile/magic/_swf.sh          
-
-# # # apk
-# # # ANDROID_PROFILE_MODE="dev"    
-# # ANDROID_PROFILE_MODE="release"       
-# # . ./mobile/magic/android/_apk.sh     
-
-# # # kill / force stop
-# # . ./mobile/magic/android/_kill.sh   
-
-# # # get devices
-# # . ./mobile/magic/android/_devices.sh 
-
-# # # uninstall
-# # . ./mobile/magic/android/_uninstall.sh      
-
-# # # install 
-# # . ./mobile/magic/android/_install.sh 
-
-# # # init debug ( DEBUG true && DEBUG_MODE "usb") 
-# # . ./mobile/magic/android/_debug.sh           
-
-# # # run
-# # # . ./mobile/magic/_run.sh
+# # run
+# # . ./mobile/magic/_run.sh
 
 
 
@@ -625,8 +626,8 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 # PLATFORM="ios"
 # MOBILE=true
 
-# DEBUG=true    
-# DEBUG_MODE="network"      
+# DEBUG=true     
+# DEBUG_MODE="network"        
 # # DEBUG_MODE="usb"
 
 # . defaultArgs.sh
@@ -634,15 +635,15 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 
 # # PRAIA
 
-# . ./mobile/praia/_swf.sh       
+# . ./mobile/praia/_swf.sh        
 
 # # ipa
-# IOS_COMPILE_MODE="fast"   
-# # IOS_COMPILE_MODE="standard"        
-# IOS_PROFILE_MODE="dev"     
-# # IOS_PROFILE_MODE="beta" 
+# # IOS_COMPILE_MODE="fast"   
+# IOS_COMPILE_MODE="standard"         
+# IOS_PROFILE_MODE="dev"        
+# # IOS_PROFILE_MODE="beta"   
 # # IOS_PROFILE_MODE="final"  
-# . ./mobile/praia/ios/_ipa.sh   
+# . ./mobile/praia/ios/_ipa.sh    
 
 # # get device 
 # . ./mobile/praia/ios/_devices.sh
@@ -654,7 +655,7 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 # . ./mobile/praia/ios/_install.sh  
 
 # # init debug ( DEBUG true && DEBUG_MODE "usb") 
-# . ./mobile/praia/ios/_debug.sh           
+# . ./mobile/praia/ios/_debug.sh               
 
 
 # # # MAGIC
@@ -683,8 +684,8 @@ IPANEMA_ANDROID_PROFILE_MODE="release"
 
 
 
-# # # run ( doesn't work on ios ) 
-# # # . ./mobile/_run.sh 
+# # # # run ( doesn't work on ios ) 
+# # # # . ./mobile/_run.sh 
 
 
 
