@@ -31,6 +31,7 @@ packageContents=(
   "-C $PRAIA_MOBILE_PATH/amazon praia-amazon.swf"  
   "-C $PRAIA_MOBILE_PATH/amazon/notifications timeBonus.jpg"
   "-C $PRAIA_MOBILE_PATH/sounds/notifications timeBonus.wav"
+  "-C $PRAIA_MOBILE_PATH/sounds/notifications pushAcoes.wav"
   "-C $PRAIA_MOBILE_PATH commons"
   "-C $PRAIA_MOBILE_PATH sounds" 
 )

@@ -2,7 +2,7 @@
 # IPA
 
 echo
-echo "packing ipa ..."
+echo "packing ipa ..." 
 
 case $IOS_PROFILE_MODE in   
   "dev") 
