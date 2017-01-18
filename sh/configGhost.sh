@@ -1,7 +1,6 @@
 
-
 # config 
-export WORKSPACE="C:\workspace" 
+export WORKSPACE="E:\workspace" 
 
 export ASSUKAR_PATH="$WORKSPACE\Assukar\dev\client"
 export PRAIA_PATH="$WORKSPACE\Praia\dev\client"
@@ -13,8 +12,8 @@ export LIB_PATH="Assukar\dev\client\libs"
 
 export OUT_PATH="$WORKSPACE\#PIPA\bin"
 
-export FP_DEBUG="$WORKSPACE\_fpDebug\flashplayer_20_sa_debug.exe"
+export FP_DEBUG="$WORKSPACE\_fpDebug\flashplayer_23_sa_debug.exe"
 
-export TARGET_PLAYER=21
+export TARGET_PLAYER=23
 
 export OUTPUT_MODE=2

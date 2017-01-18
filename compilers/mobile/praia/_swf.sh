@@ -11,14 +11,14 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
   "-source-path+=$ASSUKAR_IN_PATH/air/src" 
-  "-source-path+=$ASSUKAR_IN_PATH/fb/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/mob/src"
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
   "-source-path+=$STARLING_PATH/starling/src"
 
-  "-source-path+=$PRAIA_IN_PATH/fbsource/src"
+  # "-source-path+=$PRAIA_IN_PATH/fbsource/src"
   "-source-path+=$PRAIA_IN_PATH/mobsource/src" 
 
   "-source-path+=$PRAIA_IN_PATH/assets/src"

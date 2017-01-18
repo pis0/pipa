@@ -23,7 +23,7 @@ cd $BASE
 . sh/assukar/ASSUKAR-domain.sh
 . sh/assukar/ASSUKAR-air.sh
 . sh/assukar/ASSUKAR-web.sh
-. sh/assukar/ASSUKAR-fb.sh
+# . sh/assukar/ASSUKAR-fb.sh
 . sh/assukar/ASSUKAR-view.sh
 . sh/assukar/ASSUKAR-extras.sh
 . sh/assukar/ASSUKAR-mob.sh
@@ -32,7 +32,7 @@ cd $BASE
 . sh/praia/PRAIA-assets.sh
 . sh/praia/PRAIA-chat.sh
 . sh/praia/PRAIA-domain.sh
-. sh/praia/PRAIA-fbsource.sh
+# . sh/praia/PRAIA-fbsource.sh
 . sh/praia/PRAIA-loader.sh
 . sh/praia/PRAIA-mobsource.sh
 . sh/praia/PRAIA-support.sh
@@ -67,7 +67,7 @@ cd $BASE
 . sh/magic/MAGIC-assets.sh
 . sh/magic/MAGIC-bossajazz.sh
 . sh/magic/MAGIC-domain.sh
-. sh/magic/MAGIC-fbsource.sh
+# . sh/magic/MAGIC-fbsource.sh
 . sh/magic/MAGIC-houseofluck.sh
 . sh/magic/MAGIC-hud.sh
 . sh/magic/MAGIC-loader.sh

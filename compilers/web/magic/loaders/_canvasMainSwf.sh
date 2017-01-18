@@ -12,7 +12,7 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
 	"-source-path+=$ASSUKAR_IN_PATH/engine/src"
 	"-source-path+=$ASSUKAR_IN_PATH/domain/src"	
-	"-source-path+=$ASSUKAR_IN_PATH/fb/src"
+	# "-source-path+=$ASSUKAR_IN_PATH/fb/src"
 	"-source-path+=$ASSUKAR_IN_PATH/air/src"
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
 	"-source-path+=$ASSUKAR_IN_PATH/extras/src"	
@@ -20,7 +20,7 @@ sourcePaths=(
 	"-source-path+=$STARLING_PATH/starling/src"
 
 	"-source-path+=$MAGIC_IN_PATH/domain/src"
-	"-source-path+=$MAGIC_IN_PATH/fbsource/src"	
+	# "-source-path+=$MAGIC_IN_PATH/fbsource/src"	
 	"-source-path+=$MAGIC_IN_PATH/assets/src"
 	
 	"-source-path+=$MAGIC_IN_PATH/houseofluck/src"

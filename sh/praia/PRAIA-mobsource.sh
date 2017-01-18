@@ -11,7 +11,7 @@ CLASSES=(
 	0 "$PRAIA_PATH\chat"
 	0 "$PRAIA_PATH\assets"
 	0 "$PRAIA_PATH\domain"
-	0 "$PRAIA_PATH\fbsource"
+	# 0 "$PRAIA_PATH\fbsource"
 
 	0 "$PRAIA_PATH\hud\view"
 	0 "$PRAIA_PATH\lobby\view"
@@ -42,7 +42,7 @@ CLASSES=(
  	0 "$ASSUKAR_PATH\airong" 
  	0 "$ASSUKAR_PATH\extras"	 
 
- 	0 "$ASSUKAR_PATH\fb"
+ 	# 0 "$ASSUKAR_PATH\fb"
 
  	0 "$ASSUKAR_PATH\mob"
 	0 "$ASSUKAR_PATH\air"
