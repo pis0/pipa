@@ -13,13 +13,13 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
-  "-source-path+=$ASSUKAR_IN_PATH/fb/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
   "-source-path+=$STARLING_PATH/starling/src"
 
-  "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
+  # "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
   "-source-path+=$PRAIA_IN_PATH/assets/src"  
   "-source-path+=$PRAIA_IN_PATH/domain/src"   
 
@@ -42,6 +42,7 @@ defines=()
 
 . process.sh
 
+# TODO to fix
 run $PLAYER_DEBUG ${inOut[1]}
-# run $PLAYER_DEBUG "C:/Users/User/Desktop/pipa/pipa/bin/_COMPOSER.swf"
+# run $PLAYER_DEBUG "$STARTUP_OUT_PATH/_COMPOSER.swf"
 
