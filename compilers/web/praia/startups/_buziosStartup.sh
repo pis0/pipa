@@ -43,4 +43,5 @@ defines=()
 . process.sh
 
 run $PLAYER_DEBUG ${inOut[1]}
+# run $PLAYER_DEBUG "C:/Users/User/Desktop/pipa/pipa/bin/_COMPOSER.swf"
 
