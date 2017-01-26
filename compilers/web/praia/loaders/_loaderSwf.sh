@@ -20,8 +20,8 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
 	"-source-path+=$ASSUKAR_IN_PATH/web/src"
 	"-source-path+=$PRAIA_IN_PATH/domain/src"	
-	"-source-path+=$ASSUKAR_IN_PATH/fb/src"
-	"-source-path+=$PRAIA_IN_PATH/fbsource/src"		
+	# "-source-path+=$ASSUKAR_IN_PATH/fb/src"
+	# "-source-path+=$PRAIA_IN_PATH/fbsource/src"		
 
 	"-source-path+=$PRAIA_IN_PATH/loader/src"	
 )

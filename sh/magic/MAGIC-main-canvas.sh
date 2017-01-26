@@ -9,7 +9,7 @@ CLASSES=(
 	0 "$MAGIC_PATH\main\common"
 	0 "$MAGIC_PATH\assets"
 	0 "$MAGIC_PATH\domain"
-	0 "$MAGIC_PATH\fbsource"	
+	# 0 "$MAGIC_PATH\fbsource"	
 
 	0 "$MAGIC_PATH\hud"
 	0 "$MAGIC_PATH\lobby"
@@ -31,7 +31,7 @@ CLASSES=(
  	0 "$ASSUKAR_PATH\airong"
  	0 "$ASSUKAR_PATH\extras"
 	0 "$ASSUKAR_PATH\view"
-	0 "$ASSUKAR_PATH\fb"
+	# 0 "$ASSUKAR_PATH\fb"
 
  	0 "$STARLING_PATH\starling"	
 

@@ -1,10 +1,10 @@
 
-# tenerifeStartup
+# buziosStartup
 
 inOut=(	
-	# tenerifeStartup
-	"$PRAIA_IN_PATH/tenerife/view/src/com/assukar/praia/tenerife/main/TenerifeStartup.as"
-	"$STARTUP_OUT_PATH/TenerifeStartup.swf" 
+	# buziosStartup
+	"$PRAIA_IN_PATH/buzios/view/src/com/assukar/praia/buzios/main/BuziosStartup.as"
+	"$STARTUP_OUT_PATH/BuziosStartup.swf" 
 )
 
 
@@ -13,17 +13,17 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
-  "-source-path+=$ASSUKAR_IN_PATH/fb/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
   "-source-path+=$STARLING_PATH/starling/src"
 
-  "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
+  # "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
   "-source-path+=$PRAIA_IN_PATH/assets/src"  
   "-source-path+=$PRAIA_IN_PATH/domain/src"   
 
-  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src"
+  "-source-path+=$PRAIA_IN_PATH/buzios/view/src" 
 )
 
 libraryPaths=(  
@@ -42,5 +42,7 @@ defines=()
 
 . process.sh
 
+# TODO to fix
 run $PLAYER_DEBUG ${inOut[1]}
+# run $PLAYER_DEBUG "$STARTUP_OUT_PATH/_COMPOSER.swf"
 

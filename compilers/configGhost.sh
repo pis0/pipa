@@ -2,38 +2,38 @@
 # config
 
 # base paths  
-# export SDK="C:/workspace/_airSDKs/20.0.0.204"        
-# export SDK="C:/workspace/_airSDKs/20.0.0.233"      
-# export SDK="C:/workspace/_airSDKs/20.0.0.260"      
-# export SDK="C:/workspace/_airSDKs/21.0.0.176"   
-# export SDK="C:/workspace/_airSDKs/21.0.0.198"           
-# export SDK="C:/workspace/_airSDKs/21.0.0.215"          
-# export SDK="C:/workspace/_airSDKs/22.0.0.153"         
-export SDK="C:/workspace/_airSDKs/23.0.0.257"
-# export SDK="C:/workspace/_airSDKs/23_beta"     
+# export SDK="E:/workspace/_airSDKs/20.0.0.204"        
+# export SDK="E:/workspace/_airSDKs/20.0.0.233"      
+# export SDK="E:/workspace/_airSDKs/20.0.0.260"      
+# export SDK="E:/workspace/_airSDKs/21.0.0.176"   
+# export SDK="E:/workspace/_airSDKs/21.0.0.198"           
+# export SDK="E:/workspace/_airSDKs/21.0.0.215"          
+# export SDK="E:/workspace/_airSDKs/22.0.0.153"         
+export SDK="E:/workspace/_airSDKs/23.0.0.257"
+# export SDK="E:/workspace/_airSDKs/24.0.0.180"
+# export SDK="E:/workspace/_airSDKs/24_beta"     
 
 
 
 # ASSUKAR ##########################################################################################
 
-export ASSUKAR_IN_PATH="C:/workspace/Assukar/dev/client" 
+export ASSUKAR_IN_PATH="E:/workspace/Assukar/dev/client" 
 
 # starling
-export STARLING_PATH="C:/workspace/_starling/release" 
-# export STARLING_PATH="C:/workspace/_starling/beta" 
+export STARLING_PATH="E:/workspace/_starling/release" 
+# export STARLING_PATH="E:/workspace/_starling/beta" 
 
 # away3d
-# export AWAY3D_PATH="C:/workspace/_away3d/4.1.6"
+# export AWAY3D_PATH="E:/workspace/_away3d/4.1.6"
 
 # flash player debug
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
-# export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_22_sa_debug.exe"  
-export PLAYER_DEBUG="C:/workspace/_fpDebug/flashplayer_23_sa_debug.exe"  
+# export PLAYER_DEBUG="E:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  
+# export PLAYER_DEBUG="E:/workspace/_fpDebug/flashplayer_22_sa_debug.exe"  
+export PLAYER_DEBUG="E:/workspace/_fpDebug/flashplayer_23_sa_debug.exe"  
 
 
 # DBs
-# export ANDROID_ADB=C:/Program\ Files\ (x86)/Android/android-sdk/platform-tools/adb.exe
-# export ANDROID_ADB="C:/workspace/_androidSDK/adt-bundle-windows-x86_64-20140702/sdk/platform-tools/adb.exe"
+# export ANDROID_ADB="E:/workspace/_androidSDK/adt-bundle-windows-x86_64-20140702/sdk/platform-tools/adb.exe"
 export ANDROID_ADB="$SDK/lib/android/bin/adb.exe" 
 export IOS_IDB="$SDK/lib/aot/bin/iOSBin/idb.exe"
 
@@ -42,7 +42,7 @@ export IOS_IDB="$SDK/lib/aot/bin/iOSBin/idb.exe"
 export MOBILE_DEBUG_LOCAL_PORT=7937
 export MOBILE_DEBUG_REMOTE_PORT=16000
 
-export MOBILE_APP_EXTERNAL_DIR="C:/workspace/Assukar/dev/client/libs" 
+export MOBILE_APP_EXTERNAL_DIR="E:/workspace/Assukar/dev/client/libs" 
 export NETWORK_IP="192.168.100.26" 
 # export NETWORK_IP="169.254.81.192" 
 # export NETWORK_IP="2001:2:0:aab1:6115:7bec:a766:51c0"
@@ -52,8 +52,8 @@ export NETWORK_IP="192.168.100.26"
 
 # PRAIA ############################################################################################
 
-export PRAIA_IN_PATH="C:/workspace/Praia/dev/client" 
-export PRAIA_OUT_PATH="C:/workspace/Praia/dev/static/praia/game/swf"
+export PRAIA_IN_PATH="E:/workspace/Praia/dev/client" 
+export PRAIA_OUT_PATH="E:/workspace/Praia/dev/static/praia/game/swf"
 
 # web main files
 export PRAIA_WEB_MAIN_FILE="$PRAIA_OUT_PATH/LoaderSwf.swf"
@@ -202,8 +202,8 @@ export IPANEMA_IOS_IPA_OUT="C:/Users/user/Desktop/Ipanema.ipa"
 
 
 # MAGIC ###########################################################################################
-export MAGIC_IN_PATH="C:/workspace/Magic/dev/client" 
-export MAGIC_OUT_PATH="C:/workspace/Magic/dev/static/magic/game/swf" 
+export MAGIC_IN_PATH="E:/workspace/Magic/dev/client" 
+export MAGIC_OUT_PATH="E:/workspace/Magic/dev/static/magic/game/swf" 
 
 # web main files
 export MAGIC_WEB_MAIN_FILE="$MAGIC_OUT_PATH/LoaderSwf.swf" 
@@ -255,10 +255,10 @@ export MAGIC_IOS_IPA_OUT="C:/Users/user/Desktop/CasinoMagic.ipa"
 
 
 # composer
-export COMPOSER_OUT_PATH="C:/workspace/#PIPA/bin"
+export COMPOSER_OUT_PATH="E:/workspace/#PIPA/bin"
 
 # checker
-export CHECKER_OUT_PATH="C:/workspace/#PIPA/bin" 
+export CHECKER_OUT_PATH="E:/workspace/#PIPA/bin" 
 
 # checker
-export STARTUP_OUT_PATH="C:/workspace/#PIPA/bin" 
+export STARTUP_OUT_PATH="E:/workspace/#PIPA/bin" 

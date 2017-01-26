@@ -7,7 +7,7 @@ CLASSES=(
 	0 "$ASSUKAR_PATH\mob"
 	0 "$ASSUKAR_PATH\air"
 	0 "$ASSUKAR_PATH\view"
-	0 "$ASSUKAR_PATH\fb"
+	# 0 "$ASSUKAR_PATH\fb"
 	0 "$ASSUKAR_PATH\domain"
  	0 "$ASSUKAR_PATH\engine"
  	0 "$ASSUKAR_PATH\airong"
