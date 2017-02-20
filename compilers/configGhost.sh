@@ -11,7 +11,7 @@
 # export SDK="E:/workspace/_airSDKs/22.0.0.153"         
 export SDK="E:/workspace/_airSDKs/23.0.0.257"
 # export SDK="E:/workspace/_airSDKs/24.0.0.180"
-# export SDK="E:/workspace/_airSDKs/24_beta"     
+# export SDK="E:/workspace/_airSDKs/24_beta"     	
 
 
 
@@ -20,8 +20,8 @@ export SDK="E:/workspace/_airSDKs/23.0.0.257"
 export ASSUKAR_IN_PATH="E:/workspace/Assukar/dev/client" 
 
 # starling
-export STARLING_PATH="E:/workspace/_starling/release" 
-# export STARLING_PATH="E:/workspace/_starling/beta" 
+# export STARLING_PATH="E:/workspace/_starling/release" 
+export STARLING_PATH="E:/workspace/_starling/1.8" 
 
 # away3d
 # export AWAY3D_PATH="E:/workspace/_away3d/4.1.6"
@@ -56,7 +56,8 @@ export PRAIA_IN_PATH="E:/workspace/Praia/dev/client"
 export PRAIA_OUT_PATH="E:/workspace/Praia/dev/static/praia/game/swf"
 
 # web main files
-export PRAIA_WEB_MAIN_FILE="$PRAIA_OUT_PATH/LoaderSwf.swf"
+# export PRAIA_WEB_MAIN_FILE="$PRAIA_OUT_PATH/LoaderSwf.swf"
+export PRAIA_WEB_MAIN_FILE="$PRAIA_OUT_PATH/_COMPOSER.swf" 
 
 # mobile base path
 export PRAIA_MOBILE_PATH="$PRAIA_IN_PATH/main/view-mobile/build"
@@ -206,7 +207,8 @@ export MAGIC_IN_PATH="E:/workspace/Magic/dev/client"
 export MAGIC_OUT_PATH="E:/workspace/Magic/dev/static/magic/game/swf" 
 
 # web main files
-export MAGIC_WEB_MAIN_FILE="$MAGIC_OUT_PATH/LoaderSwf.swf" 
+# export MAGIC_WEB_MAIN_FILE="$MAGIC_OUT_PATH/LoaderSwf.swf" 
+export MAGIC_WEB_MAIN_FILE="$MAGIC_OUT_PATH/_COMPOSER.swf" 
 
 # mobile base path
 export MAGIC_MOBILE_PATH="$MAGIC_IN_PATH/main/mobile/build"

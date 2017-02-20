@@ -72,7 +72,7 @@ function process(){
     array+=(${packageContents[@]}) 
     array+=(${icons[@]}) 
 
-    # echo "$SDK/bin/adt.bat ${array[@]}"
+    echo "$SDK/bin/adt.bat ${array[@]}"
 
    $SDK/bin/adt.bat ${array[@]}
 }

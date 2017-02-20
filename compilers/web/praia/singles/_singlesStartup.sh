@@ -13,13 +13,13 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
   "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
-  "-source-path+=$ASSUKAR_IN_PATH/fb/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
   "-source-path+=$STARLING_PATH/starling/src"
 
-  "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
+  # "-source-path+=$PRAIA_IN_PATH/fbsource/src" 
   "-source-path+=$PRAIA_IN_PATH/assets/src"  
   "-source-path+=$PRAIA_IN_PATH/domain/src" 
 
@@ -51,7 +51,8 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/cabos/view/src"
   "-source-path+=$PRAIA_IN_PATH/malibu/view/src"
   "-source-path+=$PRAIA_IN_PATH/keys/view/src"
-  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
+  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src"
+  "-source-path+=$PRAIA_IN_PATH/buzios/view/src" 
 
   # main  
   "-source-path+=$PRAIA_IN_PATH/main/view/src"   
@@ -77,5 +78,6 @@ defines=()
 
 . process.sh
 
-run $PLAYER_DEBUG ${inOut[1]}
+# run $PLAYER_DEBUG ${inOut[1]}
+run $PLAYER_DEBUG "$STARTUP_OUT_PATH/_COMPOSER.swf"  
 

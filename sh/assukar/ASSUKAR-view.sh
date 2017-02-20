@@ -6,7 +6,7 @@ NAME="[ASSUKAR]-view"
 CLASSES=(
 	0 "$ASSUKAR_PATH\view"
 	0 "$ASSUKAR_PATH\domain"
- 	0 "$ASSUKAR_PATH\engine"
+# 	0 "$ASSUKAR_PATH\engine"
  	0 "$ASSUKAR_PATH\airong"
 
  	0 "$STARLING_PATH\starling"
