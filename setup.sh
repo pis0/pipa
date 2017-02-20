@@ -19,7 +19,7 @@ cd $BASE
 
 # assukar
 . sh/assukar/ASSUKAR-airong.sh
-. sh/assukar/ASSUKAR-engine.sh
+# . sh/assukar/ASSUKAR-engine.sh
 . sh/assukar/ASSUKAR-domain.sh
 . sh/assukar/ASSUKAR-air.sh
 . sh/assukar/ASSUKAR-web.sh

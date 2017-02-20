@@ -5,7 +5,7 @@
 NAME="[ASSUKAR]-air"
 CLASSES=(
 	0 "$ASSUKAR_PATH\air"
- 	0 "$ASSUKAR_PATH\engine"
+# 	0 "$ASSUKAR_PATH\engine"
  	0 "$ASSUKAR_PATH\airong"
 )
 LIBS=(
