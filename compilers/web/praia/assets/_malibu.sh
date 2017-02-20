@@ -12,7 +12,7 @@ inOut=(
 
 sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
-	"-source-path+=$ASSUKAR_IN_PATH/engine/src"
+	# "-source-path+=$ASSUKAR_IN_PATH/engine/src"
 	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
 	"-source-path+=$PRAIA_IN_PATH/domain/src"		
