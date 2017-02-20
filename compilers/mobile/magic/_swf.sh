@@ -8,7 +8,7 @@ echo "compiling swf ... [$PLATFORM]"
 
 sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
-  "-source-path+=$ASSUKAR_IN_PATH/engine/src"
+#  "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
   "-source-path+=$ASSUKAR_IN_PATH/air/src"
   # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
@@ -70,7 +70,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
 
   # vungle
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.vungle.extensions.Vungle.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.vungle.extensions.Vungle.ane" 
  
 )
 
@@ -88,7 +88,7 @@ case $PLATFORM in
 
      # vungle
     # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.GooglePlayServices.ane")  
-    # externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.AndroidSupportLib.ane")      
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.vungle.extensions.android.AndroidSupportLib.ane")      
 
 
   ;;  

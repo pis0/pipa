@@ -24,7 +24,7 @@ CLASSES=(
 	0 "$MAGIC_PATH\videopoker"
 	
 	0 "$ASSUKAR_PATH\domain"
- 	0 "$ASSUKAR_PATH\engine"
+# 	0 "$ASSUKAR_PATH\engine"
  	0 "$ASSUKAR_PATH\airong"
  	0 "$ASSUKAR_PATH\extras"
 	0 "$ASSUKAR_PATH\view"
