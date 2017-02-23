@@ -70,7 +70,10 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"      
 
   # vungle
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.vungle.extensions.Vungle.ane" 
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.vungle.extensions.Vungle.ane" 
+
+  # adMob
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.AdMob.ane"  
  
 )
 
