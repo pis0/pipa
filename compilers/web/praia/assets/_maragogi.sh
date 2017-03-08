@@ -2,6 +2,9 @@
 # MARAGOGI
 
 inOut=(	
+	# MaragogiAsyncSoundsSwf_de_DE
+	"$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiAsyncSoundsSwf_de_DE.as"
+	"$PRAIA_OUT_PATH/MaragogiAsyncSoundsSwf_de_DE.swf"
 	# MaragogiAsyncSoundsSwf_en_US
 	"$PRAIA_IN_PATH/maragogi/view/src/com/assukar/praia/maragogi/assets/imports/MaragogiAsyncSoundsSwf_en_US.as"
 	"$PRAIA_OUT_PATH/MaragogiAsyncSoundsSwf_en_US.swf"

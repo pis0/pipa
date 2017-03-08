@@ -2,6 +2,9 @@
 # BELA
 
 inOut=(	
+	# BelaAsyncSoundsSwf_de_DE
+	"$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaAsyncSoundsSwf_de_DE.as"
+	"$PRAIA_OUT_PATH/BelaAsyncSoundsSwf_de_DE.swf"
 	# BelaAsyncSoundsSwf_en_US
 	"$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaAsyncSoundsSwf_en_US.as"
 	"$PRAIA_OUT_PATH/BelaAsyncSoundsSwf_en_US.swf"
