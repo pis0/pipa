@@ -82,10 +82,13 @@ LIBS=(
     # Amazon
     "$LIB_PATH\android\AmazonIapV2Extension.ane"   
     
-    # vungle    
-    "$LIB_PATH\com.vungle.extensions.Vungle.ane"
-    # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
-    "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
+    # # vungle    
+    # "$LIB_PATH\com.vungle.extensions.Vungle.ane"
+    # # "$LIB_PATH\android\com.vungle.extensions.android.GooglePlayServices.ane"  
+    # "$LIB_PATH\android\com.vungle.extensions.android.AndroidSupportLib.ane"  
+
+     # adMob
+    "$LIB_PATH\com.milkmangames.extensions.AdMob.ane"
 )
 
 . sh/process.sh
