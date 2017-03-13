@@ -4,7 +4,7 @@
 inOut=(	
 	# LoaderSwf
 	"$PRAIA_IN_PATH/loader/src/com/assukar/praia/loader/view/LoaderSwf.as"
-	"$PRAIA_OUT_PATH/LoaderSwf.swf"	
+	"$PRAIA_OUT_PATH/$LOADER_SWF"	
 )
 
 

@@ -17,6 +17,9 @@ inOut=(
 	# RosaAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/RosaAsyncSoundsSwf_pt_BR.swf"
+	# RosaAsyncSoundsSwf_de_DE
+	"$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaAsyncSoundsSwf_de_DE.as"
+	"$PRAIA_OUT_PATH/RosaAsyncSoundsSwf_de_DE.swf"
 	# RosaAsyncSpritesSwf
 	# "$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaAsyncSpritesSwf.as"
 	# "$PRAIA_OUT_PATH/RosaAsyncSpritesSwf.swf"

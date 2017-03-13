@@ -17,6 +17,9 @@ inOut=(
 	# BelaAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/BelaAsyncSoundsSwf_pt_BR.swf"
+	# BelaAsyncSoundsSwf_de_DE
+	"$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaAsyncSoundsSwf_de_DE.as"
+	"$PRAIA_OUT_PATH/BelaAsyncSoundsSwf_de_DE.swf"
 	# # BelaAsyncSpritesSwf
 	# "$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaAsyncSpritesSwf.as"
 	# "$PRAIA_OUT_PATH/BelaAsyncSpritesSwf.swf"
@@ -27,7 +30,6 @@ inOut=(
 	"$PRAIA_IN_PATH/bela/view/src/com/assukar/praia/bela/assets/imports/BelaSyncSpritesSwf.as"
 	"$PRAIA_OUT_PATH/BelaSyncSpritesSwf.swf"	
 )
-
 
 sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
