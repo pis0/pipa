@@ -13,7 +13,9 @@ export SDK="E:/workspace/_airSDKs/23.0.0.257"
 # export SDK="E:/workspace/_airSDKs/24.0.0.180"
 # export SDK="E:/workspace/_airSDKs/24_beta"     	
 
-
+#web 
+export LOADER_SWF="LoaderSwf.swf"
+export CANVAS_MAIN_SWF="CanvasMainSwf.swf"
 
 # ASSUKAR ##########################################################################################
 
