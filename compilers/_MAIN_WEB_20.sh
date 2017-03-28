@@ -46,33 +46,34 @@ DEBUG=false
 # PRAIA 
 
 # # # # assets   
-# # # . ./web/praia/assets/_hud.sh 
-# # # . ./web/praia/assets/_lobby.sh
-# # # . ./web/praia/assets/_bela.sh 
-# # # . ./web/praia/assets/_ilhabela.sh
-# # # . ./web/praia/assets/_ipanema.sh
-# # # . ./web/praia/assets/_jurere.sh
-# # # . ./web/praia/assets/_paraty.sh
-# # # . ./web/praia/assets/_itacare.sh
-# # # . ./web/praia/assets/_rosa.sh
-# # # . ./web/praia/assets/_maragogi.sh 
-# # # . ./web/praia/assets/_pipa.sh 
-# # # . ./web/praia/assets/_noronha.sh  
-# # # . ./web/praia/assets/_jeri.sh  
-# # # . ./web/praia/assets/_tulum.sh   
-# # # . ./web/praia/assets/_kauai.sh  
-# # # . ./web/praia/assets/_ubatuba.sh   
-# # # . ./web/praia/assets/_menton.sh   
-# # # . ./web/praia/assets/_formentera.sh   
-# # # . ./web/praia/assets/_cabos.sh    
-# # # . ./web/praia/assets/_malibu.sh      
-# # # . ./web/praia/assets/_tenerife.sh  
-# # # . ./web/praia/assets/_keys.sh  
-# # # . ./web/praia/assets/_buzios.sh  
+# . ./web/praia/assets/_hud.sh 
+# . ./web/praia/assets/_lobby.sh
+# . ./web/praia/assets/_bela.sh 
+# . ./web/praia/assets/_ilhabela.sh
+# . ./web/praia/assets/_ipanema.sh
+# . ./web/praia/assets/_jurere.sh
+# . ./web/praia/assets/_paraty.sh
+# . ./web/praia/assets/_itacare.sh
+# . ./web/praia/assets/_rosa.sh
+# . ./web/praia/assets/_maragogi.sh 
+# . ./web/praia/assets/_pipa.sh 
+# . ./web/praia/assets/_noronha.sh  
+# . ./web/praia/assets/_jeri.sh  
+# . ./web/praia/assets/_tulum.sh   
+# . ./web/praia/assets/_kauai.sh  
+# . ./web/praia/assets/_ubatuba.sh   
+# . ./web/praia/assets/_menton.sh   
+# . ./web/praia/assets/_formentera.sh   
+# . ./web/praia/assets/_cabos.sh    
+# . ./web/praia/assets/_malibu.sh      
+# . ./web/praia/assets/_tenerife.sh  
+# . ./web/praia/assets/_keys.sh  
+# . ./web/praia/assets/_buzios.sh
+# . ./web/praia/assets/_sanvito.sh    
 
 # loaders
-. ./web/praia/loaders/_canvasMainSwf.sh
-. ./web/praia/loaders/_loaderSwf.sh 
+ . ./web/praia/loaders/_canvasMainSwf.sh
+ . ./web/praia/loaders/_loaderSwf.sh 
 
 # # run
 # run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE  
@@ -91,9 +92,6 @@ DEBUG=false
 # # loaders
 # . ./web/magic/loaders/_canvasMainSwf.sh 
 # . ./web/magic/loaders/_loaderSwf.sh   
-
-# # run
-# run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE   
 
  
 

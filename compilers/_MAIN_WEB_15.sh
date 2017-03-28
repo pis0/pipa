@@ -68,13 +68,11 @@ DEBUG=false
 # . ./web/praia/assets/_tenerife.sh  
 # . ./web/praia/assets/_keys.sh  
 # . ./web/praia/assets/_buzios.sh  
+# . ./web/praia/assets/_sanvito.sh  
 
 # loaders
 . ./web/praia/loaders/_canvasMainSwf.sh
 . ./web/praia/loaders/_loaderSwf.sh
-
-# # run
-# run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE  
 
 
 # # MAGIC 
@@ -91,8 +89,6 @@ DEBUG=false
 # . ./web/magic/loaders/_canvasMainSwf.sh 
 # . ./web/magic/loaders/_loaderSwf.sh   
 
-# # run
-# run $PLAYER_DEBUG $MAGIC_WEB_MAIN_FILE   
 
  
 
