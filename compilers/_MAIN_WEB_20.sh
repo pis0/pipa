@@ -72,26 +72,30 @@ DEBUG=false
 # . ./web/praia/assets/_sanvito.sh    
 
 # loaders
- . ./web/praia/loaders/_canvasMainSwf.sh
- . ./web/praia/loaders/_loaderSwf.sh 
-
-# # run
-# run $PLAYER_DEBUG $PRAIA_WEB_MAIN_FILE  
+ # . ./web/praia/loaders/_canvasMainSwf.sh
+ # . ./web/praia/loaders/_loaderSwf.sh 
 
 
 # # MAGIC 
 
 # # assets  
-# # . ./web/magic/assets/_hud.sh 
-# # . ./web/magic/assets/_bossa.sh 
-# # . ./web/magic/assets/_house.sh  
-# # . ./web/magic/assets/_circus.sh  
-# # . ./web/magic/assets/_lobby.sh  
-# # . ./web/magic/assets/_shang.sh   
+# . ./web/magic/assets/_hud.sh 
+# . ./web/magic/assets/_bossa.sh 
+# . ./web/magic/assets/_house.sh  
+# . ./web/magic/assets/_circus.sh  
+# . ./web/magic/assets/_lobby.sh  
+# . ./web/magic/assets/_shang.sh   
+# . ./web/magic/assets/_wild.sh    
+# . ./web/magic/assets/_fiesta.sh  
+# . ./web/magic/assets/_carnival.sh 
+# . ./web/magic/assets/_dazzle.sh 
+# . ./web/magic/assets/_karaoke.sh 
+# . ./web/magic/assets/_poker.sh
+# . ./web/magic/assets/_vegas.sh 
 
 # # loaders
-# . ./web/magic/loaders/_canvasMainSwf.sh 
-# . ./web/magic/loaders/_loaderSwf.sh   
+. ./web/magic/loaders/_canvasMainSwf.sh 
+. ./web/magic/loaders/_loaderSwf.sh   
 
  
 

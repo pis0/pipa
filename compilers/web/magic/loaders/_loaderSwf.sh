@@ -4,7 +4,7 @@
 inOut=(	
 	# LoaderSwf
 	"$MAGIC_IN_PATH/loader/src/com/assukar/magic/loader/view/LoaderSwf.as"
-	"$MAGIC_OUT_PATH/LoaderSwf.swf"	
+	"$MAGIC_OUT_PATH/$LOADER_SWF"	
 )
 
 
