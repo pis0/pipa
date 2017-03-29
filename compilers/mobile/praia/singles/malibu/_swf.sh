@@ -8,7 +8,7 @@ echo "compiling malibu swf ... [$PLATFORM]"
 
 sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
-  "-source-path+=$ASSUKAR_IN_PATH/engine/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
   "-source-path+=$ASSUKAR_IN_PATH/air/src" 
   # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
@@ -50,6 +50,7 @@ sourcePaths=(
   "-source-path+=$PRAIA_IN_PATH/keys/view/src" 
   "-source-path+=$PRAIA_IN_PATH/tenerife/view/src"
   "-source-path+=$PRAIA_IN_PATH/buzios/view/src"
+  "-source-path+=$PRAIA_IN_PATH/sanvito/view/src"
 
   "-source-path+=$PRAIA_IN_PATH/main/view/src"  
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
