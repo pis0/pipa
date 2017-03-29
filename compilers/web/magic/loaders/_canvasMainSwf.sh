@@ -4,7 +4,7 @@
 inOut=(	
 	# CanvasMainSwf
 	"$MAGIC_IN_PATH/main/canvas/src/com/assukar/magic/main/canvas/view/CanvasMainSwf.as" 
-	"$MAGIC_OUT_PATH/CanvasMainSwf.swf"	
+	"$MAGIC_OUT_PATH/$CANVAS_MAIN_SWF"	
 )
 
 sourcePaths=(
