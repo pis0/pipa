@@ -13,12 +13,14 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
 	# "-source-path+=$ASSUKAR_IN_PATH/engine/src"
 	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
+	"-source-path+=$ASSUKAR_IN_PATH/view/src"
+	"-source-path+=$ASSUKAR_IN_PATH/web/src"
+	
 
 	"-source-path+=$STARLING_PATH/starling/src"	
 	# "-source-path+=$AWAY3D_PATH/src"
 
-	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$ASSUKAR_IN_PATH/web/src"
+	
 	"-source-path+=$PRAIA_IN_PATH/domain/src"	
 	# "-source-path+=$ASSUKAR_IN_PATH/fb/src"
 	# "-source-path+=$PRAIA_IN_PATH/fbsource/src"		
