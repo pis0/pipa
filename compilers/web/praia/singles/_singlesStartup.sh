@@ -11,7 +11,7 @@ inOut=(
 sourcePaths=(
  
   "-source-path+=$ASSUKAR_IN_PATH/airong/src"
-  "-source-path+=$ASSUKAR_IN_PATH/engine/src"
+  # "-source-path+=$ASSUKAR_IN_PATH/engine/src"
   "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
   # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/view/src"
@@ -78,6 +78,6 @@ defines=()
 
 . process.sh
 
-# run $PLAYER_DEBUG ${inOut[1]}
-run $PLAYER_DEBUG "$STARTUP_OUT_PATH/_COMPOSER.swf"  
+run $PLAYER_DEBUG ${inOut[1]}
+# run $PLAYER_DEBUG "$STARTUP_OUT_PATH/_COMPOSER.swf"  
 

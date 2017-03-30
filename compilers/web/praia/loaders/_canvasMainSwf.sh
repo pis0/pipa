@@ -4,7 +4,7 @@
 inOut=(	
 	# CanvasMainSwf
 	"$PRAIA_IN_PATH/main/view-canvas/src/com/assukar/praia/main/canvas/view/CanvasMainSwf.as"
-	"$PRAIA_OUT_PATH/CanvasMainSwf.swf"	
+	"$PRAIA_OUT_PATH/$CANVAS_MAIN_SWF"	
 )
 
 sourcePaths=(
@@ -50,6 +50,7 @@ sourcePaths=(
 	"-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
 	"-source-path+=$PRAIA_IN_PATH/keys/view/src"  
 	"-source-path+=$PRAIA_IN_PATH/buzios/view/src"  
+	"-source-path+=$PRAIA_IN_PATH/sanvito/view/src"  
 
 	"-source-path+=$PRAIA_IN_PATH/main/view/src"	 
 	"-source-path+=$PRAIA_IN_PATH/main/view-canvas/src"
