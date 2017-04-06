@@ -3,7 +3,7 @@
 
 
 echo
-echo "compiling ipanema swf ... [$PLATFORM]"   
+echo "compiling itacare swf ... [$PLATFORM]"   
 
 
 sourcePaths=(
@@ -74,7 +74,7 @@ libraryPaths=(
 externalLibraryPaths=(  
 
   # TODO to remove in singles mode
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane"  
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"       
   #
 
@@ -84,7 +84,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"      
    
   # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"       
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"   
  
 )
 
@@ -95,12 +95,25 @@ case $PLATFORM in
   "android") 
     
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesAndroidStartup.as")     
-    inOut+=("$IPANEMA_ANDROID_SWF_OUT")  
+    inOut+=("$ITACARE_ANDROID_SWF_OUT")  
 
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")                
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")  
     
   ;;    
+  "ios")            
+    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesIosStartup.as")  
+    inOut+=("$ITACARE_IOS_SWF_OUT") 
+   
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")   
+    
+    # to get idfv
+    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/AirDeviceId.ane" )   
+      
+
+  ;;
+
 esac
 
 . process.sh
