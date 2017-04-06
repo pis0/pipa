@@ -24,7 +24,7 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
 	"-source-path+=$PRAIA_IN_PATH/domain/src"		
 	"-source-path+=$PRAIA_IN_PATH/assets/src"	
-	"-source-path+=$PRAIA_IN_PATH/support/src"
+	# "-source-path+=$PRAIA_IN_PATH/support/src"
 	"-source-path+=$PRAIA_IN_PATH/hud/view/src"
 	"-source-path+=$STARLING_PATH/starling/src"
 )

@@ -1,16 +1,16 @@
 
-# APK malibu
+# APK jeri
 
 echo
-echo "[MALIBU-ANDROID] packing apk ..."
+echo "[JERI-ANDROID] packing apk ..."
 
 
-case $MALIBU_ANDROID_PROFILE_MODE in   
+case $JERI_ANDROID_PROFILE_MODE in   
   "dev") 
-    MALIBU_ANDROID_APP_DESCRIPTOR=$MALIBU_ANDROID_APP_DESCRIPTOR_DEV 
+    JERI_ANDROID_APP_DESCRIPTOR=$JERI_ANDROID_APP_DESCRIPTOR_DEV 
   ;;  
   "release") 
-    MALIBU_ANDROID_APP_DESCRIPTOR=$MALIBU_ANDROID_APP_DESCRIPTOR_RELEASE
+    JERI_ANDROID_APP_DESCRIPTOR=$JERI_ANDROID_APP_DESCRIPTOR_RELEASE
   ;;  
 esac
 
@@ -18,29 +18,29 @@ esac
 args=(
 
   "-storetype pkcs12"
-  "-keystore $MALIBU_ANDROID_APP_CERTIFICATE"
-  "-storepass $MALIBU_ANDROID_APP_CERTIFICATE_PASSWORD"  
-  "$MALIBU_ANDROID_APK_OUT"   
-  "$MALIBU_ANDROID_APP_DESCRIPTOR"   
+  "-keystore $JERI_ANDROID_APP_CERTIFICATE"
+  "-storepass $JERI_ANDROID_APP_CERTIFICATE_PASSWORD"  
+  "$JERI_ANDROID_APK_OUT"   
+  "$JERI_ANDROID_APP_DESCRIPTOR"   
   "-extdir $MOBILE_APP_EXTERNAL_DIR"
-  "-extdir $MALIBU_ANDROID_MOBILE_APP_EXTERNAL_DIR" 
+  "-extdir $JERI_ANDROID_MOBILE_APP_EXTERNAL_DIR" 
 
 )
 
 packageContents=( 
-  "-C $PRAIA_MOBILE_PATH/singles/malibu/android malibu-android.swf"    
-  "-C $PRAIA_MOBILE_PATH/singles/malibu/sounds/notifications timeBonus.wav"
-  "-C $PRAIA_MOBILE_PATH/singles/malibu commons" 
-  "-C $PRAIA_MOBILE_PATH/singles/malibu sounds"
+  "-C $PRAIA_MOBILE_PATH/singles/jeri/android jeri-android.swf"    
+  "-C $PRAIA_MOBILE_PATH/singles/jeri/sounds/notifications timeBonus.wav"
+  "-C $PRAIA_MOBILE_PATH/singles/jeri commons" 
+  "-C $PRAIA_MOBILE_PATH/singles/jeri sounds"
 )
 
 icons=(
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-36.png AppIcons/36x36-36.png"
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-48.png AppIcons/48x48-48.png"
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-72.png AppIcons/72x72-72.png"
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-96.png AppIcons/96x96-96.png"
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-144.png AppIcons/144x144-144.png"
-  "-e $PRAIA_MOBILE_PATH/singles/malibu/android/icon/malibu-512.png AppIcons/512x512-512.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-36.png AppIcons/36x36-36.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-48.png AppIcons/48x48-48.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-72.png AppIcons/72x72-72.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-96.png AppIcons/96x96-96.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-144.png AppIcons/144x144-144.png"
+  "-e $PRAIA_MOBILE_PATH/singles/jeri/android/icon/jeri-512.png AppIcons/512x512-512.png"
 )
 
 
@@ -64,7 +64,7 @@ function process(){
 
       # array+=("-hideAneLibSymbols yes")
 
-      array+=("-arch $MALIBU_ANDROID_ARCH")      
+      array+=("-arch $JERI_ANDROID_ARCH")      
 
     echo "mode: ${array[@]}" 
     
@@ -77,13 +77,13 @@ function process(){
    $SDK/bin/adt.bat ${array[@]}
 }
 
-prevChange=$(stat -c %z $MALIBU_ANDROID_APK_OUT)
+prevChange=$(stat -c %z $JERI_ANDROID_APK_OUT)
 process
-currentChange=$(stat -c %z $MALIBU_ANDROID_APK_OUT)
+currentChange=$(stat -c %z $JERI_ANDROID_APK_OUT)
 
 if [ "$prevChange" == "$currentChange" ]; then   
   echo 
-  echo "Could not create file '$MALIBU_ANDROID_APK_OUT'"
+  echo "Could not create file '$JERI_ANDROID_APK_OUT'"
   echo "Package failed"
   exit  
 else

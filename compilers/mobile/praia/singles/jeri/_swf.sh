@@ -3,7 +3,7 @@
 
 
 echo
-echo "compiling malibu swf ... [$PLATFORM]"   
+echo "compiling jeri swf ... [$PLATFORM]"   
 
 
 sourcePaths=(
@@ -95,7 +95,7 @@ case $PLATFORM in
   "android") 
     
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesAndroidStartup.as")     
-    inOut+=("$MALIBU_ANDROID_SWF_OUT")  
+    inOut+=("$JERI_ANDROID_SWF_OUT")  
 
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")                
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")  
@@ -103,7 +103,7 @@ case $PLATFORM in
   ;;    
   "ios")            
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/singles/SinglesIosStartup.as")  
-    inOut+=("$MALIBU_IOS_SWF_OUT") 
+    inOut+=("$JERI_IOS_SWF_OUT") 
    
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
     externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")   
