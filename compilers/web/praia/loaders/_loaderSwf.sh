@@ -18,7 +18,7 @@ sourcePaths=(
 	# "-source-path+=$AWAY3D_PATH/src"
 
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$ASSUKAR_IN_PATH/web/src"
+	# "-source-path+=$ASSUKAR_IN_PATH/web/src"
 	"-source-path+=$PRAIA_IN_PATH/domain/src"	
 	# "-source-path+=$ASSUKAR_IN_PATH/fb/src"
 	# "-source-path+=$PRAIA_IN_PATH/fbsource/src"		
