@@ -94,8 +94,8 @@ DEBUG=false
 # . ./web/magic/assets/_vegas.sh 
 
 # # loaders
-. ./web/magic/loaders/_canvasMainSwf.sh 
-. ./web/magic/loaders/_loaderSwf.sh   
+# . ./web/magic/loaders/_canvasMainSwf.sh 
+# . ./web/magic/loaders/_loaderSwf.sh   
 
  
 
