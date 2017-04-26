@@ -15,6 +15,8 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
 
 	"-source-path+=$STARLING_PATH/starling/src"	
+	# "-source-path+=$STARLING_PATH/away3D/src"
+	"-source-path+=D:/Projetos/away3d/src"	
 	# "-source-path+=$AWAY3D_PATH/src"
 
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
@@ -32,6 +34,7 @@ libraryPaths=(
 	"-library-path+=$SDK/frameworks/libs/core.swc"
 	"-library-path+=$PRAIA_IN_PATH/loader/assets/loader.swc"	
 	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"	
 	"-library-path+=$ASSUKAR_IN_PATH/libs/analytics.swc"
 )
