@@ -17,6 +17,7 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/extras/src"	
 
 	"-source-path+=$STARLING_PATH/starling/src"
+	"-source-path+=D:/Projetos/away3d/src"
 	# "-source-path+=$AWAY3D_PATH/src"
 
 	# "-source-path+=$PRAIA_IN_PATH/fbsource/src"	

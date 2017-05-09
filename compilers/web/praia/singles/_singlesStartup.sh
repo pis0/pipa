@@ -25,7 +25,7 @@ sourcePaths=(
 
   "-source-path+=$PRAIA_IN_PATH/chat/src"   
 
-  "-source-path+=$PRAIA_IN_PATH/support/src"
+  # "-source-path+=$PRAIA_IN_PATH/support/src"
 
   # hud/lobby
   "-source-path+=$PRAIA_IN_PATH/hud/view/src"  
