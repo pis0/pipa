@@ -17,8 +17,8 @@ sourcePaths=(
 	"-source-path+=$ASSUKAR_IN_PATH/extras/src"	
 
 	"-source-path+=$STARLING_PATH/starling/src"
-	"-source-path+=D:/Projetos/away3d/src"
-	# "-source-path+=$AWAY3D_PATH/src"
+	# "-source-path+=D:/Projetos/away3d/src"
+	"-source-path+=$AWAY3D_PATH/src"
 
 	# "-source-path+=$PRAIA_IN_PATH/fbsource/src"	
 
@@ -63,6 +63,7 @@ libraryPaths=(
 	"-library-path+=$SDK/frameworks/libs/core.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
 )
 
 

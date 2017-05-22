@@ -26,7 +26,7 @@ export ASSUKAR_IN_PATH="E:/workspace/Assukar/dev/client"
 export STARLING_PATH="E:/workspace/_starling/1.8" 
 
 # away3d
-# export AWAY3D_PATH="E:/workspace/_away3d/4.1.6"
+export AWAY3D_PATH="E:/workspace/_away3d/4.1.6"
 
 # flash player debug
 # export PLAYER_DEBUG="E:/workspace/_fpDebug/flashplayer_20_sa_debug.exe"  

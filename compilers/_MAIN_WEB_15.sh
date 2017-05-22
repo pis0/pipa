@@ -45,8 +45,8 @@ DEBUG=false
 # PRAIA 
 
 # # # # # assets   
-. ./web/praia/assets/_hud.sh 
-. ./web/praia/assets/_lobby.sh
+# . ./web/praia/assets/_hud.sh 
+# . ./web/praia/assets/_lobby.sh
 # . ./web/praia/assets/_bela.sh 
 # . ./web/praia/assets/_ilhabela.sh
 # . ./web/praia/assets/_ipanema.sh
@@ -78,19 +78,19 @@ DEBUG=false
 # # MAGIC 
 
 # # assets  
-# . ./web/magic/assets/_hud.sh 
-# . ./web/magic/assets/_bossa.sh 
-# . ./web/magic/assets/_house.sh  
-# . ./web/magic/assets/_circus.sh  
-# . ./web/magic/assets/_lobby.sh  
-# . ./web/magic/assets/_shang.sh   
-# . ./web/magic/assets/_wild.sh    
-# . ./web/magic/assets/_fiesta.sh  
-# . ./web/magic/assets/_carnival.sh 
-# . ./web/magic/assets/_dazzle.sh 
-# . ./web/magic/assets/_karaoke.sh 
-# . ./web/magic/assets/_poker.sh
-# . ./web/magic/assets/_vegas.sh 
+. ./web/magic/assets/_hud.sh 
+. ./web/magic/assets/_bossa.sh 
+. ./web/magic/assets/_house.sh  
+. ./web/magic/assets/_circus.sh  
+. ./web/magic/assets/_lobby.sh  
+. ./web/magic/assets/_shang.sh   
+. ./web/magic/assets/_wild.sh    
+. ./web/magic/assets/_fiesta.sh  
+. ./web/magic/assets/_carnival.sh 
+. ./web/magic/assets/_dazzle.sh 
+. ./web/magic/assets/_karaoke.sh 
+. ./web/magic/assets/_poker.sh
+. ./web/magic/assets/_vegas.sh 
 
 # # loaders
 # . ./web/magic/loaders/_canvasMainSwf.sh 

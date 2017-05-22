@@ -14,10 +14,9 @@ sourcePaths=(
 	# "-source-path+=$ASSUKAR_IN_PATH/engine/src"
 	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
 
-	"-source-path+=$STARLING_PATH/starling/src"	
-	# "-source-path+=$STARLING_PATH/away3D/src"
-	"-source-path+=D:/Projetos/away3d/src"	
-	# "-source-path+=$AWAY3D_PATH/src"
+	"-source-path+=$STARLING_PATH/starling/src"		
+	# "-source-path+=D:/Projetos/away3d/src"	
+	"-source-path+=$AWAY3D_PATH/src"
 
 	"-source-path+=$ASSUKAR_IN_PATH/view/src"
 	# "-source-path+=$ASSUKAR_IN_PATH/web/src"
@@ -37,6 +36,7 @@ libraryPaths=(
 	"-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"	
 	"-library-path+=$ASSUKAR_IN_PATH/libs/analytics.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
 )
 
 
