@@ -70,6 +70,7 @@ DEBUG=false
 # . ./web/praia/assets/_keys.sh  
 # . ./web/praia/assets/_buzios.sh
 # . ./web/praia/assets/_sanvito.sh    
+# . ./web/praia/assets/_azores.sh    
 
 # loaders
  # . ./web/praia/loaders/_canvasMainSwf.sh

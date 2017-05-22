@@ -17,6 +17,7 @@ sourcePaths=(
   "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
 
   "-source-path+=$STARLING_PATH/starling/src"
+  "-source-path+=$AWAY3D_PATH/src"
 
   # "-source-path+=$MAGIC_IN_PATH/fbsource/src" 
   "-source-path+=$MAGIC_IN_PATH/mobsource/src"
@@ -52,6 +53,7 @@ libraryPaths=(
   "-library-path+=$ASSUKAR_IN_PATH/libs/fzip.swc"
   "-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
   "-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
+  "-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
 
   # "-library-path+=$ASSUKAR_IN_PATH/libs/apparat.swc"
   # "-library-path+=$ASSUKAR_IN_PATH/libs/instagal.swc"

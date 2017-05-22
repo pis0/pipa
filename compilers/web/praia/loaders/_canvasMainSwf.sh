@@ -51,7 +51,8 @@ sourcePaths=(
 	"-source-path+=$PRAIA_IN_PATH/tenerife/view/src" 
 	"-source-path+=$PRAIA_IN_PATH/keys/view/src"  
 	"-source-path+=$PRAIA_IN_PATH/buzios/view/src"  
-	"-source-path+=$PRAIA_IN_PATH/sanvito/view/src"  
+	"-source-path+=$PRAIA_IN_PATH/sanvito/view/src"
+	"-source-path+=$PRAIA_IN_PATH/azores/view/src"    
 
 	"-source-path+=$PRAIA_IN_PATH/main/view/src"	 
 	"-source-path+=$PRAIA_IN_PATH/main/view-canvas/src"

@@ -243,6 +243,7 @@ export SWF_VERSION=34   #23  #18    #25  #26  #27  #28  #29  #30  #31  #32
 # # # . ./web/praia/assets/_keys.sh  
 # # # . ./web/praia/assets/_buzios.sh  
 # # # . ./web/praia/assets/_sanvito.sh
+# # # . ./web/praia/assets/_azores.sh
 
 # # # loaders
 # # . ./web/praia/loaders/_canvasMainSwf.sh    
