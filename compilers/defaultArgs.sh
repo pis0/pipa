@@ -39,11 +39,14 @@ defaultArgs=(
 	"-define+=PRAIA::NORONHA,true"
 	"-define+=PRAIA::PARATY,true"
 	"-define+=PRAIA::PIPA,true"
-	"-define+=PRAIA::ROSA,true"
+	"-define+=PRAIA::ROSA,true"	
 	"-define+=PRAIA::SANVITO,true"
 	"-define+=PRAIA::TENERIFE,true"
 	"-define+=PRAIA::TULUM,true"
 	"-define+=PRAIA::UBATUBA,true"
+	"-define+=PRAIA::AZORES,true"
+
+	"-default-script-limits 1000 60"
 
 
 	# embeds

@@ -7,8 +7,10 @@ cd $BASE
 . config.sh
 
 #
+# export SDK="E:/workspace/SDK/AIR_26_build_118"
 export SDK="E:/Backup/SDK/AIR_20_build_260"
-export PLAYER_DEBUG="E:/workspace/Players/20/flashplayer_20_sa_debug.exe"
+# export SDK="E:/workspace/SDK/AIR_26_build_118"
+export PLAYER_DEBUG="E:/workspace/Players/26/flashplayer_26_sa_debug.exe"
 
 # vars
 export DEBUG=false
@@ -24,10 +26,15 @@ export PLATFORM
 export SHOW_WARNINGS=true
 export OPTIMIZE=true
 export DEFAULT_SIZE=760,1024 
+
+# export PLAYER_GLOBAL=26.0  # 11.1[assets]  #14.0	#15.0   #16.0
+# export TARGET_PLAYER=26 #12  #11.5  #14  #15  #16  #17
+# export SWF_VERSION=37  #23  #18    #25  #26  #27  #28
+
+# 20
 export PLAYER_GLOBAL=20.0  # 11.1[assets]  #14.0	#15.0   #16.0
 export TARGET_PLAYER=20 #12  #11.5  #14  #15  #16  #17
 export SWF_VERSION=31  #23  #18    #25  #26  #27  #28
-
 
 
  ####################################################################################################
@@ -42,7 +49,7 @@ DEBUG=false
 
 . defaultArgs.sh  
 
-
+ 	
 # PRAIA 
 
 # # # # assets   
@@ -73,8 +80,8 @@ DEBUG=false
 # . ./web/praia/assets/_azores.sh    
 
 # loaders
- # . ./web/praia/loaders/_canvasMainSwf.sh
- # . ./web/praia/loaders/_loaderSwf.sh 
+ . ./web/praia/loaders/_canvasMainSwf.sh
+ . ./web/praia/loaders/_loaderSwf.sh 
 
 
 # # MAGIC 
