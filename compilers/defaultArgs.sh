@@ -1,4 +1,7 @@
 
+export PORT="8888"
+export HOST="'192.168.100.24'"
+
 # default args
 
 defaultArgs=(
@@ -45,8 +48,10 @@ defaultArgs=(
 	"-define+=PRAIA::TULUM,true"
 	"-define+=PRAIA::UBATUBA,true"
 	"-define+=PRAIA::AZORES,true"
+	"-define+=COMPOSER::PORT,$PORT"
+	"-define+=COMPOSER::HOST,$HOST"
 
-	"-default-script-limits 1000 60"
+	# "-default-script-limits 1000 60"
 
 
 	# embeds
