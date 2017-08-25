@@ -53,8 +53,8 @@ DEBUG=false
 # PRAIA 
 
 # # # # assets   
-# . ./web/praia/assets/_hud.sh 
-# . ./web/praia/assets/_lobby.sh
+. ./web/praia/assets/_hud.sh 
+. ./web/praia/assets/_lobby.sh
 # . ./web/praia/assets/_bela.sh 
 # . ./web/praia/assets/_ilhabela.sh
 # . ./web/praia/assets/_ipanema.sh
@@ -80,8 +80,8 @@ DEBUG=false
 # . ./web/praia/assets/_azores.sh    
 
 # loaders
- . ./web/praia/loaders/_canvasMainSwf.sh
- . ./web/praia/loaders/_loaderSwf.sh 
+# . ./web/praia/loaders/_canvasMainSwf.sh
+# . ./web/praia/loaders/_loaderSwf.sh 
 
 
 # # MAGIC 

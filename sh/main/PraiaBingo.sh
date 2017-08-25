@@ -23,7 +23,7 @@ LIBS=(
     "$LIB_PATH\as3-signals.swc" 
 
 
-    "$LIB_PATH\com.milkmangames.extensions.GoViral.ane" 
+    
     "$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane" 
     "$LIB_PATH\com.milkmangames.extensions.EasyPush.ane" 
     "$LIB_PATH\com.milkmangames.extensions.RateBox.ane" 
@@ -34,6 +34,7 @@ LIBS=(
 
     # android
     # "$LIB_PATH\android\AndroidFullScreen.ane" 
+    "$LIB_PATH\android\com.milkmangames.extensions.GoViral.ane" 
     "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"   
     "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane"  
     "$LIB_PATH\SystemProperties.ane"  
