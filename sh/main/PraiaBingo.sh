@@ -20,7 +20,11 @@ LIBS=(
    # both
     "$LIB_PATH\fzip.swc"  
     "$LIB_PATH\MinimalComps.swc" 
-    "$LIB_PATH\as3-signals.swc" 
+    "$LIB_PATH\as3-signals.swc"
+    "$LIB_PATH\as3commons/as3commons-bytecode-1.1.1.swc"
+    "$LIB_PATH\as3commons/as3commons-lang-0.3.7.swc"
+    "$LIB_PATH\as3commons/as3commons-logging-2.7.swc"
+    "$LIB_PATH\as3commons/as3commons-reflect-1.6.4.swc" 
 
 
     
@@ -37,7 +41,7 @@ LIBS=(
     "$LIB_PATH\android\com.milkmangames.extensions.GoViral.ane" 
     "$LIB_PATH\android\com.milkmangames.extensions.AndroidIAB.ane"   
     "$LIB_PATH\android\com.milkmangames.extensions.GoogleGames.ane"  
-    "$LIB_PATH\SystemProperties.ane"  
+    # "$LIB_PATH\SystemProperties.ane"  
 
     # iOS
     "$LIB_PATH\ios\com.milkmangames.extensions.StoreKit.ane"    

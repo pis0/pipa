@@ -65,6 +65,10 @@ libraryPaths=(
 	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
 	"-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/as3commons/as3commons-bytecode-1.1.1.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/as3commons/as3commons-lang-0.3.7.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/as3commons/as3commons-logging-2.7.swc"
+	"-library-path+=$ASSUKAR_IN_PATH/libs/as3commons/as3commons-reflect-1.6.4.swc"
 )
 
 
