@@ -1,11 +1,6 @@
-
-export PORT="8888"
-export HOST="'192.168.100.24'"
-
 # default args
 
 defaultArgs=(
-
 	"-debug=$DEBUG"
 	"-target-player=$TARGET_PLAYER" 
 	"-swf-version=$SWF_VERSION"
@@ -19,9 +14,13 @@ defaultArgs=(
 	"-strict=true"	
 	"-verbose-stacktraces=true"		  
 	"-static-link-runtime-shared-libraries=true"	
-	 
+
 	"-define+=CONFIG::DEBUG,$DEBUG"
 	"-define+=CONFIG::FORCE_MOBILE,$FORCE_MOBILE"
+	"-define+=COMPOSER::PORT,$COMPOSER_PORT"
+	"-define+=COMPOSER::HOST,$COMPOSER_HOST"
+
+	"-define+=CONFIG::SOUNDWORKER,true"
 	"-define+=PRAIA::SINGLES,true"
 	"-define+=PRAIA::CHAT,true"
 	"-define+=PRAIA::LOBBY,true"
@@ -42,35 +41,39 @@ defaultArgs=(
 	"-define+=PRAIA::NORONHA,true"
 	"-define+=PRAIA::PARATY,true"
 	"-define+=PRAIA::PIPA,true"
-	"-define+=PRAIA::ROSA,true"	
+	"-define+=PRAIA::ROSA,true"
 	"-define+=PRAIA::SANVITO,true"
 	"-define+=PRAIA::TENERIFE,true"
 	"-define+=PRAIA::TULUM,true"
 	"-define+=PRAIA::UBATUBA,true"
 	"-define+=PRAIA::AZORES,true"
-	"-define+=COMPOSER::PORT,$PORT"
-	"-define+=COMPOSER::HOST,$HOST"
+	"-define+=PRAIA::BOSSA,true"
+	"-define+=PRAIA::CARNIVAL,true"
+	"-define+=PRAIA::VEGAS,true"
+	"-define+=PRAIA::DAZZLE,true"
+	"-define+=PRAIA::HOUSE,true"
+	"-define+=PRAIA::KARAOKE,true"
+	"-define+=PRAIA::FIESTA,true"
+	"-define+=PRAIA::SHANG,true"
+	"-define+=PRAIA::POKER,true"
+	"-define+=PRAIA::WILD,true"
+	"-define+=PRAIA::CANCUN,true"
+	"-define+=PRAIA::MONICA,true"
+	"-define+=PRAIA::VALENCIA,true"
+	"-define+=PRAIA::MONACO,true"
+	"-define+=PRAIA::NIDO,true"
+	"-define+=PRAIA::BAHAMAS,true"	
 
-	# "-default-script-limits 1000 60"
+	# "-default-script-limits 1000 60"	
 
-
-	# embeds
-	# "-define+=CONFIG::COMMONS,$COMMONS" 
-	# "-define+=CONFIG::CHAT,$CHAT"
-	# "-define+=CONFIG::HUD,$HUD"
-	# "-define+=CONFIG::BELA,$BELA"
-	# "-define+=CONFIG::NORONHA,$NORONHA" 
-	# "-define+=CONFIG::ITACARE,$ITACARE"
-	
-
-	"-advanced-telemetry=true"
+	# "-advanced-telemetry=true"
 
 	# warnings
 	"-warnings=$SHOW_WARNINGS"	
 
-	"-show-actionscript-warnings=true"
-	"-show-binding-warnings=true"
-	"-show-multiple-definition-warnings=true"
+	"-show-actionscript-warnings=$SHOW_WARNINGS"
+	"-show-binding-warnings=$SHOW_WARNINGS"
+	"-show-multiple-definition-warnings=$SHOW_WARNINGS"
 	
 	"-warn-assignment-within-conditional=true"
 	"-warn-bad-array-cast=true"

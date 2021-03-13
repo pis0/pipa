@@ -29,20 +29,26 @@ args=(
 
 packageContents=(
   "-C $PRAIA_MOBILE_PATH/android praia-android.swf"  
-  "-C $PRAIA_MOBILE_PATH/android/notifications timeBonus.jpg"
-  "-C $PRAIA_MOBILE_PATH/sounds/notifications timeBonus.wav"
-  "-C $PRAIA_MOBILE_PATH/sounds/notifications pushAcoes.wav"
+
   "-C $PRAIA_MOBILE_PATH commons"
   "-C $PRAIA_MOBILE_PATH sounds" 
+
+  "-C $PRAIA_MOBILE_PATH/android google-services.json"
+  "-C $PRAIA_MOBILE_PATH/android loader_E.atf"
+
+  "-C $PRAIA_MOBILE_PATH/android/notifications/sounds notification_sound_default.mp3"
+  "-C $PRAIA_MOBILE_PATH/android/notifications/sounds notification_sound_push_actions.mp3"
+  "-C $PRAIA_MOBILE_PATH/android/notifications/icons notification_icon_default.png"
+  "-C $PRAIA_MOBILE_PATH/android/notifications/images timeBonus.jpg"  
 )
 
-icons=(
-  "-e $PRAIA_MOBILE_PATH/android/icon/36.png AppIcons/36x36-36.png"
-  "-e $PRAIA_MOBILE_PATH/android/icon/48.png AppIcons/48x48-48.png"
-  "-e $PRAIA_MOBILE_PATH/android/icon/72.png AppIcons/72x72-72.png"
-  "-e $PRAIA_MOBILE_PATH/android/icon/96.png AppIcons/96x96-96.png"
-  "-e $PRAIA_MOBILE_PATH/android/icon/144.png AppIcons/144x144-144.png"
-)
+# icons=(
+#   "-e $PRAIA_MOBILE_PATH/android/icon/36.png AppIcons/36x36-36.png"
+#   "-e $PRAIA_MOBILE_PATH/android/icon/48.png AppIcons/48x48-48.png"
+#   "-e $PRAIA_MOBILE_PATH/android/icon/72.png AppIcons/72x72-72.png"
+#   "-e $PRAIA_MOBILE_PATH/android/icon/96.png AppIcons/96x96-96.png"
+#   "-e $PRAIA_MOBILE_PATH/android/icon/144.png AppIcons/144x144-144.png"
+# )
 
 
 function process(){
@@ -71,7 +77,7 @@ function process(){
     
     array+=(${args[@]})  
     array+=(${packageContents[@]}) 
-    array+=(${icons[@]}) 
+    # array+=(${icons[@]}) 
 
     # echo "$SDK/bin/adt.bat ${array[@]}"
 

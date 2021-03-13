@@ -4,14 +4,17 @@
 
 NAME="[ASSUKAR]-air"
 CLASSES=(
+	# air
 	0 "$ASSUKAR_PATH\air"
-# 	0 "$ASSUKAR_PATH\engine"
+	# airong
  	0 "$ASSUKAR_PATH\airong"
 )
 LIBS=(
+	# airong
 	"$LIB_PATH\as3-signals.swc"
-	"$LIB_PATH\appsflyer.ane"
-	"$LIB_PATH\com.milkmangames.extensions.GAnalytics.ane"
+	"$LIB_PATH\as3crypto.swc"
+	# air
+	"$LIB_PATH\AppsFlyerAIRExtension-witout-gp-support.ane" 
 )
 
 . sh/process.sh

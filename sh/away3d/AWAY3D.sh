@@ -1,9 +1,9 @@
 
-# STARLING
+# AWAY3D
 
-NAME="[STARLING]"
+NAME="[AWAY3D]"
 CLASSES=(
-	1 "$STARLING_PATH\starling"
+	1 "$AWAY3D_PATH"
 	0 "$ASSUKAR_PATH\airong" 	
 )
 LIBS=()

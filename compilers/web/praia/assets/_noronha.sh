@@ -20,9 +20,6 @@ inOut=(
 	# NoronhaAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/NoronhaAsyncSoundsSwf_pt_BR.swf"
-	# # NoronhaAsyncSpritesSwf 
-	# "$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaAsyncSpritesSwf.as"
-	# "$PRAIA_OUT_PATH/NoronhaAsyncSpritesSwf.swf"
 	# NoronhaSyncSoundsSwf
 	"$PRAIA_IN_PATH/noronha/view/src/com/assukar/praia/noronha/assets/imports/NoronhaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/NoronhaSyncSoundsSwf.swf"
@@ -32,25 +29,15 @@ inOut=(
 )
 
 
-sourcePaths=(
-	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
-	"-source-path+=$ASSUKAR_IN_PATH/extras/src"
-	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
-	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$PRAIA_IN_PATH/domain/src"		
-	"-source-path+=$PRAIA_IN_PATH/assets/src"
-	"-source-path+=$PRAIA_IN_PATH/chat/src"
-	"-source-path+=$PRAIA_IN_PATH/noronha/view/src"
-	"-source-path+=$STARLING_PATH/starling/src"
+# deps
+. ./web/praia/deps/praia-chat.sh
+
+sourcePaths=(${praiaChatSourcePaths[@]})
+sourcePaths+=(
+	"-source-path+=$PRAIA_IN_PATH/noronha/view/src"	
 )
 
-libraryPaths=(
-	"-library-path+=$SDK/frameworks/libs/player/$PLAYER_GLOBAL/playerglobal.swc"
-	"-library-path+=$SDK/frameworks/locale/en_US"
-	"-library-path+=$SDK/frameworks/libs/core.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
-)
+libraryPaths=(${praiaChatLibraryPaths[@]})
 
 defines=()
 

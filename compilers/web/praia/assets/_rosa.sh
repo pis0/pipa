@@ -20,9 +20,6 @@ inOut=(
 	# RosaAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/RosaAsyncSoundsSwf_pt_BR.swf"
-	# RosaAsyncSpritesSwf
-	# "$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaAsyncSpritesSwf.as"
-	# "$PRAIA_OUT_PATH/RosaAsyncSpritesSwf.swf"
 	# RosaSyncSoundsSwf
 	"$PRAIA_IN_PATH/rosa/view/src/com/assukar/praia/rosa/assets/imports/RosaSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/RosaSyncSoundsSwf.swf"
@@ -32,25 +29,15 @@ inOut=(
 )
 
 
-sourcePaths=(
-	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
-	"-source-path+=$ASSUKAR_IN_PATH/extras/src"
-	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
-	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$PRAIA_IN_PATH/domain/src"		
-	"-source-path+=$PRAIA_IN_PATH/assets/src"
-	"-source-path+=$PRAIA_IN_PATH/chat/src"
-	"-source-path+=$PRAIA_IN_PATH/rosa/view/src"
-	"-source-path+=$STARLING_PATH/starling/src"
+# deps
+. ./web/praia/deps/praia-chat.sh
+
+sourcePaths=(${praiaChatSourcePaths[@]})
+sourcePaths+=(
+	"-source-path+=$PRAIA_IN_PATH/rosa/view/src"	
 )
 
-libraryPaths=(
-	"-library-path+=$SDK/frameworks/libs/player/$PLAYER_GLOBAL/playerglobal.swc"
-	"-library-path+=$SDK/frameworks/locale/en_US"
-	"-library-path+=$SDK/frameworks/libs/core.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
-)
+libraryPaths=(${praiaChatLibraryPaths[@]})
 
 defines=()
 

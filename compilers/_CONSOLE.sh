@@ -28,7 +28,7 @@ function start() {
 		1) $SDK/bin/fdb ;;	 
 		2) $SDK/bin/fdb -p $MOBILE_DEBUG_LOCAL_PORT ;;	  	
 		3) $ANDROID_ADB logcat ;;	
-		4) $IOS_IDB logcat ;;	
+		# 4) $IOS_IDB logcat ;;	
   		0) exit ;;
 	    *) 
 			echo "invalid option '$n'"

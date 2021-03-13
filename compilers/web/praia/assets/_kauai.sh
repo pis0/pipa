@@ -20,9 +20,6 @@ inOut=(
 	# kauaiAsyncSoundsSwf_de_DE
 	"$PRAIA_IN_PATH/kauai/view/src/com/assukar/praia/kauai/assets/imports/KauaiAsyncSoundsSwf_de_DE.as"
 	"$PRAIA_OUT_PATH/KauaiAsyncSoundsSwf_de_DE.swf"
-	# # kauaiAsyncSpritesSwf
-	# "$PRAIA_IN_PATH/kauai/view/src/com/assukar/praia/kauai/assets/imports/kauaiAsyncSpritesSwf.as"
-	# "$PRAIA_OUT_PATH/kauaiAsyncSpritesSwf.swf"
 	# kauaiSyncSoundsSwf
 	"$PRAIA_IN_PATH/kauai/view/src/com/assukar/praia/kauai/assets/imports/KauaiSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/KauaiSyncSoundsSwf.swf"
@@ -32,29 +29,16 @@ inOut=(
 )
 
 
-sourcePaths=(
-	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
-	"-source-path+=$ASSUKAR_IN_PATH/extras/src"
-	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
-	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$PRAIA_IN_PATH/domain/src"		
-	"-source-path+=$PRAIA_IN_PATH/assets/src"
-	"-source-path+=$PRAIA_IN_PATH/chat/src"
-	"-source-path+=$PRAIA_IN_PATH/kauai/view/src"
-	"-source-path+=$STARLING_PATH/starling/src"
+# deps
+. ./web/praia/deps/praia-chat.sh
+
+sourcePaths=(${praiaChatSourcePaths[@]})
+sourcePaths+=(
+	"-source-path+=$PRAIA_IN_PATH/kauai/view/src"	
 )
 
-libraryPaths=(
-	"-library-path+=$SDK/frameworks/libs/player/$PLAYER_GLOBAL/playerglobal.swc"
-	"-library-path+=$SDK/frameworks/locale/en_US"
-	"-library-path+=$SDK/frameworks/libs/core.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
-)
-
+libraryPaths=(${praiaChatLibraryPaths[@]})
 
 defines=()
-
-
 
 . process.sh

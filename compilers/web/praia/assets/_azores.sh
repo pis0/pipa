@@ -1,5 +1,5 @@
 
-# BELA
+# AZORES
 
 inOut=(	
 	# AzoresAsyncSoundsSwf_de_DE
@@ -20,9 +20,6 @@ inOut=(
 	# AzoresAsyncSoundsSwf_pt_BR
 	"$PRAIA_IN_PATH/azores/view/src/com/assukar/praia/azores/assets/imports/AzoresAsyncSoundsSwf_pt_BR.as"
 	"$PRAIA_OUT_PATH/AzoresAsyncSoundsSwf_pt_BR.swf"
-	# # AzoresAsyncSpritesSwf
-	# "$PRAIA_IN_PATH/azores/view/src/com/assukar/praia/azores/assets/imports/AzoresAsyncSpritesSwf.as"
-	# "$PRAIA_OUT_PATH/AzoresAsyncSpritesSwf.swf"
 	# AzoresSyncSoundsSwf
 	"$PRAIA_IN_PATH/azores/view/src/com/assukar/praia/azores/assets/imports/AzoresSyncSoundsSwf.as"
 	"$PRAIA_OUT_PATH/AzoresSyncSoundsSwf.swf"
@@ -31,26 +28,15 @@ inOut=(
 	"$PRAIA_OUT_PATH/AzoresSyncSpritesSwf.swf"	
 )
 
+# deps
+. ./web/praia/deps/praia-chat.sh
 
-sourcePaths=(
-	"-source-path+=$ASSUKAR_IN_PATH/airong/src"
-	"-source-path+=$ASSUKAR_IN_PATH/extras/src"
-	"-source-path+=$ASSUKAR_IN_PATH/domain/src"
-	"-source-path+=$ASSUKAR_IN_PATH/view/src"
-	"-source-path+=$PRAIA_IN_PATH/domain/src"		
-	"-source-path+=$PRAIA_IN_PATH/assets/src"
-	"-source-path+=$PRAIA_IN_PATH/chat/src"
-	"-source-path+=$PRAIA_IN_PATH/azores/view/src"
-	"-source-path+=$STARLING_PATH/starling/src"
+sourcePaths=(${praiaChatSourcePaths[@]})
+sourcePaths+=(
+	"-source-path+=$PRAIA_IN_PATH/azores/view/src"	
 )
 
-libraryPaths=(
-	"-library-path+=$SDK/frameworks/libs/player/$PLAYER_GLOBAL/playerglobal.swc"
-	"-library-path+=$SDK/frameworks/locale/en_US"
-	"-library-path+=$SDK/frameworks/libs/core.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-	"-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
-)
+libraryPaths=(${praiaChatLibraryPaths[@]})
 
 defines=()
 

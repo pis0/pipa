@@ -6,90 +6,40 @@ echo
 echo "compiling swf ... [$PLATFORM]"   
 
 
-sourcePaths=(
-  "-source-path+=$ASSUKAR_IN_PATH/airong/src"
-  # "-source-path+=$ASSUKAR_IN_PATH/engine/src"
-  "-source-path+=$ASSUKAR_IN_PATH/domain/src" 
+
+# deps
+. ./web/praia/deps/praia-canvas.sh
+
+sourcePaths=(${praiaCanvasSourcePaths[@]})
+sourcePaths+=(
+  # assukar
   "-source-path+=$ASSUKAR_IN_PATH/air/src" 
-  # "-source-path+=$ASSUKAR_IN_PATH/fb/src"
   "-source-path+=$ASSUKAR_IN_PATH/mob/src"
-  "-source-path+=$ASSUKAR_IN_PATH/view/src"
-  "-source-path+=$ASSUKAR_IN_PATH/extras/src" 
-
-  "-source-path+=$STARLING_PATH/starling/src"
-  "-source-path+=$AWAY3D_PATH/src"
-
-  # "-source-path+=$PRAIA_IN_PATH/fbsource/src"
+  # praia
   "-source-path+=$PRAIA_IN_PATH/mobsource/src" 
-
-  "-source-path+=$PRAIA_IN_PATH/assets/src"
-  
-  "-source-path+=$PRAIA_IN_PATH/domain/src"   
-  "-source-path+=$PRAIA_IN_PATH/chat/src" 
-  "-source-path+=$PRAIA_IN_PATH/support/src"  
-
-  "-source-path+=$PRAIA_IN_PATH/hud/view/src"
-  "-source-path+=$PRAIA_IN_PATH/lobby/view/src"
-  "-source-path+=$PRAIA_IN_PATH/ilhabela/view/src"
-  "-source-path+=$PRAIA_IN_PATH/jurere/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/bela/view/src"
-  "-source-path+=$PRAIA_IN_PATH/paraty/view/src"
-  "-source-path+=$PRAIA_IN_PATH/rosa/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/ipanema/view/src"
-  "-source-path+=$PRAIA_IN_PATH/maragogi/view/src"
-  "-source-path+=$PRAIA_IN_PATH/itacare/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/pipa/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/noronha/view/src"
-  "-source-path+=$PRAIA_IN_PATH/jeri/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/tulum/view/src"
-  "-source-path+=$PRAIA_IN_PATH/formentera/view/src"
-  "-source-path+=$PRAIA_IN_PATH/kauai/view/src"
-  "-source-path+=$PRAIA_IN_PATH/menton/view/src"
-  "-source-path+=$PRAIA_IN_PATH/ubatuba/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/cabos/view/src"   
-  "-source-path+=$PRAIA_IN_PATH/malibu/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/keys/view/src" 
-  "-source-path+=$PRAIA_IN_PATH/tenerife/view/src"
-  "-source-path+=$PRAIA_IN_PATH/buzios/view/src"
-  "-source-path+=$PRAIA_IN_PATH/sanvito/view/src"  
-  "-source-path+=$PRAIA_IN_PATH/azores/view/src"  
-
-  "-source-path+=$PRAIA_IN_PATH/main/view/src"  
+  # view-mobile
   "-source-path+=$PRAIA_IN_PATH/main/view-mobile/src" 
 )
 
+libraryPaths=(${praiaCanvasLibraryPaths[@]})
 
-libraryPaths=(  
-  "-library-path+=$SDK/frameworks/libs/air/airglobal.swc"  
-  "-library-path+=$SDK/frameworks/libs/air/servicemonitor.swc"    
-  "-library-path+=$SDK/frameworks/libs/core.swc"  
-
-  "-library-path+=$ASSUKAR_IN_PATH/libs/fzip.swc"
-  "-library-path+=$ASSUKAR_IN_PATH/libs/MinimalComps.swc"
-  "-library-path+=$ASSUKAR_IN_PATH/libs/as3-signals.swc"
-  "-library-path+=$ASSUKAR_IN_PATH/libs/lua.swc"
-
-  # "-library-path+=$ASSUKAR_IN_PATH/libs/apparat.swc"
-  # "-library-path+=$ASSUKAR_IN_PATH/libs/instagal.swc"
-
-)
-
+# common anes
 externalLibraryPaths=(  
-
-  # TODO to remove in singles mode
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoViral.ane" 
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GAnalytics.ane"       
-  #
-
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.EasyPush.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.RateBox.ane"  
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.CoreMobile.ane"
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.milkmangames.extensions.GoogleServices.ane"      
-   
-  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension.ane"          
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp.ane"     
-
- 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AdSupport.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/AppsFlyerAIRExtension-witout-gp-support.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.ApplicationRater.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Core.noair.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Dialog.ane"     
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.NetworkInfo.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Notifications.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Share.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Vibration.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/ExtApp.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/facebook.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/inAppPayments.ane" 
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/overrideAir.ane"
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/UDID-full.ane"
+  "-external-library-path+=$ASSUKAR_IN_PATH/libs/zipManagerExtension.ane"
 )
 
 
@@ -101,30 +51,29 @@ case $PLATFORM in
     inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/android/AndroidStartup.as")     
     inOut+=("$PRAIA_ANDROID_SWF_OUT")  
 
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.AndroidIAB.ane")  
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.milkmangames.extensions.GoogleGames.ane")           
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-    
+    externalLibraryPaths+=(
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.assukar.air.android.attest.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.assukar.air.android.dependencies.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.assukar.air.android.safetynet.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.assukar.air.android.utils.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/firebaseCore.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/firebaseMessaging.ane"
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/permissionCheck.ane"
+
+      # TODO to fix
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.distriqt.AppleSignIn.ane"
+    )  
+
   ;; 
-  "ios")            
-    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/ios/IosStartup.as") 
-    inOut+=("$PRAIA_IOS_SWF_OUT") 
+  # "ios")            
+  #   inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/ios/IosStartup.as") 
+  #   inOut+=("$PRAIA_IOS_SWF_OUT") 
    
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.StoreKit.ane")
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.milkmangames.extensions.GameCenter.ane")    
+  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.distriqt.AppleSignIn.ane")
+  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/firebaseCore.ane")   
+  #   externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/firebaseMessaging.ane" ) 
 
-    # to get idfv
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/AirDeviceId.ane" ) 
-
-  ;;
-  "amazon")            
-    inOut+=("$PRAIA_IN_PATH/main/view-mobile/src/com/assukar/praia/main/mobile/amazon/AmazonStartup.as")      
-    inOut+=("$PRAIA_AMAZON_SWF_OUT") 
-        
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/android/AmazonIapV2Extension.ane")
-    externalLibraryPaths+=("-external-library-path+=$ASSUKAR_IN_PATH/libs/SystemProperties.ane")
-
-  ;;
+  # ;;
 esac
 
 . process.sh

@@ -3,13 +3,16 @@
 
 
 NAME="[ASSUKAR]-domain"
-CLASSES=(
+CLASSES=(	
+	# domain
 	0 "$ASSUKAR_PATH\domain"
-# 	0 "$ASSUKAR_PATH\engine"
+	# airong
  	0 "$ASSUKAR_PATH\airong"
 )
 LIBS=(
+	# airong
 	"$LIB_PATH\as3-signals.swc"
+	"$LIB_PATH\as3crypto.swc"
 )
 
 . sh/process.sh
