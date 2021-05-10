@@ -36,7 +36,7 @@ externalLibraryPaths=(
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/com.distriqt.Vibration.ane" 
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/ExtApp.ane" 
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/facebook.ane" 
-  "-external-library-path+=$ASSUKAR_IN_PATH/libs/inAppPayments.ane" 
+  # "-external-library-path+=$ASSUKAR_IN_PATH/libs/inAppPayments.ane" 
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/overrideAir.ane"
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/UDID-full.ane"
   "-external-library-path+=$ASSUKAR_IN_PATH/libs/zipManagerExtension.ane"
@@ -60,8 +60,11 @@ case $PLATFORM in
       "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/firebaseMessaging.ane"
       "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/permissionCheck.ane"
 
+      "-external-library-path+=$ASSUKAR_IN_PATH/libs/android/com.distriqt.InAppBilling.ane"
+
       # TODO to fix
       "-external-library-path+=$ASSUKAR_IN_PATH/libs/ios/com.distriqt.AppleSignIn.ane"
+      
     )  
 
   ;; 

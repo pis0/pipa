@@ -10,9 +10,11 @@ function toCompile(){
 
 		# echo "$SDK/bin/amxmlc ${@}" 
 
-		$SDK/bin/amxmlc ${@}
+		$SDK2/bin/amxmlc ${@} 
+		# /mnt/c/windows/system32/cmd.exe /c $SDK/bin/amxmlc ${@}
 	else
-		$SDK/bin/mxmlc ${@}
+		$SDK2/bin/mxmlc ${@}
+		# /mnt/c/windows/system32/cmd.exe /c $SDK/bin/mxmlc ${@}
 	fi
 }
 
@@ -45,14 +47,18 @@ function process(){
 }
 
 
-prevChange=$(stat -c %z ${inOut[1]})
-process
-currentChange=$(stat -c %z ${inOut[1]})
 
-if [ "$prevChange" == "$currentChange" ]; then   
-  echo 
-  echo "Could not create file '${inOut[1]}'"
-  echo "Build failed"
-  exit  
-fi
+
+# prevChange=$(stat -c %z ${inOut[1]})
+process
+# currentChange=$(stat -c %z ${inOut[1]})
+
+# echo "HERE $prevChange, $currentChange"
+
+# if [ "$prevChange" == "$currentChange" ]; then   
+#   echo 
+#   echo "Could not create file '${inOut[1]}'"
+#   echo "Build failed"
+#   exit  
+# fi
 
